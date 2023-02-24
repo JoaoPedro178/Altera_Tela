@@ -1,0 +1,111 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 10 nzoom 1.0 xc 653.0 yc 372.5 gridx 20.0 gridy 20.0
+
+VERSAO 1.12 
+
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Fundo3D BLOQUEADA CINZA_PROFUNDO 0
+CAMADA Moldura3D NAO_BLOQUEADA CINZA_PROFUNDO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+CAMADA BaixoRelevo NAO_BLOQUEADA AREIA 0
+CAMADA Medidas NAO_BLOQUEADA PRETO 0
+
+
+
+
+
+SigTexto titulo_princ1 1828 Medidas 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 4 { 618.7 54.5 1285.3 54.5 1285.3 81.5 618.7 81.5 } 2 { BRANCO IGN } 0.0 {Limites da BDT de Equipamentos para o Período Noturno} %53s FONTE_TITULO
+SigBotao botao5 1848 Medidas 0 { } IGN 0 2 { TELA pcarg/tab_clm_carga_min } { } <OFFSET> NAO_ENTRAVEL 4 { 224.9 96.6 387.4 96.6 387.4 123.4 224.9 123.4 } 4 { COR_BOTAO_LABEL CINZA AREIA CINZA_ESCURO } 0.0 {Carga Mínima} %12s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao5 1850 Medidas 0 { } IGN 0 2 { TELA pcarg/tab_clm_carga_med } { } <OFFSET> NAO_ENTRAVEL 4 { 552.7 96.6 715.2 96.6 715.2 123.4 552.7 123.4 } 4 { COR_BOTAO_LABEL CINZA AREIA CINZA_ESCURO } 0.0 {Carga Média} %11s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao5 1851 Medidas 0 { } IGN 0 2 { TELA pcarg/tab_clm_carga_pes } { } <OFFSET> NAO_ENTRAVEL 4 { 716.6 96.6 879.1 96.6 879.1 123.4 716.6 123.4 } 4 { COR_BOTAO_LABEL CINZA AREIA CINZA_ESCURO } 0.0 {Carga Pesada} %12s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao5 1852 Medidas 0 { } IGN 0 2 { TELA pcarg/tab_clm_carga_max } { } <OFFSET> NAO_ENTRAVEL 4 { 880.6 96.6 1043.1 96.6 1043.1 123.4 880.6 123.4 } 4 { COR_BOTAO_LABEL CINZA AREIA CINZA_ESCURO } 0.0 {Carga Máxima} %12s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao5 1853 Medidas 0 { } IGN 0 2 { TELA pcarg/tab_clm_diurno } { } <OFFSET> NAO_ENTRAVEL 4 { 1063.1 96.6 1223.6 96.6 1223.6 123.4 1063.1 123.4 } 4 { PRETO CINZA AREIA CINZA_ESCURO } 0.0 {Diurno} %6s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao5 1854 Medidas 0 { } IGN 0 2 { TELA pcarg/tab_clm_noturno } { } <OFFSET> NAO_ENTRAVEL 4 { 1223.6 96.6 1384.1 96.6 1384.1 123.4 1223.6 123.4 } 4 { COR_BOTAO_LABEL CINZA AREIA CINZA_ESCURO } 0.0 {Noturno} %7s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao5 1855 Medidas 0 { } IGN 0 2 { TELA pcarg/tab_tmp_pcarg } { } <OFFSET> NAO_ENTRAVEL 4 { 8.9 164.6 219.1 164.6 219.1 191.4 8.9 191.4 } 4 { COR_BOTAO_LABEL CINZA AREIA CINZA_ESCURO } 0.0 {Tabela de Tempo} %15s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao5 1856 Medidas 0 { } IGN 0 2 { TELA pcarg/tab_ptc } { } <OFFSET> NAO_ENTRAVEL 4 { 8.9 136.6 219.1 136.6 219.1 163.4 8.9 163.4 } 4 { COR_BOTAO_LABEL CINZA AREIA CINZA_ESCURO } 0.0 {Patamares de Carga} %18s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao5 1858 Medidas 0 { } IGN 0 2 { TELA pcarg/tab_clm_carga_lev } { } <OFFSET> NAO_ENTRAVEL 4 { 388.9 96.6 551.4 96.6 551.4 123.4 388.9 123.4 } 4 { COR_BOTAO_LABEL CINZA AREIA CINZA_ESCURO } 0.0 {Carga Leve} %10s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigLinha pline2 1859 Medidas 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 2 { 8.0 88.0 1788.0 88.0 } 2 { OURO IGN } FECHADO CHEIO ENUM_FG 
+SigTexto titulo_princ1 394 Sombra 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 4 { 726.3 14.5 1185.7 14.5 1185.7 41.5 726.3 41.5 } 2 { BRANCO PRETO } 0.0 {Conjunto de Medidas - Limites Normais} %37s FONTE_TITULO
+SigTabular tabu2 1826 Moldura3D 0 { } IGN 0 7 { } { } <OFFSET> ENTRAVEL 2 { 227.5 132.0 1881.2 733.0 } 7 { BRANCO CINZA CINZA_MEDIO CINZA_ESCURO IGN COR_FUNDO_TELA CINZA_ESCURO } 30 14 1 2 2 18 0 5 S S N 
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1444 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 306.5 149.0 378.6 149.0 378.6 165.0 306.5 165.0 } 2 { PALHA IGN } 0.0 {localização} %11s FONTE_LABEL_EST
+
+            SigTexto texto221 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT loc FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 243.5 707.0 441.7 707.0 441.7 721.0 243.5 721.0 } 2 { BRANCO IGN } 0.0 {MMMMMMMMMMMMMMMMMM} %-18s FONTE_LABEL
+
+   SigColuna !3 INVISIVEL ENTRAVEL IGN 
+            SigTexto texto1446 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 } 2 { PALHA IGN } 0.0 {tipoe} %5s FONTE_LABEL_EST
+
+            SigInteiro numero6 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT tipoe FROM clm } <OFFSET> ENTRAVEL 4 { 114.0 -0.5 134.0 -0.5 134.0 8.5 114.0 8.5 } 2 { BRANCO IGN } 0.0 { 0000 } %4d FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1448 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 542.2 149.0 575.2 149.0 575.2 165.0 542.2 165.0 } 2 { PALHA IGN } 0.0 {Term} %4s FONTE_LABEL_EST
+
+            SigTexto texto2327 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT term FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 459.7 707.0 657.8 707.0 657.8 721.0 459.7 721.0 } 2 { BRANCO IGN } 0.0 {MMMMMMMMMMMMMMMMMM} %18s FONTE_LABEL
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1450 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 679.8 149.0 701.8 149.0 701.8 165.0 679.8 165.0 } 2 { PALHA IGN } 0.0 {Aoi} %3s FONTE_LABEL_EST
+
+            SigInteiro numero29 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT aoi FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 675.8 707.0 705.8 707.0 705.8 721.0 675.8 721.0 } 5 { BRANCO IGN CINZA_ESCURO IGN IGN } 0.0 { .......... IMPORTA EXPORTA } %10s FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1452 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 724.3 149.0 775.4 149.0 775.4 165.0 724.3 165.0 } 2 { PALHA IGN } 0.0 {  Valor  } %9s FONTE_LABEL_EST
+
+            SigReal numero3 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT valor.p_pas FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 723.8 707.0 775.9 707.0 775.9 721.0 723.8 721.0 } 2 { BRANCO IGN } 0.0 { 00000.00 } %7.2f FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1454 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 793.9 141.0 869.9 141.0 869.9 173.0 793.9 173.0 } 2 { PALHA IGN } 0.0 {Inferior\nEmergência} %20s FONTE_LABEL_EST
+
+            SigReal numero2 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT liepeC FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 805.8 707.0 857.9 707.0 857.9 721.0 805.8 721.0 } 2 { BRANCO IGN } 0.0 { 00000.00 } %7.2f FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1456 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 887.9 141.0 944.9 141.0 944.9 173.0 887.9 173.0 } 2 { PALHA IGN } 0.0 {Inferior\nViolação} %18s FONTE_LABEL_EST
+
+            SigReal numero2 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT liupeC FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 890.3 707.0 942.4 707.0 942.4 721.0 890.3 721.0 } 2 { BRANCO IGN } 0.0 { 00000.00 } %7.2f FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1458 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 962.9 141.0 1041.9 141.0 1041.9 173.0 962.9 173.0 } 2 { PALHA IGN } 0.0 {Inferior\nAdvertência} %21s FONTE_LABEL_EST
+
+            SigReal numero2 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT liapeC FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 976.3 707.0 1028.4 707.0 1028.4 721.0 976.3 721.0 } 4 { BRANCO IGN ABOBORA ABOBORA } 0.0 { 00000.00 } %7.2f FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1460 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 1059.9 141.0 1138.9 141.0 1138.9 173.0 1059.9 173.0 } 2 { PALHA IGN } 0.0 {Superior\nAdvertência} %21s FONTE_LABEL_EST
+
+            SigReal numero8 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT lsapeC FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 1073.3 707.0 1125.4 707.0 1125.4 721.0 1073.3 721.0 } 2 { BRANCO IGN } 0.0 { 00000.00 } %7.2f FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1462 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 1156.9 141.0 1213.9 141.0 1213.9 173.0 1156.9 173.0 } 2 { PALHA IGN } 0.0 {Superior\nViolação} %18s FONTE_LABEL_EST
+
+            SigReal numero4 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT lsupeC FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 1159.3 707.0 1211.4 707.0 1211.4 721.0 1159.3 721.0 } 2 { BRANCO IGN } 0.0 { 00000.00 } %7.2f FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1464 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 1231.9 141.0 1307.9 141.0 1307.9 173.0 1231.9 173.0 } 2 { PALHA IGN } 0.0 {Superior\nEmergência} %20s FONTE_LABEL_EST
+
+            SigReal numero3 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT lsepeC FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 1243.8 707.0 1295.9 707.0 1295.9 721.0 1243.8 721.0 } 2 { BRANCO IGN } 0.0 { 00000.00 } %7.2f FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto1466 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 1325.9 149.0 1403.9 149.0 1403.9 165.0 1325.9 165.0 } 2 { PALHA IGN } 0.0 {Intervenção} %11s FONTE_LABEL_EST
+
+            SigCheckBox checkbox1 -1 Moldura3D 0 { } IGN 0 1 { [ENTRAR_DADO 0] [shift ENTRAR_DADO 1] } { SELECT interv FROM clm } <OFFSET> ENTRAVEL 2 { 1356.9 706.0 1372.9 722.0 } 2 { BRANCO IGN } v !0
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto1468 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 1421.9 141.0 1500.9 141.0 1500.9 173.0 1421.9 173.0 } 2 { PALHA IGN } 0.0 {Patamar\nEmergencial} %20s FONTE_LABEL_EST
+
+            SigInteiro numero2 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT ptc_emerg FROM clm } <OFFSET> NAO_ENTRAVEL 4 { 1445.4 707.0 1477.4 707.0 1477.4 721.0 1445.4 721.0 } 14 { BRANCO IGN PRETO PRETO PRETO PRETO PRETO PRETO PRETO PRETO PRETO PRETO PRETO VERMELHO } 0.0 { . . . . Dia Noite . . . DiaI NoiteI Erro } %6s FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto1470 -1 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 1627.1 141.0 1763.1 141.0 1763.1 173.0 1627.1 173.0 } 2 { PALHA IGN } 0.0 {Inequação para\nPatamar Emergencial} %35s FONTE_LABEL_EST
+
+            SigTexto texto40 -1 Moldura3D 0 { } IGN 0 1 { } { SELECT ineq_emerg FROM clm } <OFFSET> ENTRAVEL 4 { 1518.9 707.0 1871.2 707.0 1871.2 721.0 1518.9 721.0 } 2 { BRANCO IGN } 0.0 {MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM} %-32s FONTE_LABEL
+

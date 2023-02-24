@@ -1,0 +1,111 @@
+;
+TELA BRANCO CINZA_MEDIO LIC_Default 10 nzoom 1.00 xc 453.000 yc 283.000 gridx 4.000 gridy 4.000
+
+VERSAO 1.18 
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Fundo3D NAO_BLOQUEADA CINZA_ESCURO 0
+CAMADA AltoRelevo NAO_BLOQUEADA BRANCO 0
+CAMADA BaixoRelevo NAO_BLOQUEADA BRANCO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+CAMADA Tabular NAO_BLOQUEADA PRETO 0
+CAMADA TabAnotSombra NAO_BLOQUEADA PRETO 0
+CAMADA TabAntxtSombra NAO_BLOQUEADA PRETO 0
+
+FILTRO TabularTextos
+FILTRO Totais
+
+GR_FILTROS gf1 { Inicial } OCULTAR GR_OR ATIVAR 2 { TabularTextos Totais }
+
+
+
+SigTabular tabu2,ordem=-13 1 TabAnotSombra 0 { } IGN 0 7 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 36.000 44.000 917.926 481.481 } 5 { BRANCO CINZA CINZA_MEDIO CINZA_ESCURO IGN } 20 16 4 6 4 4 10 4 S S N 
+   SigColuna * INVISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto497 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { -4.035 -10.519 60.035 -10.519 60.035 10.519 -4.035 10.519 } 2 { OURO IGN } 0.000 {p_antxt} %7s FONTE_SUBTITULOS
+
+            SigInteiro numero2 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT p_antxt FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 48.505 218.668 84.545 218.668 84.545 233.695 48.505 233.695 } 2 { CIANO IGN } 0.000 { 0000 } %4d FONTE_SUBTITULOS IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto499 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 128.592 57.000 181.651 57.000 181.651 69.021 128.592 69.021 } 2 { OURO CINZA_ESCURO } 0.000 {Ocorrência} %10s FONTE_IDENT_4
+
+            SigTexto texto7 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT ocorrencia FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 45.000 451.959 265.243 451.959 265.243 463.981 45.000 463.981 } 2 { BRANCO CINZA_ESCURO } 0.000 {MMMMMMMMMMMMMMMMMMMMMM} %-22s FONTE_IDENT_4
+
+   SigColuna * VISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto501 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 361.845 57.000 396.884 57.000 396.884 69.021 361.845 69.021 } 2 { OURO CINZA_ESCURO } 0.000 {Motivo} %6s FONTE_IDENT_4
+
+            SigTexto texto19 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT motivo FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 269.243 451.959 489.486 451.959 489.486 463.981 269.243 463.981 } 2 { BRANCO CINZA_ESCURO } 0.000 {MMMMMMMMMMMMMMMMMMMMMM} %-22s FONTE_IDENT_4
+
+   SigColuna * VISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto503 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 493.987 57.000 523.019 57.000 523.019 69.021 493.987 69.021 } 2 { OURO CINZA_ESCURO } 0.000 {Sever} %5s FONTE_IDENT_4
+
+            SigInteiro numero2 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT severidade FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 493.486 451.959 523.519 451.959 523.519 463.981 493.486 463.981 } 7 { BRANCO CINZA_ESCURO IGN VERDE COR_ANOT_ADV VERMELHO COR_ANOT_FAT } 0.000 { - Norm. Adv. Urg. Fat. } %5s FONTE_IDENT_4 IGN SETA_IGN 
+
+   SigColuna * INVISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto505 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 18.990 -6.011 37.010 -6.011 37.010 6.011 18.990 6.011 } 2 { OURO IGN } 0.000 {Cor} %3s FONTE_IDENT_4
+
+            SigTexto texto72 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT id.a_cor FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 372.298 325.222 502.442 325.222 502.442 337.244 372.298 337.244 } 2 { BRANCO IGN } 0.000 {MMMMMMMMMMMMM} %-13s FONTE_IDENT_4
+
+   SigColuna * INVISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto507 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 14.986 -6.011 41.014 -6.011 41.014 6.011 14.986 6.011 } 2 { OURO IGN } 0.000 {tppnt} %5s FONTE_IDENT_4
+
+            SigTexto texto45 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT tppnt FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 622.689 220.171 662.734 220.171 662.734 232.192 622.689 232.192 } 2 { BRANCO IGN } 0.000 {MMMM} %-4s FONTE_IDENT_4
+
+   SigColuna * INVISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto509 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 23.495 -6.011 32.505 -6.011 32.505 6.011 23.495 6.011 } 2 { OURO IGN } 0.000 {Id} %2s FONTE_IDENT_4
+
+            SigTexto texto60 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT id FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 510.442 325.222 610.552 325.222 610.552 337.244 510.442 337.244 } 2 { BRANCO IGN } 0.000 {MMMMMMMMMM} %-10s FONTE_IDENT_4
+
+   SigColuna * INVISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto511 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { -0.500 -12.000 56.500 -12.000 56.500 12.000 -0.500 12.000 } 2 { OURO IGN } 0.000 {Inter-\ntravamento} %18s FONTE_IDENT_4
+
+            SigInteiro numero2 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT tpinter FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 380.276 325.222 421.321 325.222 421.321 337.244 380.276 337.244 } 5 { BRANCO IGN BRANCO AZUL PRETO } 0.000 { Nenhum Ponto Grupo } %6s FONTE_IDENT_4 IGN SETA_IGN 
+
+   SigColuna * INVISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto513 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 13.985 -6.011 42.015 -6.011 42.015 6.011 13.985 6.011 } 2 { OURO IGN } 0.000 {a_pnt} %5s FONTE_IDENT_4
+
+            SigInteiro numero2 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT a_pnt FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 808.906 220.171 838.940 220.171 838.940 232.192 808.906 232.192 } 2 { BRANCO IGN } 0.000 { 00000 } +%5d FONTE_IDENT_4 IGN SETA_IGN 
+
+   SigColuna * INVISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto515 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 9.000 -18.000 47.000 -18.000 47.000 18.000 9.000 18.000 } 2 { OURO IGN } 0.000 {Usuário\nque\ncriou} %19s FONTE_IDENT_4
+
+            SigTexto texto11 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT usuariocri FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 462.398 325.222 512.453 325.222 512.453 337.244 462.398 337.244 } 2 { BRANCO IGN } 0.000 {MMMMM} %-5s FONTE_IDENT_4
+
+   SigColuna * INVISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto517 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 10.500 -12.000 45.500 -12.000 45.500 12.000 10.500 12.000 } 2 { OURO IGN } 0.000 {Data\ncriação} %13s FONTE_IDENT_4
+
+            SigInteiro numero3 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT datacri FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 520.453 325.222 701.653 325.222 701.653 337.244 520.453 337.244 } 4 { BRANCO IGN IGN IGN } 0.000 { H_DIA_MM_ANO_HOR_MIN_SEG_2 } H_DIA_MM_ANO_HOR_MIN_SEG_2 FONTE_IDENT_4 IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto519 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 532.024 57.000 573.070 57.000 573.070 69.021 532.024 69.021 } 2 { OURO CINZA_ESCURO } 0.000 {   Última} %9s FONTE_IDENT_4
+
+            SigTexto texto32 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT usuarioalt FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 527.519 451.959 577.575 451.959 577.575 463.981 527.519 463.981 } 2 { BRANCO CINZA_ESCURO } 0.000 {MMMMM} %5s FONTE_IDENT_4
+
+   SigColuna >0 VISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto521 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 640.139 57.000 692.197 57.000 692.197 69.021 640.139 69.021 } 2 { OURO CINZA_ESCURO } 0.000 {alteração  } %11s FONTE_IDENT_4
+
+            SigInteiro numero4 -1 TabAnotSombra 0 { } IGN 0 1 { } { SELECT dataalt FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 581.575 451.959 750.761 451.959 750.761 463.981 581.575 463.981 } 4 { BRANCO CINZA_ESCURO IGN IGN } 0.000 { H_DIA_MM_ANO_HOR_MIN_SEG } H_DIA_MM_ANO_HOR_MIN_SEG FONTE_IDENT_4 IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto523 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 785.796 57.000 807.820 57.000 807.820 69.021 785.796 69.021 } 2 { OURO CINZA_ESCURO } 0.000 {Tela} %4s FONTE_IDENT_4
+
+            SigBotaoTexto botao2 -1 TabAnotSombra 0 { } IGN 0 1 { TELA $vt_texto } { SELECT tela FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 754.761 451.458 838.854 451.458 838.854 464.481 754.761 464.481 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.000 {MMMMMMMMMMMM} %-12s FONTE_SUBTITULOS
+ 0 1 NAO_TOGGLE DINAMICO
+
+   SigColuna * VISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto525 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 842.854 57.000 871.886 57.000 871.886 69.021 842.854 69.021 } 2 { OURO CINZA_ESCURO } 0.000 {Editar} %6s FONTE_IDENT_4
+
+            SigBotaoTexto botao2 -1 TabAnotSombra 0 { } IGN 0 1 { EDITA_ANOTACAO } { SELECT ocorrencia FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 844.856 451.959 869.884 451.959 869.884 463.981 844.856 463.981 } 4 { IGN CINZA BRANCO CINZA_ESCURO } 0.000 {-----} %5s FONTE_IDENT_4
+ 0 2 NAO_TOGGLE ESTATICO
+
+   SigColuna * VISIVEL ENTRAVEL { } { } NE 0 IGN 
+            SigTexto texto527 -1 TabAnotSombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 875.886 57.000 911.926 57.000 911.926 69.021 875.886 69.021 } 2 { OURO CINZA_ESCURO } 0.000 {Apagar} %6s FONTE_IDENT_4
+
+            SigBotaoTexto botao3 -1 TabAnotSombra 0 { } IGN 0 1 { APAGA_ANOTACAO } { SELECT ocorrencia FROM anot } <OFFSET> ENTRAVEL { } { } NE 0 4 { 881.392 451.959 906.420 451.959 906.420 463.981 881.392 463.981 } 4 { IGN CINZA BRANCO CINZA_ESCURO } 0.000 {-----} %5s FONTE_IDENT_4
+ 0 2 NAO_TOGGLE ESTATICO
+
+SigTexto titulo_princ1 394 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 414.946 13.481 513.054 13.481 513.054 34.519 414.946 34.519 } 2 { OURO CINZA_ESCURO } 0.000 {Anotações} %9s FONTE_IDENT_3
+SigInteiro numero3 9 Sombra 1 { Totais } IGN 0 1 { } { SELECT dicor FROM ent WHERE id = anot } 00000011 ENTRAVEL { } { } NE 0 4 { 59.978 61.481 100.022 61.481 100.022 82.519 59.978 82.519 } 2 { OURO IGN } 0.000 { 0000 } %4d FONTE_IDENT_2 IGN SETA_IGN 
+SigInteiro numero3 104 Sombra 1 { Totais } IGN 0 1 { } { SELECT dicor FROM ent WHERE id = antxt } 00000012 ENTRAVEL { } { } NE 0 4 { 59.978 365.481 100.022 365.481 100.022 386.519 59.978 386.519 } 2 { OURO IGN } 0.000 { 0000 } %4d FONTE_IDENT_2 IGN SETA_IGN 
+SigRetangulo retangulo 395 Fundo3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 4.000 4.000 928.000 4.000 928.000 576.000 4.000 576.000 } 2 { AREIA IGN } CHEIO ENUM_FG 

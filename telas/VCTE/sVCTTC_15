@@ -1,0 +1,170 @@
+;
+TELA BRANCO CINZA_MEDIO LIC_Default 10 nzoom 1.0 xc 447.0 yc 297.0 gridx 4.0 gridy 4.0
+
+VERSAO 1.18 
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Camada3D NAO_BLOQUEADA CINZA_ESCURO 0
+CAMADA VAO NAO_BLOQUEADA PRETO 0
+CAMADA ObjsCorrigidos1 NAO_BLOQUEADA PRETO 0
+CAMADA CamadaPri NAO_BLOQUEADA PRETO 0
+CAMADA ObjsCorrigidos NAO_BLOQUEADA PRETO 0
+CAMADA ObjsCorrigidos2 NAO_BLOQUEADA PRETO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+
+FILTRO Unifilar
+FILTRO Recobrimento
+FILTRO Principal
+
+GR_FILTROS gf1 { M_Principal } MOSTRAR GR_OR ATIVAR 2 { Unifilar Principal }
+GR_FILTROS gf2 { M_Recobrimento } MOSTRAR GR_OR NAO_ATIVAR 2 { Unifilar Recobrimento }
+
+
+
+SigTexto texto7 7986 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 648.0 62.5 702.1 62.5 702.1 84.5 648.0 84.5 } 2 { BRANCO CINZA_ESCURO } 0.0 {VCTE} %4s FONTE_SUBTITULOS
+SigTexto texto7 7931 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 486.8 37.5 863.3 37.5 863.3 59.5 486.8 59.5 } 2 { OURO CINZA_ESCURO } 0.0 {SE TUCURUI - SERVIÇO AUXILIAR 15kV} %34s FONTE_SUBTITULOS
+SigTexto texto9 7621 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 235.5 305.0 256.5 305.0 256.5 317.0 235.5 317.0 } 2 { PRETO IGN } 0.0 {CB1} %3s FONTE_IDENT_4
+SigRetangulo retangulo 7998 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 100.0 264.0 112.0 264.0 112.0 280.0 100.0 280.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigTriangulo triangulo 8000 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 105.9 252.4 97.6 238.7 113.6 238.3 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigJuncaoOrtogonal juncortog2 8001 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 106.0 272.0 106.0 245.4 105.6 245.4 } 1 { OURO } CHEIO 7998 1 8000 1 
+SigTriangulo triangulo 8023 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 237.9 669.4 229.6 655.7 245.6 655.3 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigTriangulo triangulo 8024 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 238.0 673.1 246.0 686.9 230.0 686.9 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigTP tp2 8029 Sombra 1 { Unifilar } IGN 90 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 183.0 539.0 199.0 555.0 } 1 { OURO }
+SigTP tp2 8031 Sombra 1 { Unifilar } IGN 270 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 171.0 539.0 187.0 555.0 } 1 { OURO }
+SigRetangulo retangulo 8037 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 198.0 539.0 210.0 539.0 210.0 555.0 198.0 555.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 8039 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 158.0 539.0 170.0 539.0 170.0 555.0 158.0 555.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigJuncaoOrtogonal juncortog4 8040 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 106.0 272.0 106.0 724.0 238.0 724.0 238.0 680.0 } 1 { OURO } CHEIO 7998 1 8024 1 
+SigConector conector2 8044 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 235.0 546.0 239.0 550.0 } 2 { OURO IGN } 
+SigJuncaoOrtogonal juncortog4 8045 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 237.6 662.3 237.6 548.0 237.0 548.0 } 1 { OURO } CHEIO 8023 1 8044 1 
+SigTP tp2 8047 Sombra 1 { Unifilar } IGN 90 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 227.0 451.0 243.0 467.0 } 1 { OURO }
+SigConector conector2 8048 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 234.0 449.0 238.0 453.0 } 2 { OURO IGN } 
+SigConector conector2 8050 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 234.0 466.0 238.0 470.0 } 2 { OURO IGN } 
+SigJuncaoOrtogonal juncortog4 8052 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 237.0 548.0 237.0 468.0 236.0 468.0 } 1 { OURO } CHEIO 8044 1 8050 1 
+SigJuncaoOrtogonal juncortog4 8053 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 237.0 548.0 204.0 548.0 204.0 547.0 } 1 { OURO } CHEIO 8044 1 8037 1 
+SigJuncaoOrtogonal juncortog4 8054 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 191.0 547.0 191.0 547.0 204.0 547.0 } 1 { OURO } CHEIO 8029 1 8037 1 
+SigJuncaoOrtogonal juncortog4 8055 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 179.0 547.0 179.0 547.0 164.0 547.0 } 1 { OURO } CHEIO 8031 1 8039 1 
+SigJuncaoOrtogonal juncortog4 8056 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 236.0 451.0 236.0 336.0 338.0 336.0 338.0 363.0 } 1 { OURO } CHEIO 8048 1 7603 1 
+SigRetangulo retangulo 8060 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1082.0 264.0 1094.0 264.0 1094.0 280.0 1082.0 280.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigTriangulo triangulo 8061 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 1087.9 252.4 1079.6 238.7 1095.6 238.3 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigJuncaoOrtogonal juncortog2 8062 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 1088.0 272.0 1088.0 245.4 1087.6 245.4 } 1 { OURO } CHEIO 8060 1 8061 1 
+SigTP tp2 8076 Sombra 1 { Unifilar } IGN 270 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 374.0 539.0 390.0 555.0 } 1 { OURO }
+SigRetangulo retangulo 8077 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 401.0 539.0 413.0 539.0 413.0 555.0 401.0 555.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 8078 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 361.0 539.0 373.0 539.0 373.0 555.0 361.0 555.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigConector conector2 8079 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 338.0 546.0 342.0 550.0 } 2 { OURO IGN } 
+SigTP tp2 8080 Sombra 1 { Unifilar } IGN 90 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 330.0 451.0 346.0 467.0 } 1 { OURO }
+SigConector conector2 8081 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 337.0 449.0 341.0 453.0 } 2 { OURO IGN } 
+SigConector conector2 8082 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 337.0 466.0 341.0 470.0 } 2 { OURO IGN } 
+SigJuncaoOrtogonal juncortog4 8083 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 340.0 548.0 340.0 468.0 339.0 468.0 } 1 { OURO } CHEIO 8079 1 8082 1 
+SigTP tp2 8088 Sombra 1 { Unifilar } IGN 90 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 386.0 539.0 402.0 555.0 } 1 { OURO }
+SigJuncaoOrtogonal juncortog4 8089 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 340.0 548.0 367.0 548.0 367.0 547.0 } 1 { OURO } CHEIO 8079 1 8078 1 
+SigJuncaoOrtogonal juncortog4 8090 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 382.0 547.0 382.0 547.0 367.0 547.0 } 1 { OURO } CHEIO 8076 1 8078 1 
+SigJuncaoOrtogonal juncortog4 8091 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 394.0 547.0 394.0 547.0 407.0 547.0 } 1 { OURO } CHEIO 8088 1 8077 1 
+SigJuncaoOrtogonal juncortog4 8092 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 339.0 451.0 338.0 451.0 338.0 379.0 } 1 { OURO } CHEIO 8081 1 7603 2 
+SigTriangulo triangulo 8095 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 339.9 669.4 331.6 655.7 347.6 655.3 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigTriangulo triangulo 8096 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 340.0 673.1 348.0 686.9 332.0 686.9 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigJuncaoOrtogonal juncortog4 8097 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 340.0 548.0 340.0 662.3 339.6 662.3 } 1 { OURO } CHEIO 8079 1 8095 1 
+SigTermLinha term2 8104 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 332.0 744.0 348.0 760.0 } 1 { OURO } 
+SigTriangulo triangulo 8152 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 961.9 669.4 953.6 655.7 969.6 655.3 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigTriangulo triangulo 8153 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 962.0 673.1 970.0 686.9 954.0 686.9 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigConector conector2 8159 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 959.0 546.0 963.0 550.0 } 2 { OURO IGN } 
+SigJuncaoOrtogonal juncortog4 8160 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 961.6 662.3 961.6 548.0 961.0 548.0 } 1 { OURO } CHEIO 8152 1 8159 1 
+SigTP tp2 8161 Sombra 1 { Unifilar } IGN 90 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 951.0 451.0 967.0 467.0 } 1 { OURO }
+SigConector conector2 8162 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 958.0 449.0 962.0 453.0 } 2 { OURO IGN } 
+SigConector conector2 8163 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 958.0 466.0 962.0 470.0 } 2 { OURO IGN } 
+SigJuncaoOrtogonal juncortog4 8164 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 961.0 548.0 961.0 468.0 960.0 468.0 } 1 { OURO } CHEIO 8159 1 8163 1 
+SigConector conector2 8172 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 698.0 546.0 702.0 550.0 } 2 { OURO IGN } 
+SigTP tp2 8173 Sombra 1 { Unifilar } IGN 90 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 690.0 451.0 706.0 467.0 } 1 { OURO }
+SigConector conector2 8174 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 697.0 449.0 701.0 453.0 } 2 { OURO IGN } 
+SigConector conector2 8175 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 697.0 466.0 701.0 470.0 } 2 { OURO IGN } 
+SigJuncaoOrtogonal juncortog4 8176 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 700.0 548.0 700.0 468.0 699.0 468.0 } 1 { OURO } CHEIO 8172 1 8175 1 
+SigJuncaoOrtogonal juncortog4 8181 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 699.0 451.0 698.0 451.0 698.0 379.0 } 1 { OURO } CHEIO 8174 1 8189 2 
+SigTriangulo triangulo 8182 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 699.9 669.4 691.6 655.7 707.6 655.3 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigTriangulo triangulo 8183 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 700.0 673.1 708.0 686.9 692.0 686.9 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigJuncaoOrtogonal juncortog4 8184 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 700.0 548.0 700.0 662.3 699.6 662.3 } 1 { OURO } CHEIO 8172 1 8182 1 
+SigTermLinha term2 8187 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 692.0 744.0 708.0 760.0 } 1 { OURO } 
+SigTP tp2 8209 Sombra 1 { Unifilar } IGN 270 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 990.0 541.0 1006.0 557.0 } 1 { OURO }
+SigRetangulo retangulo 8210 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1017.0 541.0 1029.0 541.0 1029.0 557.0 1017.0 557.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 8211 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 977.0 541.0 989.0 541.0 989.0 557.0 977.0 557.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigTP tp2 8212 Sombra 1 { Unifilar } IGN 90 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 1002.0 541.0 1018.0 557.0 } 1 { OURO }
+SigJuncaoOrtogonal juncortog4 8213 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 998.0 549.0 998.0 549.0 983.0 549.0 } 1 { OURO } CHEIO 8209 1 8211 1 
+SigJuncaoOrtogonal juncortog4 8214 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 1010.0 549.0 1010.0 549.0 1023.0 549.0 } 1 { OURO } CHEIO 8212 1 8210 1 
+SigJuncaoOrtogonal juncortog4 8215 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 983.0 549.0 961.0 549.0 961.0 548.0 } 1 { OURO } CHEIO 8211 1 8159 1 
+SigJuncaoOrtogonal juncortog2 8217 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1088.0 272.0 1088.0 724.0 962.0 724.0 962.0 680.0 } 1 { OURO } CHEIO 8060 1 8153 1 
+SigJuncaoOrtogonal juncortog2 8234 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 698.0 363.0 698.0 336.0 960.0 336.0 960.0 451.0 } 1 { OURO } CHEIO 8189 1 8162 1 
+SigTexto texto9 8236 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 642.0 365.0 680.0 365.0 680.0 377.0 642.0 377.0 } 2 { PRETO IGN } 0.0 {52-CB3} %6s FONTE_IDENT_4
+SigTexto texto9 8240 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 351.0 365.0 389.0 365.0 389.0 377.0 351.0 377.0 } 2 { PRETO IGN } 0.0 {52-CB2} %6s FONTE_IDENT_4
+SigTexto texto9 8242 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 975.5 344.0 1080.5 344.0 1080.5 368.0 975.5 368.0 } 2 { PRETO IGN } 0.0 {Cubiculo de medicao \nda Eletronorte} %36s FONTE_IDENT_4
+SigTexto texto9 8244 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 875.5 307.0 896.5 307.0 896.5 319.0 875.5 319.0 } 2 { PRETO IGN } 0.0 {CB3} %3s FONTE_IDENT_4
+SigTexto texto9 8246 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 551.5 309.0 572.5 309.0 572.5 321.0 551.5 321.0 } 2 { PRETO IGN } 0.0 {CB2} %3s FONTE_IDENT_4
+SigTexto texto9 8248 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1105.5 308.0 1126.5 308.0 1126.5 320.0 1105.5 320.0 } 2 { PRETO IGN } 0.0 {CB4} %3s FONTE_IDENT_4
+SigTexto texto9 8250 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 288.9 775.0 391.1 775.0 391.1 787.0 288.9 787.0 } 2 { PRETO IGN } 0.0 {Alimentador 1 - QD1} %19s FONTE_IDENT_4
+SigTexto texto9 8252 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 360.5 701.0 457.5 701.0 457.5 737.0 360.5 737.0 } 2 { PRETO IGN } 0.0 {TRSA1 \n13800-380/220Vca \n75kVA} %32s FONTE_IDENT_4
+SigTexto texto9 8254 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 724.5 702.0 821.5 702.0 821.5 738.0 724.5 738.0 } 2 { PRETO IGN } 0.0 {TRSA2 \n13800-380/220Vca \n75kVA} %32s FONTE_IDENT_4
+SigTP tp2 8261 Sombra 1 { Unifilar } IGN 270 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 734.0 541.0 750.0 557.0 } 1 { OURO }
+SigRetangulo retangulo 8262 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 761.0 541.0 773.0 541.0 773.0 557.0 761.0 557.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 8263 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 721.0 541.0 733.0 541.0 733.0 557.0 721.0 557.0 } 2 { OURO OURO } CHEIO ENUM_FG 
+SigTP tp2 8264 Sombra 1 { Unifilar } IGN 90 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 746.0 541.0 762.0 557.0 } 1 { OURO }
+SigJuncaoOrtogonal juncortog4 8265 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 742.0 549.0 742.0 549.0 727.0 549.0 } 1 { OURO } CHEIO 8261 1 8263 1 
+SigJuncaoOrtogonal juncortog4 8266 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 754.0 549.0 754.0 549.0 767.0 549.0 } 1 { OURO } CHEIO 8264 1 8262 1 
+SigJuncaoOrtogonal juncortog2 8267 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 700.0 548.0 727.0 548.0 727.0 549.0 } 1 { OURO } CHEIO 8172 1 8263 1 
+SigTexto texto9 8269 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 644.9 775.0 747.1 775.0 747.1 787.0 644.9 787.0 } 2 { PRETO IGN } 0.0 {Alimentador 2 - QD2} %19s FONTE_IDENT_4
+SigTexto texto9 8273 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 120.5 344.0 225.5 344.0 225.5 368.0 120.5 368.0 } 2 { PRETO IGN } 0.0 {Cubiculo de medicao \nda Eletronorte} %36s FONTE_IDENT_4
+SigTexto texto9 8275 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1027.0 202.0 1143.0 202.0 1143.0 226.0 1027.0 226.0 } 2 { PRETO IGN } 0.0 {Cubiculo 13,8kV-C-A2 \nELETRONORTE} %34s FONTE_IDENT_4
+SigTexto texto9 8277 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 49.0 203.0 165.0 203.0 165.0 227.0 49.0 227.0 } 2 { PRETO IGN } 0.0 {Cubiculo 13,8kV-C-A1 \nELETRONORTE} %34s FONTE_IDENT_4
+SigTexto texto9 8281 Sombra 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 982.5 768.0 1083.5 768.0 1083.5 792.0 982.5 792.0 } 2 { PRETO IGN } 0.0 {Servicos Auxiliares \nda 380/220Vca} %35s FONTE_IDENT_4
+SigControle VCTTC_MOPER_CMD 8302 Sombra 1 { Unifilar } IGN 0 1 { } { SELECT a1_flags FROM cgs WHERE id = VCTTC_MOPER_CMD } 00004546 ENTRAVEL { } { } NE 0 4 { 716.0 156.0 720.0 160.0 716.0 164.0 712.0 160.0 } 2 { BRANCO AMARELO } 
+SigJuncaoOrtogonal juncortog4 8322 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 340.0 706.0 340.0 706.0 340.0 680.0 } 1 { OURO } CHEIO 8321 2 8096 1 
+SigJuncaoOrtogonal juncortog4 8323 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 340.0 730.0 340.0 730.0 340.0 744.0 } 1 { OURO } CHEIO 8317 1 8104 1 
+SigJuncaoOrtogonal juncortog4 8332 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 700.0 706.0 700.0 706.0 700.0 680.0 } 1 { OURO } CHEIO 8331 2 8183 1 
+SigJuncaoOrtogonal juncortog4 8333 Sombra 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 700.0 730.0 700.0 730.0 700.0 744.0 } 1 { OURO } CHEIO 8329 1 8187 1 
+SigBotao botao2 8338 Sombra 1 { Unifilar } IGN 0 1 { CONTROLE VCTTC_MODOCMD_CMD } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1009.5 121.0 1128.5 121.0 1128.5 144.8 1009.5 144.8 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {Modo de Comando} %-15s FONTE_IDENT_3
+ 0 1 NAO_TOGGLE ESTATICO
+SigInteiro VCTTC_MODOCMD_MS 8339 Sombra 1 { Unifilar } IGN 0 1 { } { SELECT a1_flags FROM pds WHERE id = VCTTC_MODOCMD_MS } 00055060 ENTRAVEL { } { } NE 0 4 { 1038.5 148.7 1103.5 148.7 1103.5 164.8 1038.5 164.8 } 4 { VERDE PRETO VERMELHO VERDE } 0.0 { Subestação |||||COS||| } %11s FONTE_IDENT_4 0 SETA_IGN 
+SigImagem imagem 7937 ObjsCorrigidos2 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 50.0 98.4 175.0 98.4 175.0 37.4 50.0 37.4 } 2 { PRETO BRANCO } $TELAS/imagens/elecnor_1.jpg
+SigDisjuntor VCTTC_QD1_52CB2_POS 7603 ObjsCorrigidos2 1 { Unifilar } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = VCTTC_QD1_52CB2_POS } 00055094 ENTRAVEL { } { } NE 0 2 { 330.0 363.0 346.0 379.0 } 2 { VERMELHO IGN } INDQ_IGN 
+SigRetangulo retangulo3D 7934 ObjsCorrigidos2 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 8.0 12.0 1170.8 12.0 1170.8 836.8 8.0 836.8 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo3D 7981 ObjsCorrigidos2 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 19.0 108.7 1153.8 108.7 1153.8 824.1 19.0 824.1 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigInteiro VCTTC_UCD1SA_MODO 7601 ObjsCorrigidos2 1 { Unifilar } IGN 0 2 { } { SELECT a1_flags@bit0 FROM pds WHERE id = VCTTC_UCD1SA_MODO } 00055298 ENTRAVEL { } { } NE 0 4 { 731.4 152.5 798.4 152.5 798.4 166.5 731.4 166.5 } 4 { VERDE IGN VERMELHO VERDE } 0.0 { Manual Automático } %10s FONTE_IDENT_3 0 SETA_IGN 
+SigTexto texto9 7602 ObjsCorrigidos2 1 { Unifilar } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 718.7 122.0 809.8 122.0 809.8 138.0 718.7 138.0 } 2 { BRANCO IGN } 0.0 {Automatismo} %11s FONTE_IDENT_5
+SigDisjuntor VCTTC_QD2_52CB3_POS 8189 ObjsCorrigidos2 1 { Unifilar } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = VCTTC_QD2_52CB3_POS } 00055135 ENTRAVEL { } { } NE 0 2 { 690.0 363.0 706.0 379.0 } 2 { VERMELHO IGN } INDQ_IGN 
+SigRetangulo retangulo 7525 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 204.3 26.4 1145.8 26.4 1145.8 94.6 204.3 94.6 } 2 { CINZA CINZA } CHEIO ENUM_FG 
+SigMedida VCTTC_SA_QD2_KV 7958 CamadaPri 1 { Unifilar } IGN 0 1 { } { SELECT valor FROM pas WHERE id = VCTTC_SA_QD2_KV } <OFFSET> ENTRAVEL { } { } NE 0 4 { 786.5 537.5 835.5 537.5 835.5 550.5 786.5 550.5 } 2 { BRANCO PRETO } 0.0 {0000.00} %7.2f FONTE_MEDIDA SETA_IGN INDQ_IGN 
+SigMedida ENTEN_TSA1_MVAR 7959 CamadaPri 1 { Unifilar } IGN 0 1 { GRUPO ENTEN_TSA1_MED } { SELECT valor FROM pas WHERE id = ENTEN_TSA1_MVAR } 00002477 ENTRAVEL { } { } NE 0 4 { 794.0 551.5 836.0 551.5 836.0 564.5 794.0 564.5 } 2 { BRANCO PRETO } 0.0 {000.00} %6.2f FONTE_MEDIDA SETA_IGN INDQ_IGN 
+SigMedida VCTTC_SA_QD2_I 7960 CamadaPri 1 { Unifilar } IGN 0 1 { } { SELECT valor FROM pas WHERE id = VCTTC_SA_QD2_I } <OFFSET> ENTRAVEL { } { } NE 0 4 { 808.0 523.5 836.0 523.5 836.0 536.5 808.0 536.5 } 2 { BRANCO PRETO } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_IGN INDQ_IGN 
+SigMedida ENTEN_TSA1_HZ 7961 CamadaPri 1 { Unifilar } IGN 0 1 { GRUPO ENTEN_TSA1_MED } { SELECT valor FROM pas WHERE id = ENTEN_TSA1_HZ } 00002470 ENTRAVEL { } { } NE 0 4 { 800.5 565.5 835.5 565.5 835.5 578.5 800.5 578.5 } 2 { BRANCO PRETO } 0.0 {000.0} %5.1f FONTE_MEDIDA SETA_IGN INDQ_IGN 
+SigTexto texto7 7962 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 842.5 523.5 849.5 523.5 849.5 536.5 842.5 536.5 } 2 { PRETO IGN } 0.0 {A} %1s FONTE_MEDIDA
+SigTexto texto7 7963 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 843.0 552.5 857.0 552.5 857.0 565.5 843.0 565.5 } 2 { PRETO IGN } 0.0 {MW} %2s FONTE_MEDIDA
+SigTexto texto7 7964 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 842.0 566.5 870.0 566.5 870.0 579.5 842.0 579.5 } 2 { PRETO IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigTexto texto7 7965 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 841.0 537.5 855.0 537.5 855.0 550.5 841.0 550.5 } 2 { PRETO IGN } 0.0 {kV} %2s FONTE_MEDIDA
+SigMedida VCTTC_SA_QD1_ALIM_KV 8226 CamadaPri 1 { Unifilar } IGN 0 1 { } { SELECT valor FROM pas WHERE id = VCTTC_SA_QD1_ALIM_KV } 00007807 ENTRAVEL { } { } NE 0 4 { 422.5 537.5 471.5 537.5 471.5 550.5 422.5 550.5 } 2 { BRANCO PRETO } 0.0 {0000.00} %7.2f FONTE_MEDIDA SETA_IGN INDQ_IGN 
+SigMedida VCTTC_SA_QD1_ALIM_MW 8227 CamadaPri 1 { Unifilar } IGN 0 1 { } { SELECT valor FROM pas WHERE id = VCTTC_SA_QD1_ALIM_MW } 00007812 ENTRAVEL { } { } NE 0 4 { 430.0 551.5 472.0 551.5 472.0 564.5 430.0 564.5 } 2 { BRANCO PRETO } 0.0 {000.00} %6.2f FONTE_MEDIDA SETA_IGN INDQ_IGN 
+SigMedida VCTTC_SA_QD1_ALIM_I 8228 CamadaPri 1 { Unifilar } IGN 0 1 { } { SELECT valor FROM pas WHERE id = VCTTC_SA_QD1_ALIM_I } 00007803 ENTRAVEL { } { } NE 0 4 { 444.0 523.5 472.0 523.5 472.0 536.5 444.0 536.5 } 2 { BRANCO PRETO } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_IGN INDQ_IGN 
+SigMedida VCTTC_SA_QD1_ALIM_MVAR 8229 CamadaPri 1 { Unifilar } IGN 0 1 { } { SELECT valor FROM pas WHERE id = VCTTC_SA_QD1_ALIM_MVAR } 00007811 ENTRAVEL { } { } NE 0 4 { 436.5 565.5 471.5 565.5 471.5 578.5 436.5 578.5 } 2 { BRANCO PRETO } 0.0 {000.0} %5.1f FONTE_MEDIDA SETA_IGN INDQ_IGN 
+SigTexto texto7 8230 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 478.5 523.5 485.5 523.5 485.5 536.5 478.5 536.5 } 2 { PRETO IGN } 0.0 {A} %1s FONTE_MEDIDA
+SigTexto texto7 8231 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 479.0 552.5 493.0 552.5 493.0 565.5 479.0 565.5 } 2 { PRETO IGN } 0.0 {MW} %2s FONTE_MEDIDA
+SigTexto texto7 8232 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 478.0 566.5 506.0 566.5 506.0 579.5 478.0 579.5 } 2 { PRETO IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigTexto texto7 8233 CamadaPri 1 { Unifilar } IGN 0 1 { GRUPO ENTEN_TSA1_MED } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 477.0 537.5 491.0 537.5 491.0 550.5 477.0 550.5 } 2 { PRETO IGN } 0.0 {kV} %2s FONTE_MEDIDA
+SigTC tc2 8316 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 324.0 718.0 340.0 734.0 } 1 { OURO }
+SigTC tc3 8317 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 340.0 718.0 356.0 734.0 } 1 { OURO }
+SigTC tc2 8320 CamadaPri 1 { Unifilar } IGN 180 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 324.0 702.0 340.0 718.0 } 1 { OURO }
+SigTC tc3 8321 CamadaPri 1 { Unifilar } IGN 180 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 340.0 702.0 356.0 718.0 } 1 { OURO }
+SigTC tc2 8328 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 684.0 718.0 700.0 734.0 } 1 { OURO }
+SigTC tc3 8329 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 700.0 718.0 716.0 734.0 } 1 { OURO }
+SigTC tc2 8330 CamadaPri 1 { Unifilar } IGN 180 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 684.0 702.0 700.0 718.0 } 1 { OURO }
+SigTC tc3 8331 CamadaPri 1 { Unifilar } IGN 180 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 700.0 702.0 716.0 718.0 } 1 { OURO }
+SigRetangulo retangulo 7936 CamadaPri 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 180.3 94.5 25.6 94.5 25.6 26.6 180.3 26.6 } 2 { IGN BRANCO } CHEIO ENUM_FG 
+SigRetangulo retangulo 7526 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 197.0 20.0 1153.0 20.0 1153.0 101.0 197.0 101.0 } 2 { CINZA CINZA_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 7984 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 51.9 295.7 270.8 295.7 270.8 672.5 51.9 672.5 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 7935 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 20.0 21.0 189.0 21.0 189.0 102.0 20.0 102.0 } 2 { CINZA CINZA_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 7600 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 695.0 114.0 833.5 114.0 833.5 178.0 695.0 178.0 } 2 { BRANCO CINZA_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 7991 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1003.9 115.7 1134.8 115.7 1134.8 172.5 1003.9 172.5 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 7993 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 923.9 295.7 1142.8 295.7 1142.8 672.5 923.9 672.5 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 7995 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 291.9 295.7 590.8 295.7 590.8 672.5 291.9 672.5 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 7997 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 607.9 295.7 906.8 295.7 906.8 672.5 607.9 672.5 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 8279 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 963.9 767.7 1094.8 767.7 1094.8 800.5 963.9 800.5 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 8307 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1024.1 201.0 1141.0 201.0 1141.0 234.0 1024.1 234.0 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 8309 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 46.1 201.0 163.0 201.0 163.0 234.0 46.1 234.0 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 8335 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 627.9 767.7 758.8 767.7 758.8 800.5 627.9 800.5 } 2 { CINZA IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 8337 Camada3D 1 { Unifilar } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 275.9 767.7 406.8 767.7 406.8 800.5 275.9 800.5 } 2 { CINZA IGN } CHEIO ENUM_FG 

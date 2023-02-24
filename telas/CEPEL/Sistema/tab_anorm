@@ -1,0 +1,81 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 16 nzoom 1.0 xc 444.0 yc 297.0 gridx 8.0 gridy 2.0 alr_inib !1 normal (=1)ou(=2) rgalr !4
+
+VERSAO 1.09 
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA SombraSCADA NAO_BLOQUEADA PRETO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+CAMADA Medidas NAO_BLOQUEADA PRETO 0
+
+FILTRO BotaoFiltroNormal
+
+
+
+
+SigTexto titulo_princ1 394 Sombra 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 4 { 172.0 1.5 573.6 1.5 573.6 27.5 172.0 27.5 } 2 { OURO PRETO } 0.0 {Pontos Digitais fora do Estado Normal} %37s FONTE_TITULO
+SigTabular tabu2 1826 Sombra 0 { } IGN 0 7 { } { } <OFFSET> NAO_ENTRAVEL 2 { 47.5 30.0 696.2 269.0 } 5 { BRANCO CINZA CINZA_MEDIO CINZA_ESCURO IGN } 10 7 1 6 1 12 4 10 S S N 
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto190 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 126.1 49.0 135.1 49.0 135.1 61.0 126.1 61.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Id} %2s FONTE_IDENT_3
+
+            SigTexto texto7 -1 Sombra 0 { } IGN 0 1 { } { SELECT id FROM pds } 00000000 NAO_ENTRAVEL 4 { 60.5 241.0 200.7 241.0 200.7 253.0 60.5 253.0 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMMMMM} %-14s FONTE_IDENT_3
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto192 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 328.3 49.0 357.4 49.0 357.4 61.0 328.3 61.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Nome} %4s FONTE_IDENT_3
+
+            SigTexto texto27 -1 Sombra 0 { } IGN 0 1 { } { SELECT nome FROM pds } 00000000 NAO_ENTRAVEL 4 { 212.7 241.0 473.0 241.0 473.0 253.0 212.7 253.0 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMMMMMMMMMMMMMMMMM} %-26s FONTE_IDENT_3
+
+   SigColuna $alr_inib INVISIVEL ENTRAVEL IGN 
+            SigTexto texto194 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { -18.5 -6.0 18.5 -6.0 18.5 6.0 -18.5 6.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {alr_inib} %8s FONTE_IDENT_3
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds } <OFFSET> ENTRAVEL 4 { 493.4 241.0 513.4 241.0 513.4 253.0 493.4 253.0 } 4 { BRANCO IGN PRETO PRETO } 0.0 { OFF ON } %3s FONTE_IDENT_3 9 SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto196 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 495.6 43.0 589.6 43.0 589.6 67.0 495.6 67.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Data/Hora\nÚltima Atualização} %29s FONTE_IDENT_3
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { } { SELECT hatlz FROM pds } <OFFSET> ENTRAVEL 4 { 485.0 241.0 600.2 241.0 600.2 253.0 485.0 253.0 } 2 { BRANCO IGN } 0.0 { H_DIA_MES_HOR_MIN } H_DIA_MES_HOR_MIN FONTE_IDENT_3 IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto198 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 612.2 49.0 641.2 49.0 641.2 61.0 612.2 61.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Ponto} %5s FONTE_IDENT_3
+
+            SigFlagDigital flagdig2 -1 Sombra 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds } 00000000 ENTRAVEL 2 { 620.7 239.0 632.6 255.0 } 2 { BRANCO BRANCO } INDQ_MEIO 
+
+   SigColuna * INVISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto200 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { -24.0 -8.0 24.0 -8.0 24.0 8.0 -24.0 8.0 } 2 { PALHA IGN } 0.0 {Estado} %6s FONTE_IDENT_2
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds } 00000000 NAO_ENTRAVEL 4 { 689.2 435.5 730.2 435.5 730.2 447.5 689.2 447.5 } 4 { BRANCO IGN VERDE VINHO } 0.0 { Aberto Fechado } %7s FONTE_IDENT_3 0 SETA_IGN 
+
+   SigColuna $normal VISIVEL ENTRAVEL IGN 
+            SigTexto texto202 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 653.2 43.0 689.2 43.0 689.2 67.0 653.2 67.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Estado\nNormal} %14s FONTE_IDENT_3
+
+            SigInteiro numero5 -1 Sombra 0 { } IGN 0 1 { } { SELECT a1_flags@bits19-20 FROM pds } 00000000 ENTRAVEL 4 { 661.7 241.0 680.7 241.0 680.7 253.0 661.7 253.0 } 6 { BRANCO GRAFITE CINZA AMARELO_CLARO AMARELO_CLARO CINZA } 0.0 { Sim Não Não Sim } %3s FONTE_IDENT_3 IGN SETA_IGN 
+
+SigTexto titulo_princ1 1910 Sombra 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 4 { 192.8 289.0 622.3 289.0 622.3 315.0 192.8 315.0 } 2 { OURO PRETO } 0.0 {Pontos Analógicos fora da Região Normal} %39s FONTE_TITULO
+SigTabular tabular_scada 1913 SombraSCADA 0 { } IGN 0 7 { } { } <OFFSET> NAO_ENTRAVEL 2 { 45.2 320.0 752.0 519.2 } 5 { BRANCO CINZA CINZA_MEDIO CINZA_ESCURO IGN } 10 5 1 6 1 12 4 10 S S N 
+   SigColuna $filtro_id VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto156 -1 SombraSCADA 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 138.8 339.0 147.8 339.0 147.8 351.0 138.8 351.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Id} %2s FONTE_IDENT_3
+
+            SigTexto texto7 -1 SombraSCADA 0 { } IGN 0 1 { } { SELECT id FROM pas } 00000000 NAO_ENTRAVEL 4 { 58.2 493.2 228.4 493.2 228.4 505.2 58.2 505.2 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMMMMMMMM} %-17s FONTE_IDENT_3
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto158 -1 SombraSCADA 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 351.1 339.0 380.1 339.0 380.1 351.0 351.1 351.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Nome} %4s FONTE_IDENT_3
+
+            SigTexto texto197 -1 SombraSCADA 0 { } IGN 0 1 { [ctrl RECONHECER_ALARME] } { SELECT nome FROM pas } <OFFSET> ENTRAVEL 4 { 240.4 493.2 490.7 493.2 490.7 505.2 240.4 505.2 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMMMMMMMMMMMMMMMM} %-25s FONTE_IDENT_3
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto160 -1 SombraSCADA 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 513.3 333.0 607.3 333.0 607.3 357.0 513.3 357.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Data/Hora\nÚltima Atualização} %29s FONTE_IDENT_3
+
+            SigInteiro numero3 -1 SombraSCADA 0 { } IGN 0 1 { } { SELECT hatlz FROM pas } <OFFSET> ENTRAVEL 4 { 502.8 493.2 617.9 493.2 617.9 505.2 502.8 505.2 } 2 { BRANCO IGN } 0.0 { H_DIA_MES_HOR_MIN } H_DIA_MES_HOR_MIN FONTE_IDENT_3 IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto162 -1 SombraSCADA 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 638.4 333.0 675.4 333.0 675.4 357.0 638.4 357.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Valor\nMedido} %13s FONTE_IDENT_3
+
+            SigMedida medida3 -1 SombraSCADA 0 { } IGN 0 1 { } { SELECT valor FROM pas } <OFFSET> ENTRAVEL 4 { 629.9 494.2 684.0 494.2 684.0 504.2 629.9 504.2 } 2 { BRANCO IGN } 0.0 {0000000.0} %9.1f FONTE_MEDIDA SETA_IGN INDQ_MEIO 
+
+   SigColuna $rgalr VISIVEL ENTRAVEL IGN 
+            SigTexto texto164 -1 SombraSCADA 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 696.0 333.0 745.0 333.0 745.0 357.0 696.0 357.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Região de\nAlarme} %17s FONTE_IDENT_3
+
+            SigInteiro numero2 -1 SombraSCADA 0 { } IGN 0 1 { } { SELECT rgalr FROM pas } <OFFSET> ENTRAVEL 4 { 703.9 493.2 737.0 493.2 737.0 505.2 703.9 505.2 } 10 { BRANCO IGN PRETO COR_ESC COR_URG COR_ADV COR_NORM COR_ADV COR_URG COR_ESC } 0.0 { Zero Inf.Esc Inf.Urg Inf.Adv Normal Sup.Adv Sup.Urg Sup.Esc } %7s FONTE_IDENT_3 IGN SETA_IGN 
+

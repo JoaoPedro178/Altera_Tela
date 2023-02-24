@@ -1,0 +1,80 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 14 nzoom 1.0 xc 694.5 yc 381.0 gridx 8.0 gridy 8.0 tipo * tipo_remota (!30)
+
+VERSAO 1.13 
+
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Camada1 NAO_BLOQUEADA PRETO 0
+CAMADA Botao NAO_BLOQUEADA PRETO 0
+
+
+
+
+
+SigRetangulo retangulo 199 Botao 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 10.9 112.0 154.1 112.0 154.1 258.0 10.9 258.0 } 2 { AREIA CINZA_MEDIO } CHEIO ENUM_FG 
+SigBotao 2ana 204 Botao 0 { } IGN 0 1 { TELA Suporte/Ana filtro $filtro TabUniSeUs $TabUniSeUs nome $nome } { } <OFFSET> NAO_ENTRAVEL 4 { 798.4 37.9 913.4 37.9 913.4 85.9 798.4 85.9 } 4 { COR_BOTAO_LABEL COR_BOTAO_FACE COR_BOTAO_REFLEXO COR_BOTAO_SOMBRA } 0.0 {Analógicos} %10s FONTE_LABEL_BOTAO
+ 0 3 NAO_TOGGLE ESTATICO
+SigBotao 2limten 205 Botao 0 { } IGN 0 1 { TELA pcarg/tab_ptc } { } <OFFSET> NAO_ENTRAVEL 4 { 923.4 37.9 1038.4 37.9 1038.4 85.9 923.4 85.9 } 4 { COR_BOTAO_LABEL COR_BOTAO_FACE COR_BOTAO_REFLEXO COR_BOTAO_SOMBRA } 0.0 {Limites} %7s FONTE_LABEL_BOTAO
+ 0 3 NAO_TOGGLE ESTATICO
+SigBotao botao9 200 Botao 0 { } IGN 0 1 { SETVAR tipo * } { } <OFFSET> NAO_ENTRAVEL 4 { 58.9 120.4 103.0 120.4 103.0 142.5 58.9 142.5 } 4 { COR_BOTAO_LABEL COR_BOTAO_FACE COR_BOTAO_REFLEXO COR_BOTAO_SOMBRA } 0.0 { Todos } %7s FONTE_LABEL_BOTAO
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao_chave 193 Botao 0 { } IGN 0 1 { SETVAR tipo (=25) } { } <OFFSET> NAO_ENTRAVEL 4 { 23.4 152.5 138.5 152.5 138.5 194.5 23.4 194.5 } 4 { COR_BOTAO_LABEL COR_BOTAO_FACE COR_BOTAO_REFLEXO COR_BOTAO_SOMBRA } 0.0 {Chaves} %6s FONTE_LABEL_BOTAO
+ 0 3 TOGGLE ESTATICO
+SigBotao botao_disjuntor 203 Botao 0 { } IGN 0 1 { SETVAR tipo (=24) } { } <OFFSET> NAO_ENTRAVEL 4 { 23.4 204.5 138.5 204.5 138.5 246.5 23.4 246.5 } 4 { COR_BOTAO_LABEL COR_BOTAO_FACE COR_BOTAO_REFLEXO COR_BOTAO_SOMBRA } 0.0 {Disjuntores} %11s FONTE_LABEL_BOTAO
+ 0 3 TOGGLE ESTATICO
+SigTabular tabular3D 1 Camada1 0 { } IGN 0 8 { } { } <OFFSET> NAO_ENTRAVEL 2 { 173.0 108.0 1168.6 575.0 } 7 { PRETO CINZA_PROFUNDO IGN IGN IGN IGN IGN } 20 10 10 10 1 25 12 5 S S N 
+   SigColuna $filtro VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto207 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 325.1 126.0 392.1 126.0 392.1 153.0 325.1 153.0 } 2 { ABOBORA IGN } 0.0 {ponto} %5s FONTE_LABEL
+
+            SigTexto nome_do_ponto -1 Camada1 0 { } IGN 0 1 { } { SELECT id FROM pds } <OFFSET> NAO_ENTRAVEL 4 { 193.5 541.0 523.7 541.0 523.7 555.0 193.5 555.0 } 2 { OURO GRAFITE } 0.0 {MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM} %-30s FONTE_LABEL
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto209 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 568.3 126.0 606.3 126.0 606.3 153.0 568.3 153.0 } 2 { ABOBORA IGN } 0.0 {aor} %3s FONTE_LABEL
+
+            SigTexto texto253 -1 Camada1 0 { } IGN 0 1 { } { SELECT id.a_aor FROM pds } <OFFSET> ENTRAVEL 4 { 548.7 541.0 625.8 541.0 625.8 555.0 548.7 555.0 } 2 { OURO GRAFITE } 0.0 {MMMMMMM} %7s FONTE_LABEL
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto211 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 650.8 126.0 749.9 126.0 749.9 153.0 650.8 153.0 } 2 { ABOBORA IGN } 0.0 {situação} %8s FONTE_LABEL
+
+            SigInteiro numero2 -1 Camada1 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds } <OFFSET> NAO_ENTRAVEL 4 { 675.3 541.0 725.3 541.0 725.3 555.0 675.3 555.0 } 4 { BRANCO IGN BRANCO BRANCO } 0.0 { Aberto Fechado } %7s FONTE_LABEL 0 SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto213 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 774.9 126.0 796.9 126.0 796.9 153.0 774.9 153.0 } 2 { ABOBORA IGN } 0.0 {iq} %2s FONTE_LABEL
+
+            SigFlagDigital INDICADOR_DE_QUALIDADE -1 Camada1 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds } <OFFSET> ENTRAVEL 2 { 777.9 540.0 793.9 556.0 } 2 { BRANCO GRAFITE } INDQ_MEIO 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto215 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 821.9 126.0 859.9 126.0 859.9 153.0 821.9 153.0 } 2 { ABOBORA IGN } 0.0 {aut} %3s FONTE_LABEL
+
+            SigInteiro numero2 -1 Camada1 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds } <OFFSET> NAO_ENTRAVEL 4 { 831.4 541.0 850.4 541.0 850.4 555.0 831.4 555.0 } 4 { BRANCO IGN BRANCO BRANCO } 0.0 { . Aut } %3s FONTE_LABEL 17 SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto217 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 884.9 126.0 928.9 126.0 928.9 153.0 884.9 153.0 } 2 { ABOBORA IGN } 0.0 {inib} %4s FONTE_LABEL
+
+            SigInteiro numero2 -1 Camada1 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds } <OFFSET> NAO_ENTRAVEL 4 { 896.9 541.0 916.9 541.0 916.9 555.0 896.9 555.0 } 4 { BRANCO IGN BRANCO BRANCO } 0.0 { . Inib } %4s FONTE_LABEL 9 SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto219 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 953.9 126.0 1033.0 126.0 1033.0 153.0 953.9 153.0 } 2 { ABOBORA IGN } 0.0 {estado} %6s FONTE_LABEL
+
+            SigInteiro condicao_normal -1 Camada1 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds } <OFFSET> NAO_ENTRAVEL 4 { 968.4 541.0 1018.5 541.0 1018.5 555.0 968.4 555.0 } 4 { BRANCO IGN BRANCO BRANCO } 0.0 { Aberto Fechado } %7s FONTE_LABEL 20 SETA_IGN 
+
+   SigColuna $tipo INVISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto221 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 } 2 { ABOBORA IGN } 0.0 {cod_ponto} %9s FONTE_LABEL
+
+            SigInteiro numero3 -1 Camada1 0 { } IGN 0 1 { } { SELECT tipoe FROM pds } <OFFSET> NAO_ENTRAVEL 4 { -38.0 -7.0 -10.0 -7.0 -10.0 7.0 -38.0 7.0 } 2 { ABOBORA IGN } 0.0 { 0000 } %4d FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna $tipo_remota INVISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto223 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 } 2 { ABOBORA IGN } 0.0 {tipo_nao_e_remota} %17s FONTE_LABEL
+
+            SigInteiro numero2 -1 Camada1 0 { } IGN 0 1 { } { SELECT tipoe FROM pds } <OFFSET> NAO_ENTRAVEL 4 { 835.4 671.0 863.4 671.0 863.4 685.0 835.4 685.0 } 2 { OURO GRAFITE } 0.0 { 0000 } %4d FONTE_LABEL IGN SETA_IGN 
+
+   SigColuna $lsc VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto225 -1 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 1077.0 126.0 1127.0 126.0 1127.0 153.0 1077.0 153.0 } 2 { ABOBORA IGN } 0.0 {idlia} %5s FONTE_LABEL
+
+            SigTexto texto586 -1 Camada1 0 { } IGN 0 1 { } { SELECT idlia FROM pds } <OFFSET> NAO_ENTRAVEL 4 { 1058.0 541.0 1146.1 541.0 1146.1 555.0 1058.0 555.0 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMM} %-8s FONTE_LABEL
+
+SigTexto texto7 6 Camada1 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 181.9 34.5 570.1 34.5 570.1 61.5 181.9 61.5 } 2 { BRANCO IGN } 0.0 {TABULAR DE PONTOS DIGITAIS} %26s FONTE_TITULO
+SigTexto nome_da_instalacao 25 Camada1 0 { } IGN 0 1 { TELA $TabUniSeUs } { } <OFFSET> NAO_ENTRAVEL 4 { 273.5 66.5 350.5 66.5 350.5 93.5 273.5 93.5 } 2 { BRANCO IGN } 0.0 {$nome} %5s FONTE_TITULO

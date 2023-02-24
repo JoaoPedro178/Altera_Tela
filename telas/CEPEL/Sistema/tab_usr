@@ -1,0 +1,31 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 10 nzoom 1.0 xc 447.0 yc 299.0 gridx 4.0 gridy 4.0
+
+VERSAO 1.11 
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA comum NAO_BLOQUEADA PRETO 0
+
+
+
+
+
+SigTexto titulo_princ1 394 comum 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 4 { 139.4 38.5 244.6 38.5 244.6 65.5 139.4 65.5 } 2 { BRANCO IGN } 0.0 {Usuários} %8s FONTE_TITULO
+SigTabular tab_tacs 1826 comum 0 { } IGN 0 7 { } { } <OFFSET> NAO_ENTRAVEL 2 { 94.4 88.0 289.6 441.5 } 5 { PRETO CINZA_PROFUNDO IGN IGN IGN } 20 3 10 4 1 12 4 20 S S N 
+   SigColuna !='' VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto61 -1 comum 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 119.4 100.0 161.5 100.0 161.5 114.0 119.4 114.0 } 2 { PALHA IGN } 0.0 {Usuário} %7s FONTE_LABEL
+
+            SigTexto texto7 -1 comum 0 { } IGN 0 1 { } { SELECT usr FROM uxm } 00000000 NAO_ENTRAVEL 4 { 107.4 415.5 173.5 415.5 173.5 429.5 107.4 429.5 } 2 { OURO GRAFITE } 0.0 {MMMMMM} %-6s FONTE_LABEL
+
+   SigColuna * INVISIVEL ENTRAVEL IGN 
+            SigTexto texto63 -1 comum 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { -8.8 0.0 -8.8 0.0 -8.8 0.0 -8.8 0.0 } 2 { PALHA IGN } 0.0 {Papel} %5s FONTE_LABEL
+
+            SigTexto texto21 -1 comum 0 { } IGN 0 1 { } { SELECT id.a_papel FROM uxm } <OFFSET> ENTRAVEL 4 { 185.5 415.5 295.6 415.5 295.6 429.5 185.5 429.5 } 2 { OURO IGN } 0.0 {MMMMMMMMMM} %10s FONTE_LABEL
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto65 -1 comum 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 199.5 99.0 259.6 99.0 259.6 115.0 199.5 115.0 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Máquina} %7s FONTE_IDENT_2
+
+            SigTexto texto27 -1 comum 0 { } IGN 0 1 { } { SELECT maq FROM uxm } 00000000 NAO_ENTRAVEL 4 { 185.5 415.5 273.6 415.5 273.6 429.5 185.5 429.5 } 2 { OURO GRAFITE } 0.0 {MMMMMMMM} %-8s FONTE_LABEL
+

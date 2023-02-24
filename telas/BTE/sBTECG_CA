@@ -1,0 +1,163 @@
+;
+TELA BRANCO CINZA_MEDIO LIC_Default 10 nzoom 1.0 xc 630.0 yc 279.0 gridx 10.0 gridy 10.0
+
+VERSAO 1.18 
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Camada1 NAO_BLOQUEADA PRETO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+CAMADA Camada1BaixoRelevo NAO_BLOQUEADA PRETO 0
+CAMADA Texto NAO_BLOQUEADA PRETO 0
+CAMADA 3d NAO_BLOQUEADA CINZA_ESCURO 0
+CAMADA invisivel NAO_BLOQUEADA PRETO 0
+
+FILTRO invisivel
+
+
+
+
+SigJuncaoOrtogonal juncortog2 9487 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 882.0 276.2 882.0 276.2 934.0 276.2 } 1 { OURO } CHEIO 9558 2 9610 1 
+SigJuncaoOrtogonal juncortog3 9488 invisivel 0 { } IGN 0 4 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 270.8 416.2 270.8 416.2 718.0 416.2 } 1 { VERMELHO } CHEIO 9501 1 9565 2 
+SigJuncaoOrtogonal juncortog4 9489 invisivel 0 { } IGN 0 4 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 734.0 416.2 734.0 416.2 942.8 416.2 } 1 { VERMELHO } CHEIO 9565 1 9500 1 
+SigJuncaoOrtogonal juncortog5 9490 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 563.0 416.2 563.0 416.2 563.0 441.2 } 1 { VERMELHO } CHEIO 9540 1 9613 2 
+SigJuncaoOrtogonal juncortog3 9491 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 654.0 441.2 654.0 441.2 654.0 416.2 } 1 { VERMELHO } CHEIO 9614 2 9541 1 
+SigJuncaoOrtogonal juncortog4 9492 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 654.0 457.2 654.0 602.6 655.0 602.6 } 1 { VERMELHO } CHEIO 9614 1 9507 1 
+SigJuncaoOrtogonal juncortog6 9493 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 563.0 457.2 563.0 602.6 563.0 602.6 } 1 { VERMELHO } CHEIO 9613 1 9530 1 
+SigJuncaoOrtogonal juncortog8 9494 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 404.9 629.6 404.9 602.6 563.0 602.6 } 1 { BRANCO } CHEIO 9498 1 9530 1 
+SigJuncaoOrtogonal juncortog8 9495 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 563.0 602.6 563.0 753.2 563.0 753.2 } 1 { BRANCO } CHEIO 9530 1 9581 2 
+SigJuncaoOrtogonal juncortog8 9496 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 654.0 753.2 654.0 602.6 655.0 602.6 } 1 { BRANCO } CHEIO 9582 2 9507 1 
+SigJuncaoOrtogonal juncortog8 9497 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 655.0 602.6 816.9 602.6 816.9 633.6 } 1 { BRANCO } CHEIO 9507 1 9519 1 
+SigRetangulo retangulo 9498 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 390.9 646.4 390.9 612.9 418.9 612.9 418.9 646.4 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigCirculo circulo5 9499 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 487.0 413.2 493.0 419.2 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigConector conector2 9500 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 940.2 413.6 945.3 418.8 } 2 { CINZA_MEDIO PRETO } 
+SigConector conector2 9501 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 268.2 413.6 273.3 418.8 } 2 { CINZA_MEDIO PRETO } 
+SigCirculo circulo5 9502 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 415.0 413.2 421.0 419.2 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigCirculo circulo5 9503 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 795.0 413.2 801.0 419.2 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigCirculo circulo5 9504 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 343.0 413.2 349.0 419.2 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigJuncaoOrtogonal juncortog8 9505 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 563.0 769.2 563.0 769.2 563.0 809.2 } 1 { BRANCO } CHEIO 9581 1 9506 1 
+SigRetangulo retangulo 9507 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 639.0 586.6 671.1 586.6 671.1 618.6 639.0 618.6 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigLinha pline7 9508 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 670.1 587.6 640.0 618.6 } 2 { CINZA IGN } ABERTO CHEIO ENUM_FG 
+SigTexto texto12 9509 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 642.0 579.6 662.0 579.6 662.0 605.6 642.0 605.6 } 2 { CINZA IGN } 0.0 {~ } %2s FONTE_TITULO
+SigTexto texto12 9510 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 656.0 595.6 664.0 595.6 664.0 621.6 656.0 621.6 } 2 { CINZA IGN } 0.0 {-} %1s FONTE_TITULO
+SigJuncaoOrtogonal juncortog8 9511 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 654.0 769.2 654.0 769.2 654.0 809.2 } 1 { BRANCO } CHEIO 9582 1 9512 1 
+SigLinha pline9 9513 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 395.1 620.2 414.5 620.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9514 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 399.1 624.2 410.5 624.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9515 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 395.1 628.2 414.5 628.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9516 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 399.1 632.2 410.5 632.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9517 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 395.1 636.2 414.5 636.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9518 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 399.1 640.2 410.5 640.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 9519 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 802.9 650.4 802.9 616.9 830.9 616.9 830.9 650.4 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigLinha pline9 9520 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 807.1 624.2 826.5 624.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9521 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 811.1 628.2 822.5 628.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9522 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 807.1 632.2 826.5 632.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9523 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 811.1 636.2 822.5 636.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9524 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 807.1 640.2 826.5 640.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline9 9525 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 811.1 644.2 822.5 644.2 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 9530 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 547.0 586.6 579.1 586.6 579.1 618.6 547.0 618.6 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigLinha pline7 9531 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 578.1 587.6 548.0 618.6 } 2 { CINZA IGN } ABERTO CHEIO ENUM_FG 
+SigTexto texto12 9532 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 550.0 579.6 570.0 579.6 570.0 605.6 550.0 605.6 } 2 { CINZA IGN } 0.0 {~ } %2s FONTE_TITULO
+SigTexto texto12 9533 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 564.0 595.6 572.0 595.6 572.0 621.6 564.0 621.6 } 2 { CINZA IGN } 0.0 {-} %1s FONTE_TITULO
+SigTexto texto9 9534 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 165.9 268.0 256.1 268.0 256.1 286.0 165.9 286.0 } 2 { PRETO IGN } 0.0 {Trafo 2AT1} %10s FONTE_IDENT_5
+SigTexto texto9 9535 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 960.9 268.0 1087.1 268.0 1087.1 286.0 960.9 286.0 } 2 { PRETO IGN } 0.0 {Concessionaria} %14s FONTE_IDENT_5
+SigCirculo circulo5 9540 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 560.0 413.2 566.0 419.2 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigCirculo circulo5 9541 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 651.0 413.2 657.0 419.2 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigCirculo circulo5 9542 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 867.0 413.2 873.0 419.2 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigMedida BTECG_SA_QDC4_I,unid=A 9551 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_QDC4_I } 00000362 ENTRAVEL { } { } NE 0 4 { 753.1 757.6 807.1 757.6 807.1 775.6 753.1 775.6 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigMedida BTECG_SA_QDC3_I,unid=A 9552 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_QDC3_I } 00000360 ENTRAVEL { } { } NE 0 4 { 405.1 761.6 459.1 761.6 459.1 779.6 405.1 779.6 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigTermLinha term2 9556 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 338.0 488.2 354.0 504.2 } 1 { IGN } 
+SigTermLinha term3 9557 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 862.0 488.2 878.0 504.2 } 1 { IGN } 
+SigTrafo2 trf22 9558 invisivel 0 { } IGN 90 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 858.0 264.2 882.0 288.2 } 2 { VERMELHO OURO } 
+SigTrafo2 trf22 9559 invisivel 0 { } IGN 270 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 334.0 264.2 358.0 288.2 } 2 { VERMELHO OURO } 
+SigJuncaoOrtogonal juncortog8 9560 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 358.0 276.2 418.0 276.2 418.0 356.2 } 1 { VERMELHO } CHEIO 9559 1 9564 2 
+SigJuncaoOrtogonal juncortog8 9561 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 798.0 356.2 798.0 276.2 858.0 276.2 } 1 { VERMELHO } CHEIO 9563 2 9558 1 
+SigDisjuntor BTECG_SA_DJ52E2_POS 9562 invisivel 0 { } IGN 180 2 { CONTROLE BTECG_SA_DJ52E2_CMD } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_DJ52E2_POS } 00001032 ENTRAVEL { } { } NE 0 2 { 483.0 356.2 499.0 372.2 } 2 { VERMELHO IGN } INDQ_IGN 
+SigDisjuntor BTECG_SA_DJ52N1_POS 9563 invisivel 0 { } IGN 180 2 { CONTROLE BTECG_SA_DJ52N1_CMD } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_DJ52N1_POS } 00001038 ENTRAVEL { } { } NE 0 2 { 790.0 356.2 806.0 372.2 } 2 { VERMELHO IGN } INDQ_IGN 
+SigDisjuntor BTECG_SA_DJ52E1_POS 9564 invisivel 0 { } IGN 180 2 { CONTROLE BTECG_SA_DJ52E1_CMD } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_DJ52E1_POS } 00001026 ENTRAVEL { } { } NE 0 2 { 410.0 356.2 426.0 372.2 } 2 { VERMELHO IGN } INDQ_IGN 
+SigDisjuntor BTECG_SA_DJ52N2_POS 9565 invisivel 0 { } IGN 270 2 { CONTROLE BTECG_SA_DJ52N2_CMD } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_DJ52N2_POS } 00001044 ENTRAVEL { } { } NE 0 2 { 718.0 408.2 734.0 424.2 } 2 { VERMELHO IGN } INDQ_IGN 
+SigTexto texto9 9566 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 363.5 355.1 408.5 355.1 408.5 373.2 363.5 373.2 } 2 { PRETO IGN } 0.0 {52-E1} %5s FONTE_IDENT_5
+SigTexto texto9 9567 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 807.5 355.1 852.5 355.1 852.5 373.2 807.5 373.2 } 2 { PRETO IGN } 0.0 {52-N1} %5s FONTE_IDENT_5
+SigTexto texto9 9568 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 439.5 355.1 484.5 355.1 484.5 373.2 439.5 373.2 } 2 { PRETO IGN } 0.0 {52-E2} %5s FONTE_IDENT_5
+SigTexto texto9 9569 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 703.5 387.1 748.5 387.1 748.5 405.2 703.5 405.2 } 2 { PRETO IGN } 0.0 {52-N2} %5s FONTE_IDENT_5
+SigTexto texto9 9572 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 811.0 503.1 937.1 503.1 937.1 521.2 811.0 521.2 } 2 { PRETO IGN } 0.0 {Não Essenciais} %14s FONTE_IDENT_5
+SigTexto texto9 9573 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 300.9 503.1 391.0 503.1 391.0 521.2 300.9 521.2 } 2 { PRETO IGN } 0.0 {Essenciais} %10s FONTE_IDENT_5
+SigTexto texto9 9574 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 431.7 455.6 485.8 455.6 485.8 473.7 431.7 473.7 } 2 { PRETO CINZA_MEDIO } 0.0 { QDE2 } %6s FONTE_IDENT_5
+SigJuncaoOrtogonal juncortog8 9577 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 418.0 416.2 418.0 416.2 418.0 372.2 } 1 { VERMELHO } CHEIO 9502 1 9564 1 
+SigJuncaoOrtogonal juncortog8 9578 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 798.0 416.2 798.0 416.2 798.0 372.2 } 1 { VERMELHO } CHEIO 9503 1 9563 1 
+SigJuncaoOrtogonal juncortog8 9579 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 346.0 488.2 346.0 488.2 346.0 416.2 } 1 { IGN } CHEIO 9556 1 9504 1 
+SigJuncaoOrtogonal juncortog8 9580 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 870.0 488.2 870.0 488.2 870.0 416.2 } 1 { IGN } CHEIO 9557 1 9542 1 
+SigDisjuntor BTECG_SA_DJ7231_POS 9581 invisivel 0 { } IGN 180 2 { } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_DJ7231_POS } 00001046 ENTRAVEL { } { } NE 0 2 { 555.0 753.2 571.0 769.2 } 2 { BRANCO IGN } INDQ_IGN 
+SigDisjuntor BTECG_SA_DJ7241_POS 9582 invisivel 0 { } IGN 180 2 { } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_DJ7241_POS } 00001048 ENTRAVEL { } { } NE 0 2 { 646.0 753.2 662.0 769.2 } 2 { BRANCO IGN } INDQ_IGN 
+SigBarra barra2 9583 invisivel 0 { } IGN 0 4 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 597.1 809.2 466.0 809.2 } 2 { BRANCO IGN } ABERTO CHEIO 
+# 0
+SigBarra barra2 9584 invisivel 0 { } IGN 0 4 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 749.1 809.2 618.0 809.2 } 2 { BRANCO IGN } ABERTO CHEIO 
+# 0
+SigTexto texto9 9585 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 506.9 612.9 542.9 612.9 542.9 630.9 506.9 630.9 } 2 { PRETO IGN } 0.0 {RET1} %4s FONTE_IDENT_5
+SigTexto texto9 9586 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 678.9 612.9 714.9 612.9 714.9 630.9 678.9 630.9 } 2 { PRETO IGN } 0.0 {RET2} %4s FONTE_IDENT_5
+SigTexto texto9 9587 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 372.3 651.9 435.4 651.9 435.4 669.9 372.3 669.9 } 2 { PRETO IGN } 0.0 {BATERIA} %7s FONTE_IDENT_5
+SigTexto texto9 9588 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 788.3 655.9 851.4 655.9 851.4 673.9 788.3 673.9 } 2 { PRETO IGN } 0.0 {BATERIA} %7s FONTE_IDENT_5
+SigTexto texto9 9589 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 504.9 755.9 558.9 755.9 558.9 773.9 504.9 773.9 } 2 { PRETO IGN } 0.0 {72-3.1} %6s FONTE_IDENT_5
+SigTexto texto9 9590 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 656.9 755.9 710.9 755.9 710.9 773.9 656.9 773.9 } 2 { PRETO IGN } 0.0 {72-4.1} %6s FONTE_IDENT_5
+SigMedida BTECG_SA_RET4_VCON,unid=V 9596 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_RET4_VCON } 00000390 ENTRAVEL { } { } NE 0 4 { 663.8 675.5 717.8 675.5 717.8 693.5 663.8 693.5 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigMedida BTECG_SA_RET3_VCON,unid=V 9597 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_RET3_VCON } 00000384 ENTRAVEL { } { } NE 0 4 { 488.8 677.5 542.8 677.5 542.8 695.5 488.8 695.5 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigMedida BTECG_SA_RET4_ICON,unid=A 9599 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_RET4_ICON } 00000386 ENTRAVEL { } { } NE 0 4 { 665.1 653.8 719.1 653.8 719.1 671.8 665.1 671.8 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigMedida BTECG_SA_RET3_ICON,unid=A 9600 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_RET3_ICON } 00000380 ENTRAVEL { } { } NE 0 4 { 489.1 653.8 543.1 653.8 543.1 671.8 489.1 671.8 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigMedida BTECG_SA_RET4_IBAT,unid=A 9601 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_RET4_IBAT } 00000385 ENTRAVEL { } { } NE 0 4 { 721.1 577.6 775.1 577.6 775.1 595.6 721.1 595.6 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigMedida BTECG_SA_RET3_IBAT,unid=A 9602 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_RET3_IBAT } 00000379 ENTRAVEL { } { } NE 0 4 { 449.1 577.6 503.1 577.6 503.1 595.6 449.1 595.6 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigTermLinha term2 9606 invisivel 0 { } IGN 270 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 264.0 268.2 280.0 284.2 } 1 { OURO } 
+SigTermLinha term2 9610 invisivel 0 { } IGN 90 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 934.0 268.2 950.0 284.2 } 1 { OURO } 
+SigDisjuntor nome 9613 invisivel 0 { } IGN 180 2 { } { SELECT a1_flags FROM pds WHERE id } <OFFSET> ENTRAVEL { } { } NE 0 2 { 555.0 441.2 571.0 457.2 } 2 { VERMELHO IGN } INDQ_IGN 
+SigDisjuntor nome 9614 invisivel 0 { } IGN 180 2 { } { SELECT a1_flags FROM pds WHERE id } <OFFSET> ENTRAVEL { } { } NE 0 2 { 646.0 441.2 662.0 457.2 } 2 { VERMELHO IGN } INDQ_IGN 
+SigMedida BTECG_SA_QDC4_V,unid=V 9618 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_QDC4_V } 00000363 ENTRAVEL { } { } NE 0 4 { 753.1 773.8 807.1 773.8 807.1 791.8 753.1 791.8 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigMedida BTECG_SA_QDC3_V,unid=V 9619 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_QDC3_V } 00000361 ENTRAVEL { } { } NE 0 4 { 405.1 777.8 459.1 777.8 459.1 795.8 405.1 795.8 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigJuncaoOrtogonal juncortog5 9620 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 280.0 276.2 280.0 276.2 334.0 276.2 } 1 { OURO } CHEIO 9606 1 9559 2 
+SigTexto texto9 9628 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 742.6 455.6 796.6 455.6 796.6 473.7 742.6 473.7 } 2 { PRETO CINZA_MEDIO } 0.0 { QDN2 } %6s FONTE_IDENT_5
+SigTexto texto9 9630 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 315.9 225.6 369.9 225.6 369.9 243.7 315.9 243.7 } 2 { PRETO CINZA_MEDIO } 0.0 { TSA1 } %6s FONTE_IDENT_5
+SigTexto texto9 9652 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 840.0 225.6 894.1 225.6 894.1 243.7 840.0 243.7 } 2 { PRETO CINZA_MEDIO } 0.0 { TSA3 } %6s FONTE_IDENT_5
+SigMedida BTECG_SA_QDE2_VB,unid=V 9654 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_QDE2_VB } 00000368 ENTRAVEL { } { } NE 0 4 { 265.1 387.8 319.1 387.8 319.1 405.8 265.1 405.8 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigMedida BTECG_SA_QDN2_VB,unid=V 9656 invisivel 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = BTECG_SA_QDN2_VB } 00000374 ENTRAVEL { } { } NE 0 4 { 895.1 387.8 949.1 387.8 949.1 405.8 895.1 405.8 } 2 { OURO PRETO } 0.0 {000.00} %6.2f FONTE_IDENT_5 SETA_IGN INDQ_BAIXO 
+SigTexto texto9 9658 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 476.3 725.6 530.3 725.6 530.3 743.7 476.3 743.7 } 2 { PRETO CINZA_MEDIO } 0.0 { QDC3 } %6s FONTE_IDENT_5
+SigTexto texto9 9660 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 690.9 725.6 744.9 725.6 744.9 743.7 690.9 743.7 } 2 { PRETO CINZA_MEDIO } 0.0 { QDC4 } %6s FONTE_IDENT_5
+SigJuncao junc3 9672 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 491.0 372.2 490.0 416.2 } 1 { VERMELHO } CHEIO 9562 1 9499 1 
+SigDisjuntor BTECG_SA_DJCBG2_POS 9676 invisivel 0 { } IGN 180 2 { CONTROLE BTECG_SA_DJCBG2_CMD } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_DJCBG2_POS } 00001053 ENTRAVEL { } { } NE 0 2 { 483.0 306.2 499.0 322.2 } 2 { VERMELHO IGN } INDQ_IGN 
+SigTexto texto9 9678 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 439.5 306.1 484.5 306.1 484.5 324.2 439.5 324.2 } 2 { PRETO IGN } 0.0 {CB-G2} %5s FONTE_IDENT_5
+SigJuncao junc2 9679 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 491.2 272.4 491.0 306.2 } 1 { VERMELHO } CHEIO 9554 1 9676 2 
+SigJuncao junc3 9680 invisivel 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 491.0 322.2 491.0 356.2 } 1 { VERMELHO } CHEIO 9676 1 9562 2 
+SigCirculo circulo5 9506 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 560.0 806.2 566.0 812.2 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigCirculo circulo5 9512 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 651.0 806.2 657.0 812.2 } 2 { CINZA PRETO } CHEIO ENUM_FG 
+SigImagem imagem 9682 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 28.0 99.0 193.0 99.0 193.0 16.0 28.0 16.0 } 2 { PRETO BRANCO } $TELAS/imagens/elecnor.jpg
+SigImagem imagem 9683 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 29.0 101.0 194.0 101.0 194.0 18.0 29.0 18.0 } 2 { PRETO BRANCO } $TELAS/imagens/elecnor.jpg
+SigRetangulo retangulo3D 9690 invisivel 0 { } IGN 0 1 { CONTROLE SECGD_MODOCMD_CGD_CMD } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1080.0 125.0 1196.0 125.0 1196.0 148.0 1080.0 148.0 } 4 { IGN CINZA_ESCURO CINZA IGN } CHEIO ENUM_BG 
+SigRetangulo retangulo3D 9691 invisivel 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1080.0 148.0 1196.0 148.0 1196.0 171.0 1080.0 171.0 } 4 { IGN PRETO CINZA IGN } CHEIO ENUM_BG 
+SigTexto texto17 9692 invisivel 0 { } IGN 0 1 { CONTROLE SECGD_MODOCMD_CGD_CMD } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1083.9 129.5 1192.1 129.5 1192.1 143.5 1083.9 143.5 } 2 { PRETO IGN } 0.0 {Modo de Comando} %15s FONTE_IDENT_3
+SigInteiro SECGD_MODOCMD_CGD 9693 invisivel 0 { } IGN 0 1 { } { SELECT a1_flags@bit0 FROM pds WHERE id = SECGD_MODOCMD_CGD } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1095.0 152.5 1181.0 152.5 1181.0 166.5 1095.0 166.5 } 4 { VERDE IGN VERDE VERMELHO } 0.0 { SUBESTAÇAO COS } %10s FONTE_IDENT_3 0 SETA_IGN 
+SigRetangulo retangulo3D 9099 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 5.9 3.0 1208.9 3.0 1208.9 891.0 5.9 891.0 } 2 { BRANCO IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo3D 9313 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 595.0 157.0 694.0 157.0 694.0 180.0 595.0 180.0 } 4 { IGN PRETO CINZA IGN } CHEIO ENUM_BG 
+SigInteiro BTECG_SA_UACSA_CH43LR 9314 3d 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_UACSA_CH43LR } 00001111 ENTRAVEL { } { } NE 0 4 { 624.0 161.5 670.0 161.5 670.0 175.5 624.0 175.5 } 4 { VERDE IGN VERMELHO VERDE } 0.0 { Local Remoto } %6s FONTE_IDENT_3 0 SETA_IGN 
+SigRetangulo retangulo3D 9315 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 595.0 133.0 694.0 133.0 694.0 156.0 595.0 156.0 } 4 { IGN CINZA_ESCURO CINZA IGN } CHEIO ENUM_BG 
+SigRetangulo UC212L2 9316 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 596.6 136.0 692.4 136.0 692.4 157.0 596.6 157.0 } 4 { CINZA_ESCURO IGN VERMELHO CINZA_ESCURO } CHEIO ENUM_BG 
+SigTexto texto17 9317 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 634.5 139.5 659.5 139.5 659.5 153.5 634.5 153.5 } 2 { PRETO IGN } 0.0 {UAC} %3s FONTE_IDENT_3
+SigRetangulo retangulo3D 9636 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 522.0 233.0 641.0 233.0 641.0 256.0 522.0 256.0 } 4 { IGN PRETO CINZA IGN } CHEIO ENUM_BG 
+SigInteiro BTECG_SA_MODO_AUTOM 9637 3d 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_MODO_AUTOM } 00001063 ENTRAVEL { } { } NE 0 4 { 548.0 237.5 620.0 237.5 620.0 251.5 548.0 251.5 } 4 { VERDE IGN VERDE VERMELHO } 0.0 { Habilitado Desabilitado } %12s FONTE_IDENT_3 0 SETA_IGN 
+SigRetangulo retangulo3D 9638 3d 0 { } IGN 0 1 { CONTROLE BTECG_SA_AUTOM_CMD } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 522.0 211.0 641.0 211.0 641.0 234.0 522.0 234.0 } 4 { IGN CINZA_ESCURO CINZA IGN } CHEIO ENUM_BG 
+SigRetangulo nome 9639 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 523.6 212.0 639.4 212.0 639.4 233.0 523.6 233.0 } 4 { CINZA_ESCURO IGN VERMELHO CINZA_ESCURO } CHEIO ENUM_BG 
+SigTexto texto17 9640 3d 0 { } IGN 0 1 { CONTROLE BTECG_SA_AUTOM_CMD } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 535.9 215.5 632.1 215.5 632.1 229.5 535.9 229.5 } 2 { PRETO IGN } 0.0 {AUTOMATISMO} %11s FONTE_IDENT_3
+SigRetangulo retangulo3D 9646 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 585.0 347.0 704.0 347.0 704.0 370.0 585.0 370.0 } 4 { IGN PRETO CINZA IGN } CHEIO ENUM_BG 
+SigInteiro BTECG_SA_GMG_AUTO 9647 3d 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_GMG_AUTO } 00001055 ENTRAVEL { } { } NE 0 4 { 613.5 351.5 680.5 351.5 680.5 365.5 613.5 365.5 } 4 { VERDE IGN VERDE VERMELHO } 0.0 { Automatico Local } %10s FONTE_IDENT_3 0 SETA_IGN 
+SigRetangulo retangulo3D 9648 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 585.0 325.0 704.0 325.0 704.0 348.0 585.0 348.0 } 4 { IGN CINZA_ESCURO CINZA IGN } CHEIO ENUM_BG 
+SigRetangulo UC212L2 9649 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 586.6 326.0 702.4 326.0 702.4 347.0 586.6 347.0 } 4 { CINZA_ESCURO IGN VERMELHO CINZA_ESCURO } CHEIO ENUM_BG 
+SigTexto texto17 9650 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 615.5 329.5 678.5 329.5 678.5 343.5 615.5 343.5 } 2 { PRETO IGN } 0.0 {GERADOR} %7s FONTE_IDENT_3
+SigRetangulo retangulo3D 9666 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.0 233.0 771.0 233.0 771.0 256.0 652.0 256.0 } 4 { IGN PRETO CINZA IGN } CHEIO ENUM_BG 
+SigInteiro BTECG_SA_QDN2_CH43LR 9667 3d 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_QDN2_CH43LR } 00001082 ENTRAVEL { } { } NE 0 4 { 691.0 237.5 737.0 237.5 737.0 251.5 691.0 251.5 } 4 { VERDE IGN VERDE VERMELHO } 0.0 { Remoto Local } %6s FONTE_IDENT_3 0 SETA_IGN 
+SigRetangulo retangulo3D 9668 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.0 211.0 771.0 211.0 771.0 234.0 652.0 234.0 } 4 { IGN CINZA_ESCURO CINZA IGN } CHEIO ENUM_BG 
+SigRetangulo nome 9669 3d 0 { } IGN 0 1 { CONTROLE BTECG_MANREM_CMD } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 653.6 212.0 769.4 212.0 769.4 233.0 653.6 233.0 } 4 { CINZA_ESCURO IGN VERMELHO CINZA_ESCURO } CHEIO ENUM_BG 
+SigTexto texto17 9670 3d 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 673.4 215.5 754.6 215.5 754.6 229.5 673.4 229.5 } 2 { PRETO IGN } 0.0 {QDE2 / QDN2} %11s FONTE_IDENT_3
+SigRetangulo retangulo 9685 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 216.0 7.5 1197.0 7.5 1197.0 109.5 216.0 109.5 } 2 { BRANCO CINZA_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 9684 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 23.2 12.5 197.8 12.5 197.8 104.5 23.2 104.5 } 2 { PRETO BRANCO } CHEIO ENUM_FG 
+SigRetangulo retangulo 9687 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 16.0 7.5 205.0 7.5 205.0 109.5 16.0 109.5 } 2 { BRANCO CINZA_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 9686 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 223.2 12.5 1186.8 12.5 1186.8 104.5 223.2 104.5 } 2 { PRETO CINZA } CHEIO ENUM_FG 
+SigTexto texto7 9688 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 379.1 24.5 1008.9 24.5 1008.9 59.5 379.1 59.5 } 2 { PRETO BRANCO } 0.0 {SE CAMPO GRANDE 2 - Servico Auxiliar} %36s FONTE_TITULO
+SigTexto texto7 9689 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 536.8 65.5 851.2 65.5 851.2 86.5 536.8 86.5 } 2 { PRETO BRANCO } 0.0 {Brilhante Transmissora de Energia} %33s FONTE_TITULO
+SigCirculo BTECG_SA_GMG_OPER 9681 Camada1 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds WHERE id = BTECG_SA_GMG_OPER } 00001061 ENTRAVEL { } { } NE 0 2 { 483.0 252.0 499.0 268.0 } 4 { IGN VERDE VERDE VERMELHO } CHEIO ENUM_BG 
+SigGerador ger2 9554 Camada1 1 { invisivel } IGN 0 2 { CONTROLE BTECG_SA_DJCBG2_CMD } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 479.2 248.4 503.2 272.4 } 2 { VERMELHO IGN } 

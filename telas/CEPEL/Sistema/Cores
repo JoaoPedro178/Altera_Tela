@@ -1,0 +1,348 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 10 nzoom 1.0 xc 447.0 yc 299.0 gridx 2.0 gridy 2.0
+
+VERSAO 1.18 
+
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Moldura3D NAO_BLOQUEADA CARBONO 0
+CAMADA Textos NAO_BLOQUEADA COR_FUNDO_TELA 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+CAMADA BaixoRelevo NAO_BLOQUEADA CARBONO 0
+
+
+
+
+
+SigTexto texto9 627 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 300.4 452.5 411.6 452.5 411.6 467.5 300.4 467.5 } 2 { BRANCO PRETO } 0.0 {$vt_cor_fundo_tela} %18s FONTE_COMPENSADOR
+SigRetangulo retangulo 632 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 48.0 916.0 48.0 916.0 76.0 700.0 76.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 634 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 76.0 916.0 76.0 916.0 104.0 700.0 104.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 637 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 104.0 916.0 104.0 916.0 132.0 700.0 132.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 638 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 132.0 916.0 132.0 916.0 160.0 700.0 160.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 643 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 216.0 916.0 216.0 916.0 244.0 700.0 244.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 644 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 244.0 916.0 244.0 916.0 272.0 700.0 272.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 645 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 188.0 916.0 188.0 916.0 216.0 700.0 216.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 646 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 160.0 916.0 160.0 916.0 188.0 700.0 188.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 665 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 272.0 916.0 272.0 916.0 300.0 700.0 300.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 666 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 300.0 916.0 300.0 916.0 328.0 700.0 328.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 667 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 328.0 916.0 328.0 916.0 356.0 700.0 356.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 668 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 356.0 916.0 356.0 916.0 384.0 700.0 384.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 669 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 440.0 916.0 440.0 916.0 468.0 700.0 468.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 670 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 468.0 916.0 468.0 916.0 496.0 700.0 496.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 671 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 412.0 916.0 412.0 916.0 440.0 700.0 440.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 672 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 384.0 916.0 384.0 916.0 412.0 700.0 412.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 675 BaixoRelevo 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 700.0 496.0 916.0 496.0 916.0 524.0 700.0 524.0 } 2 { IGN IGN } CHEIO ENUM_FG 
+#SigGrupo group 677 BaixoRelevo 632 634 637 638 643 644 645 646 665 666 667 668 669 670 671 672 675
+SigCirculo circulo6 713 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 272.0 66.0 288.0 82.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+SigCirculo circulo6 715 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 236.0 66.0 252.0 82.0 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+SigCirculo circulo6 718 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 272.0 102.0 288.0 118.0 } 2 { COR_NOSUP_FECHADO COR_NOSUP_FECHADO } CHEIO ENUM_FG 
+SigCirculo circulo6 719 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 236.0 102.0 252.0 118.0 } 2 { COR_NOSUP_ABERTO IGN } CHEIO ENUM_FG 
+SigCirculo circulo6 722 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 272.0 142.0 288.0 158.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+SigCirculo circulo6 723 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 236.0 142.0 252.0 158.0 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 724 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 233.8 140.0 255.8 140.0 255.8 162.0 233.8 162.0 } 2 { COR_AINIB IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 726 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 269.8 140.0 291.8 140.0 291.8 162.0 269.8 162.0 } 2 { COR_AINIB IGN } CHEIO ENUM_FG 
+SigCirculo circulo6 731 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 272.0 178.0 288.0 194.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+SigCirculo circulo6 732 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 236.0 178.0 252.0 194.0 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 733 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 233.8 176.0 255.8 176.0 255.8 198.0 233.8 198.0 } 2 { COR_AUREC IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 734 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 269.8 176.0 291.8 176.0 291.8 198.0 269.8 198.0 } 2 { COR_AUREC IGN } CHEIO ENUM_FG 
+SigCirculo circulo6 744 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 272.0 264.0 288.0 280.0 } 2 { COR_CONF_NORM COR_CONF_NORM } CHEIO ENUM_FG 
+SigCirculo circulo6 745 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 236.0 264.0 252.0 280.0 } 2 { COR_CONF_NORM IGN } CHEIO ENUM_FG 
+SigCirculo circulo6 748 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 272.0 300.0 288.0 316.0 } 2 { COR_CONF_ANORM COR_CONF_ANORM } CHEIO ENUM_FG 
+SigCirculo circulo6 749 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 236.0 300.0 252.0 316.0 } 2 { COR_CONF_ANORM IGN } CHEIO ENUM_FG 
+SigCirculo circulo6 752 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 272.0 340.0 288.0 356.0 } 2 { COR_NINCI COR_NINCI } CHEIO ENUM_FG 
+SigCirculo circulo6 753 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 236.0 340.0 252.0 356.0 } 2 { COR_NINCI IGN } CHEIO ENUM_FG 
+SigCirculo circulo6 819 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 236.0 380.0 252.0 396.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+SigCirculo circulo6 820 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 272.0 380.0 288.0 396.0 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+SigCirculo circulo 763 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { FlagDigital ligado a ponto "aberto"\ncom alarme não reconhecido\nem base sem COR_ANREC_FLAG_DIG } { } NE 0 2 { 236.0 234.1 252.0 250.1 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+SigLinha pline2 764 BaixoRelevo 0 { } IGN 0 0 { } { } <OFFSET> ENTRAVEL { } { } NE 0 5 { 241.7 249.3 241.7 236.1 249.9 238.8 242.8 241.8 242.8 249.3 } 2 { COR_CONF_NORM_ABERTO COR_CONF_NORM_ABERTO } FECHADO CHEIO ENUM_BG 
+#SigGrupo group 766 BaixoRelevo 763 764
+SigCirculo circulo 762 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { FlagDigital ligado a ponto "fechado"\ncom alarme não reconhecido\nem base sem COR_ANREC_FLAG_DIG } { } NE 0 2 { 272.0 234.1 288.0 250.1 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+SigLinha pline2 765 BaixoRelevo 0 { } IGN 0 0 { } { } <OFFSET> ENTRAVEL { } { } NE 0 5 { 277.7 249.3 277.7 236.1 285.9 238.8 278.8 241.8 278.8 249.3 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } FECHADO CHEIO ENUM_BG 
+#SigGrupo group 767 BaixoRelevo 762 765
+SigCirculo circulo 738 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { FlagDigital ligado a ponto "aberto"\ncom alarme não reconhecido\nem base com COR_ANREC_FLAG_DIG } { } NE 0 2 { 236.7 212.4 252.7 228.4 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+SigLinha pline2 739 BaixoRelevo 0 { } IGN 0 0 { } { } <OFFSET> ENTRAVEL { } { } NE 0 5 { 242.5 227.0 242.5 214.4 250.6 217.1 243.6 220.1 243.6 227.0 } 2 { COR_ANREC_FLAG_DIG COR_ANREC_FLAG_DIG } FECHADO CHEIO ENUM_BG 
+#SigGrupo group 841 BaixoRelevo 738 739
+SigCirculo circulo 737 BaixoRelevo 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { FlagDigital ligado a ponto "fechado"\ncom alarme não reconhecido\nem base com COR_ANREC_FLAG_DIG } { } NE 0 2 { 272.7 212.4 288.7 228.4 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+SigLinha pline2 741 BaixoRelevo 0 { } IGN 0 0 { } { } <OFFSET> ENTRAVEL { } { } NE 0 5 { 278.5 227.0 278.5 214.4 286.6 217.1 279.6 220.1 279.6 227.0 } 2 { COR_ANREC_FLAG_DIG COR_ANREC_FLAG_DIG } FECHADO CHEIO ENUM_BG 
+#SigGrupo group 842 BaixoRelevo 737 741
+SigRetangulo retangulo 912 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 440.0 36.0 440.0 36.0 452.0 20.0 452.0 } 2 { IGN PRETO } CHEIO ENUM_FG 
+SigRetangulo retangulo 920 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 440.0 52.0 440.0 52.0 452.0 36.0 452.0 } 2 { IGN GRAFITE } CHEIO ENUM_FG 
+SigRetangulo retangulo 922 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 440.0 68.0 440.0 68.0 452.0 52.0 452.0 } 2 { IGN CARBONO } CHEIO ENUM_FG 
+SigRetangulo retangulo 924 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 440.0 84.0 440.0 84.0 452.0 68.0 452.0 } 2 { IGN CINZA_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 926 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 440.0 100.0 440.0 100.0 452.0 84.0 452.0 } 2 { IGN CINZA_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 928 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 440.0 116.0 440.0 116.0 452.0 100.0 452.0 } 2 { IGN CINZA_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 930 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 440.0 132.0 440.0 132.0 452.0 116.0 452.0 } 2 { IGN CINZA } CHEIO ENUM_FG 
+SigRetangulo retangulo 932 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 440.0 148.0 440.0 148.0 452.0 132.0 452.0 } 2 { IGN CINZA_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 934 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 148.0 440.0 164.0 440.0 164.0 452.0 148.0 452.0 } 2 { IGN GELO } CHEIO ENUM_FG 
+SigRetangulo retangulo 936 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 164.0 440.0 180.0 440.0 180.0 452.0 164.0 452.0 } 2 { IGN AREIA } CHEIO ENUM_FG 
+SigRetangulo retangulo 938 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 180.0 440.0 196.0 440.0 196.0 452.0 180.0 452.0 } 2 { IGN GESSO } CHEIO ENUM_FG 
+SigRetangulo retangulo 940 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 196.0 440.0 212.0 440.0 212.0 452.0 196.0 452.0 } 2 { IGN BRANCO } CHEIO ENUM_FG 
+SigRetangulo retangulo 942 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 454.0 36.0 454.0 36.0 466.0 20.0 466.0 } 2 { IGN BEGE_BLACK } CHEIO ENUM_FG 
+SigRetangulo retangulo 944 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 454.0 68.0 454.0 68.0 466.0 52.0 466.0 } 2 { IGN BEGE_DARK } CHEIO ENUM_FG 
+SigRetangulo retangulo 946 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 454.0 84.0 454.0 84.0 466.0 68.0 466.0 } 2 { IGN BEGE_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 948 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 454.0 100.0 454.0 100.0 466.0 84.0 466.0 } 2 { IGN BEGE_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 950 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 454.0 116.0 454.0 116.0 466.0 100.0 466.0 } 2 { IGN BEGE_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 952 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 454.0 132.0 454.0 132.0 466.0 116.0 466.0 } 2 { IGN BEGE } CHEIO ENUM_FG 
+SigRetangulo retangulo 954 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 454.0 148.0 454.0 148.0 466.0 132.0 466.0 } 2 { IGN BEGE_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 956 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 148.0 454.0 164.0 454.0 164.0 466.0 148.0 466.0 } 2 { IGN BEGE_PALIDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 958 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 468.0 36.0 468.0 36.0 480.0 20.0 480.0 } 2 { IGN AZUL_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 960 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 468.0 52.0 468.0 52.0 480.0 36.0 480.0 } 2 { IGN AZUL_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 962 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 468.0 68.0 468.0 68.0 480.0 52.0 480.0 } 2 { IGN AZUL_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 964 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 468.0 84.0 468.0 84.0 480.0 68.0 480.0 } 2 { IGN AZUL_MARINHO } CHEIO ENUM_FG 
+SigRetangulo retangulo 966 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 468.0 100.0 468.0 100.0 480.0 84.0 480.0 } 2 { IGN AZUL } CHEIO ENUM_FG 
+SigRetangulo retangulo 968 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 468.0 116.0 468.0 116.0 480.0 100.0 480.0 } 2 { IGN AZUL_CELESTE } CHEIO ENUM_FG 
+SigRetangulo retangulo 970 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 468.0 132.0 468.0 132.0 480.0 116.0 480.0 } 2 { IGN AZUL_ROYAL } CHEIO ENUM_FG 
+SigRetangulo retangulo 972 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 468.0 148.0 468.0 148.0 480.0 132.0 480.0 } 2 { IGN AZUL_MEDIO2 } CHEIO ENUM_FG 
+SigRetangulo retangulo 974 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 148.0 468.0 164.0 468.0 164.0 480.0 148.0 480.0 } 2 { IGN AZUL_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 976 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 164.0 468.0 180.0 468.0 180.0 480.0 164.0 480.0 } 2 { IGN AZUL_PALIDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 978 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 482.0 36.0 482.0 36.0 494.0 20.0 494.0 } 2 { IGN AZUL_STEEL_DARK } CHEIO ENUM_FG 
+SigRetangulo retangulo 980 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 482.0 52.0 482.0 52.0 494.0 36.0 494.0 } 2 { IGN AZUL_CADET_DARK } CHEIO ENUM_FG 
+SigRetangulo retangulo 982 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 482.0 68.0 482.0 68.0 494.0 52.0 494.0 } 2 { IGN AZUL_STEEL_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 984 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 482.0 84.0 482.0 84.0 494.0 68.0 494.0 } 2 { IGN AZUL_CADET_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 986 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 482.0 100.0 482.0 100.0 494.0 84.0 494.0 } 2 { IGN AZUL_STEEL_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 988 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 482.0 116.0 482.0 116.0 494.0 100.0 494.0 } 2 { IGN AZUL_STEEL } CHEIO ENUM_FG 
+SigRetangulo retangulo 990 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 482.0 132.0 482.0 132.0 494.0 116.0 494.0 } 2 { IGN AZUL_CADET_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 992 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 482.0 148.0 482.0 148.0 494.0 132.0 494.0 } 2 { IGN AZUL_CADET } CHEIO ENUM_FG 
+SigRetangulo retangulo 994 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 148.0 482.0 164.0 482.0 164.0 494.0 148.0 494.0 } 2 { IGN AZUL_STEEL_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 996 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 164.0 482.0 180.0 482.0 180.0 494.0 164.0 494.0 } 2 { IGN AZUL_CADET_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 998 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 496.0 36.0 496.0 36.0 508.0 20.0 508.0 } 2 { IGN OCEANO_DARK } CHEIO ENUM_FG 
+SigRetangulo retangulo 1000 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 496.0 52.0 496.0 52.0 508.0 36.0 508.0 } 2 { IGN OCEANO_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1002 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 496.0 68.0 496.0 68.0 508.0 52.0 508.0 } 2 { IGN OCEANO_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1004 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 496.0 84.0 496.0 84.0 508.0 68.0 508.0 } 2 { IGN OCEANO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1006 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 496.0 100.0 496.0 100.0 508.0 84.0 508.0 } 2 { IGN OCEANO_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1008 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 496.0 116.0 496.0 116.0 508.0 100.0 508.0 } 2 { IGN CIANO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1010 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 496.0 132.0 496.0 132.0 508.0 116.0 508.0 } 2 { IGN CIANO_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1012 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 496.0 148.0 496.0 148.0 508.0 132.0 508.0 } 2 { IGN AGUA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1014 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 510.0 36.0 510.0 36.0 522.0 20.0 522.0 } 2 { IGN VERDE_BLACK } CHEIO ENUM_FG 
+SigRetangulo retangulo 1016 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 510.0 52.0 510.0 52.0 522.0 36.0 522.0 } 2 { IGN VERDE_DARK } CHEIO ENUM_FG 
+SigRetangulo retangulo 1018 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 510.0 68.0 510.0 68.0 522.0 52.0 522.0 } 2 { IGN VERDE_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1020 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 510.0 84.0 510.0 84.0 522.0 68.0 522.0 } 2 { IGN VERDE_LIMO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1022 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 510.0 100.0 510.0 100.0 522.0 84.0 522.0 } 2 { IGN VERDE_MUSGO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1024 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 510.0 116.0 510.0 116.0 522.0 100.0 522.0 } 2 { IGN VERDE_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1028 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 510.0 132.0 510.0 132.0 522.0 116.0 522.0 } 2 { IGN VERDE_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1030 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 510.0 148.0 510.0 148.0 522.0 132.0 522.0 } 2 { IGN VERDE } CHEIO ENUM_FG 
+SigRetangulo retangulo 1032 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 148.0 510.0 164.0 510.0 164.0 522.0 148.0 522.0 } 2 { IGN VERDE_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1034 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 164.0 510.0 180.0 510.0 180.0 522.0 164.0 522.0 } 2 { IGN LIMA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1036 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 180.0 510.0 196.0 510.0 196.0 522.0 180.0 522.0 } 2 { IGN VERDE_PALIDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1038 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 524.0 36.0 524.0 36.0 536.0 20.0 536.0 } 2 { IGN AMBAR } CHEIO ENUM_FG 
+SigRetangulo retangulo 1040 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 524.0 52.0 524.0 52.0 536.0 36.0 536.0 } 2 { IGN AZEITE } CHEIO ENUM_FG 
+SigRetangulo retangulo 1042 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 524.0 68.0 524.0 68.0 536.0 52.0 536.0 } 2 { IGN CASTANHO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1044 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 524.0 84.0 524.0 84.0 536.0 68.0 536.0 } 2 { IGN VERDE_OLIVA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1046 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 524.0 100.0 524.0 100.0 536.0 84.0 536.0 } 2 { IGN OURO_VELHO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1048 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 524.0 116.0 524.0 116.0 536.0 100.0 536.0 } 2 { IGN AMARELO_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1050 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 524.0 132.0 524.0 132.0 536.0 116.0 536.0 } 2 { IGN AMARELO_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1052 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 524.0 148.0 524.0 148.0 536.0 132.0 536.0 } 2 { IGN AMARELO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1054 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 148.0 524.0 164.0 524.0 164.0 536.0 148.0 536.0 } 2 { IGN AMARELO_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1056 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 164.0 524.0 180.0 524.0 180.0 536.0 164.0 536.0 } 2 { IGN PALHA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1058 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 538.0 36.0 538.0 36.0 550.0 20.0 550.0 } 2 { IGN MARROM_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1060 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 538.0 52.0 538.0 52.0 550.0 36.0 550.0 } 2 { IGN MARROM_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1062 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 538.0 68.0 538.0 68.0 550.0 52.0 550.0 } 2 { IGN MARROM } CHEIO ENUM_FG 
+SigRetangulo retangulo 1064 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 538.0 84.0 538.0 84.0 550.0 68.0 550.0 } 2 { IGN MARROM_SELA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1066 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 538.0 100.0 538.0 100.0 550.0 84.0 550.0 } 2 { IGN MARROM_SELA2 } CHEIO ENUM_FG 
+SigRetangulo retangulo 1068 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 538.0 116.0 538.0 116.0 550.0 100.0 550.0 } 2 { IGN TELHA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1070 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 538.0 132.0 538.0 132.0 550.0 116.0 550.0 } 2 { IGN ABOBORA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1072 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 538.0 148.0 538.0 148.0 550.0 132.0 550.0 } 2 { IGN LARANJA_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1074 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 148.0 538.0 164.0 538.0 164.0 550.0 148.0 550.0 } 2 { IGN OURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1076 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 164.0 538.0 180.0 538.0 180.0 550.0 164.0 550.0 } 2 { IGN LARANJA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1078 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 180.0 538.0 196.0 538.0 196.0 550.0 180.0 550.0 } 2 { IGN OURO_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1080 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 552.0 36.0 552.0 36.0 564.0 20.0 564.0 } 2 { IGN VERMELHO_DARK } CHEIO ENUM_FG 
+SigRetangulo retangulo 1082 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 552.0 52.0 552.0 52.0 564.0 36.0 564.0 } 2 { IGN VERMELHO_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1084 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 552.0 68.0 552.0 68.0 564.0 52.0 564.0 } 2 { IGN VERMELHO_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1086 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 552.0 84.0 552.0 84.0 564.0 68.0 564.0 } 2 { IGN VINHO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1088 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 552.0 100.0 552.0 100.0 564.0 84.0 564.0 } 2 { IGN VERMELHO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1090 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 552.0 116.0 552.0 116.0 564.0 100.0 564.0 } 2 { IGN VERMELHO_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1092 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 552.0 132.0 552.0 132.0 564.0 116.0 564.0 } 2 { IGN SALMON } CHEIO ENUM_FG 
+SigRetangulo retangulo 1094 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 552.0 148.0 552.0 148.0 564.0 132.0 564.0 } 2 { IGN ROSA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1096 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 148.0 552.0 164.0 552.0 164.0 564.0 148.0 564.0 } 2 { IGN ROSA_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1098 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 566.0 36.0 566.0 36.0 578.0 20.0 578.0 } 2 { IGN MAGENTA_DARK } CHEIO ENUM_FG 
+SigRetangulo retangulo 1100 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 566.0 52.0 566.0 52.0 578.0 36.0 578.0 } 2 { IGN MAGENTA_PROFUNDO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1102 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 566.0 68.0 566.0 68.0 578.0 52.0 578.0 } 2 { IGN MAGENTA_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1104 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 566.0 84.0 566.0 84.0 578.0 68.0 578.0 } 2 { IGN MAGENTA_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1106 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 566.0 100.0 566.0 100.0 578.0 84.0 578.0 } 2 { IGN MAGENTA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1108 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 566.0 116.0 566.0 116.0 578.0 100.0 578.0 } 2 { IGN MAGENTA_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1112 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 566.0 132.0 566.0 132.0 578.0 116.0 578.0 } 2 { IGN LILAS_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1114 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 132.0 566.0 148.0 566.0 148.0 578.0 132.0 578.0 } 2 { IGN LILAS } CHEIO ENUM_FG 
+SigRetangulo retangulo 1116 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 20.0 580.0 36.0 580.0 36.0 592.0 20.0 592.0 } 2 { IGN ROXO_DARK } CHEIO ENUM_FG 
+SigRetangulo retangulo 1118 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 580.0 52.0 580.0 52.0 592.0 36.0 592.0 } 2 { IGN ROXO_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1120 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 52.0 580.0 68.0 580.0 68.0 592.0 52.0 592.0 } 2 { IGN ROXO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1122 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 68.0 580.0 84.0 580.0 84.0 592.0 68.0 592.0 } 2 { IGN VIOLETA_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1124 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 84.0 580.0 100.0 580.0 100.0 592.0 84.0 592.0 } 2 { IGN VIOLETA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1126 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 100.0 580.0 116.0 580.0 116.0 592.0 100.0 592.0 } 2 { IGN VIOLETA_CLARO } CHEIO ENUM_FG 
+SigRetangulo retangulo 1128 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 116.0 580.0 132.0 580.0 132.0 592.0 116.0 592.0 } 2 { IGN LAVANDA } CHEIO ENUM_FG 
+SigRetangulo retangulo 1130 BaixoRelevo 0 { } IGN 0 1 { COR_FUNDO CORBG } { } <OFFSET> ENTRAVEL { $vt_corbg } { } NE 0 4 { 36.0 454.0 52.0 454.0 52.0 466.0 36.0 466.0 } 2 { IGN MARROM } CHEIO ENUM_FG 
+SigRetangulo retangulo 260 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 613.3 186.0 653.3 186.0 653.3 206.0 613.3 206.0 } 2 { COR_AINIB IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 263 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 613.3 212.0 653.3 212.0 653.3 232.0 613.3 232.0 } 2 { COR_AUREC IGN } CHEIO ENUM_FG 
+SigTexto texto8 339 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 544.0 3.5 622.1 3.5 622.1 20.5 544.0 20.5 } 2 { BRANCO PRETO } 0.0 {Analógicos} %10s FONTE_IDENT_2
+SigTexto texto8 353 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 108.5 3.5 160.6 3.5 160.6 20.5 108.5 20.5 } 2 { BRANCO PRETO } 0.0 {Digitais} %8s FONTE_IDENT_2
+SigTexto texto8 93 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 310.4 99.5 449.6 99.5 449.6 116.5 310.4 116.5 } 2 { BRANCO PRETO } 0.0 {Não Supervisionado} %18s FONTE_IDENT_2
+SigTexto texto8 99 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 309.9 67.5 418.1 67.5 418.1 84.5 309.9 84.5 } 2 { BRANCO PRETO } 0.0 {Supervisionado} %14s FONTE_IDENT_2
+SigTexto texto8 107 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 313.4 211.5 486.6 211.5 486.6 228.5 313.4 228.5 } 2 { BRANCO PRETO } 0.0 {Alarme Não Reconhecido} %22s FONTE_IDENT_2
+SigTexto texto8 368 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 311.4 263.5 456.6 263.5 456.6 280.5 311.4 280.5 } 2 { BRANCO PRETO } 0.0 {Configuração Normal} %19s FONTE_IDENT_2
+SigTexto texto8 377 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 311.4 299.5 512.6 299.5 512.6 316.5 311.4 316.5 } 2 { BRANCO PRETO } 0.0 {Fora da Configuração Normal} %27s FONTE_IDENT_2
+SigTexto texto8 455 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 310.4 139.5 409.6 139.5 409.6 156.5 310.4 156.5 } 2 { BRANCO PRETO } 0.0 {Alarme Inibido} %14s FONTE_IDENT_2
+SigTexto texto8 467 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 310.9 175.5 465.1 175.5 465.1 192.5 310.9 192.5 } 2 { BRANCO PRETO } 0.0 {Auto-Reconhecimento} %19s FONTE_IDENT_2
+SigTexto texto8 74 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 677.0 239.5 841.2 239.5 841.2 256.5 677.0 256.5 } 2 { BRANCO PRETO } 0.0 {Fora de Varredura Local} %23s FONTE_IDENT_2
+SigTexto texto8 76 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 675.0 291.5 713.0 291.5 713.0 308.5 675.0 308.5 } 2 { BRANCO PRETO } 0.0 {Falha} %5s FONTE_IDENT_2
+SigTexto texto8 82 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 678.5 265.5 874.7 265.5 874.7 282.5 678.5 282.5 } 2 { BRANCO PRETO } 0.0 {Fora de Varredura na Origem} %27s FONTE_IDENT_2
+SigTexto texto8 86 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.0 317.5 805.1 317.5 805.1 334.5 676.0 334.5 } 2 { BRANCO PRETO } 0.0 {Inválido na Origem} %18s FONTE_IDENT_2
+SigTexto texto8 88 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.5 369.5 815.6 369.5 815.6 386.5 676.5 386.5 } 2 { BRANCO PRETO } 0.0 {Não Supervisionado} %18s FONTE_IDENT_2
+SigTexto texto8 95 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 675.5 187.5 774.6 187.5 774.6 204.5 675.5 204.5 } 2 { BRANCO PRETO } 0.0 {Alarme Inibido} %14s FONTE_IDENT_2
+SigTexto texto8 97 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.5 421.5 800.6 421.5 800.6 438.5 676.5 438.5 } 2 { BRANCO PRETO } 0.0 {Erro de Estimação} %17s FONTE_IDENT_2
+SigTexto texto8 103 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 677.5 499.5 878.7 499.5 878.7 516.5 677.5 516.5 } 2 { BRANCO PRETO } 0.0 {Alarme Não Rec. (Nó Elétrico)} %29s FONTE_IDENT_2
+SigTexto texto8 105 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.0 213.5 902.2 213.5 902.2 230.5 676.0 230.5 } 2 { BRANCO PRETO } 0.0 {Auto-Reconhecimento de Alarme} %29s FONTE_IDENT_2
+SigTexto texto8 231 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 675.5 57.5 757.6 57.5 757.6 74.5 675.5 74.5 } 2 { BRANCO PRETO } 0.0 {Advertência} %11s FONTE_IDENT_2
+SigTexto texto8 232 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.0 83.5 737.0 83.5 737.0 100.5 676.0 100.5 } 2 { BRANCO PRETO } 0.0 {Urgência} %8s FONTE_IDENT_2
+SigTexto texto8 233 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 675.0 109.5 720.0 109.5 720.0 126.5 675.0 126.5 } 2 { BRANCO PRETO } 0.0 {Escala} %6s FONTE_IDENT_2
+SigTexto texto8 249 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 675.0 135.5 767.1 135.5 767.1 152.5 675.0 152.5 } 2 { BRANCO PRETO } 0.0 {Manual Local} %12s FONTE_IDENT_2
+SigTexto texto8 251 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.5 161.5 800.6 161.5 800.6 178.5 676.5 178.5 } 2 { BRANCO PRETO } 0.0 {Manual na Origem} %16s FONTE_IDENT_2
+SigTexto texto8 471 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.0 31.5 724.0 31.5 724.0 48.5 676.0 48.5 } 2 { BRANCO PRETO } 0.0 {Normal} %6s FONTE_IDENT_2
+SigTexto texto8 555 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 122.4 47.5 154.5 47.5 154.5 58.5 122.4 58.5 } 2 { BRANCO PRETO } 0.0 {Aberto} %6s FONTE_IDENT_4
+SigTexto texto8 557 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 163.0 47.5 205.1 47.5 205.1 58.5 163.0 58.5 } 2 { BRANCO PRETO } 0.0 {Fechado} %7s FONTE_IDENT_4
+SigCirculo circulo6 278 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 625.3 495.0 651.3 521.0 } 2 { COR_ANREC_ANA IGN } CHEIO ENUM_FG 
+SigCirculo circulo6 560 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 629.3 499.0 647.3 517.0 } 2 { COR_NORM_ANA COR_NORM_ANA } CHEIO ENUM_FG 
+SigTexto texto8 578 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 677.0 447.5 831.1 447.5 831.1 464.5 677.0 464.5 } 2 { BRANCO PRETO } 0.0 {Cálculo com Restrição} %21s FONTE_IDENT_2
+SigTexto texto8 586 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.0 473.5 775.1 473.5 775.1 490.5 676.0 490.5 } 2 { BRANCO PRETO } 0.0 {Sinal Invertido} %15s FONTE_IDENT_2
+SigTexto texto8 594 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.5 395.5 897.7 395.5 897.7 412.5 676.5 412.5 } 2 { BRANCO PRETO } 0.0 {Substituído pelo Valor Estimado} %31s FONTE_IDENT_2
+SigTexto texto8 695 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 309.4 339.5 418.6 339.5 418.6 356.5 309.4 356.5 } 2 { BRANCO PRETO } 0.0 {Não Inicializado} %16s FONTE_IDENT_2
+SigTexto texto8 703 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 13.0 411.5 107.1 411.5 107.1 428.5 13.0 428.5 } 2 { BRANCO PRETO } 0.0 {Cor de Fundo} %12s FONTE_IDENT_2
+SigTexto texto,alinha=left 705 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 11.0 3.0 83.0 3.0 83.0 37.0 11.0 37.0 } 2 { BRANCO PRETO } 0.0 {Níveis\nde Tensão} %17s FONTE_IDENT_2
+SigTexto texto8 709 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 675.0 343.5 772.1 343.5 772.1 360.5 675.0 360.5 } 2 { BRANCO PRETO } 0.0 {Razoabilidade} %13s FONTE_IDENT_2
+SigTexto texto8 769 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 314.9 232.5 489.1 232.5 489.1 243.5 314.9 243.5 } 2 { BRANCO PRETO } 0.0 {(com/sem COR_ANREC_FLAG_DIG)} %28s FONTE_IDENT_4
+SigTexto texto8 772 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 228.4 47.5 260.5 47.5 260.5 58.5 228.4 58.5 } 2 { BRANCO PRETO } 0.0 {Aberto} %6s FONTE_IDENT_4
+SigTexto texto8 773 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 269.0 47.5 311.1 47.5 311.1 58.5 269.0 58.5 } 2 { BRANCO PRETO } 0.0 {Fechado} %7s FONTE_IDENT_4
+SigTexto texto8 775 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.5 29.5 193.5 29.5 193.5 46.5 130.5 46.5 } 2 { BRANCO PRETO } 0.0 {Disjuntor} %9s FONTE_IDENT_2
+SigTexto texto8 777 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 229.0 29.5 303.0 29.5 303.0 46.5 229.0 46.5 } 2 { BRANCO PRETO } 0.0 {FlagDigital} %11s FONTE_IDENT_2
+SigRetangulo retangulo 503 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 166.0 218.0 186.0 218.0 186.0 238.0 166.0 238.0 } 2 { COR_ANREC_DIG IGN } CHEIO ENUM_FG 
+SigLinha pline2 550 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 166.0 228.0 170.0 228.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 551 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 182.0 228.0 186.0 228.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 552 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 170.0 222.1 182.0 222.1 182.0 234.1 170.0 234.1 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+#SigGrupo group 553 Sombra 503 550 551 552
+SigLinha pline2 546 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 126.0 228.0 130.0 228.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 547 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 142.0 228.0 146.0 228.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 548 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.0 222.1 142.0 222.1 142.0 234.1 130.0 234.1 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 319 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 126.0 218.0 146.0 218.0 146.0 238.0 126.0 238.0 } 2 { COR_ANREC_DIG IGN } CHEIO ENUM_FG 
+#SigGrupo group 549 Sombra 546 547 548 319
+SigLinha pline2 530 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 126.0 182.0 130.0 182.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 531 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 142.0 182.0 146.0 182.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 532 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.0 176.1 142.0 176.1 142.0 188.1 130.0 188.1 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 466 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 126.0 172.0 146.0 172.0 146.0 192.0 126.0 192.0 } 2 { COR_AUREC IGN } CHEIO ENUM_FG 
+#SigGrupo group 533 Sombra 530 531 532 466
+SigLinha pline2 534 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 166.0 182.0 170.0 182.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 535 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 182.0 182.0 186.0 182.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 536 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 170.0 176.1 182.0 176.1 182.0 188.1 170.0 188.1 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+SigRetangulo retangulo 521 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 166.0 172.0 186.0 172.0 186.0 192.0 166.0 192.0 } 2 { COR_AUREC IGN } CHEIO ENUM_FG 
+#SigGrupo group 537 Sombra 534 535 536 521
+SigLinha pline2 512 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 166.0 146.0 170.0 146.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 513 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 182.0 146.0 186.0 146.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 514 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 170.0 140.1 182.0 140.1 182.0 152.1 170.0 152.1 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+SigRetangulo retangulo 516 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 166.0 136.0 186.0 136.0 186.0 156.0 166.0 156.0 } 2 { COR_AINIB IGN } CHEIO ENUM_FG 
+#SigGrupo group 779 Sombra 512 513 514 516
+SigLinha pline2 450 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 126.0 146.0 130.0 146.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 451 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 142.0 146.0 146.0 146.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 452 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.0 140.1 142.0 140.1 142.0 152.1 130.0 152.1 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+SigRetangulo retangulo 454 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 126.0 136.0 146.0 136.0 146.0 156.0 126.0 156.0 } 2 { COR_AINIB IGN } CHEIO ENUM_FG 
+#SigGrupo group 453 Sombra 450 451 452 454
+SigLinha pline2 382 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 126.0 110.0 130.0 110.0 } 2 { COR_NOSUP_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 384 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 142.0 110.0 146.0 110.0 } 2 { COR_NOSUP_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 386 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.0 104.0 142.0 104.0 142.0 116.0 130.0 116.0 } 2 { COR_NOSUP_ABERTO IGN } CHEIO ENUM_FG 
+#SigGrupo group 387 Sombra 382 384 386
+SigLinha pline2 392 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 166.0 110.0 170.0 110.0 } 2 { COR_NOSUP_FECHADO COR_NOSUP_FECHADO } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 393 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 182.0 110.0 186.0 110.0 } 2 { COR_NOSUP_FECHADO COR_NOSUP_FECHADO } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 394 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 170.0 104.0 182.0 104.0 182.0 116.0 170.0 116.0 } 2 { COR_NOSUP_FECHADO COR_NOSUP_FECHADO } CHEIO ENUM_FG 
+#SigGrupo group 780 Sombra 392 393 394
+SigLinha pline2 408 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 126.0 74.0 130.0 74.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 409 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 142.0 74.0 146.0 74.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 410 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.0 68.0 142.0 68.0 142.0 80.0 130.0 80.0 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+#SigGrupo group 411 Sombra 408 409 410
+SigLinha pline2 400 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 166.0 74.0 170.0 74.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 401 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 182.0 74.0 186.0 74.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 402 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 170.0 68.0 182.0 68.0 182.0 80.0 170.0 80.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+#SigGrupo group 781 Sombra 400 401 402
+SigLinha pline2 431 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 126.0 272.0 130.0 272.0 } 2 { COR_CONF_NORM IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 432 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 142.0 272.0 146.0 272.0 } 2 { COR_CONF_NORM IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 433 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.0 266.0 142.0 266.0 142.0 278.0 130.0 278.0 } 2 { COR_CONF_NORM IGN } CHEIO ENUM_FG 
+#SigGrupo group 434 Sombra 431 432 433
+SigLinha pline2 508 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 166.0 272.0 170.0 272.0 } 2 { COR_CONF_NORM COR_CONF_NORM } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 509 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 182.0 272.0 186.0 272.0 } 2 { COR_CONF_NORM COR_CONF_NORM } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 510 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 170.0 266.0 182.0 266.0 182.0 278.0 170.0 278.0 } 2 { COR_CONF_NORM COR_CONF_NORM } CHEIO ENUM_FG 
+#SigGrupo group 782 Sombra 508 509 510
+SigLinha pline2 427 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 126.0 308.0 130.0 308.0 } 2 { COR_CONF_ANORM IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 428 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 142.0 308.0 146.0 308.0 } 2 { COR_CONF_ANORM IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 429 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.0 302.0 142.0 302.0 142.0 314.0 130.0 314.0 } 2 { COR_CONF_ANORM IGN } CHEIO ENUM_FG 
+#SigGrupo group 430 Sombra 427 428 429
+SigLinha pline2 504 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 166.0 308.0 170.0 308.0 } 2 { COR_CONF_ANORM COR_CONF_ANORM } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 505 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 182.0 308.0 186.0 308.0 } 2 { COR_CONF_ANORM COR_CONF_ANORM } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 506 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 170.0 302.0 182.0 302.0 182.0 314.0 170.0 314.0 } 2 { COR_CONF_ANORM COR_CONF_ANORM } CHEIO ENUM_FG 
+#SigGrupo group 783 Sombra 504 505 506
+SigTexto texto8 821 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 309.9 381.5 423.1 381.5 423.1 398.5 309.9 398.5 } 2 { BRANCO PRETO } 0.0 {Estado Invertido} %16s FONTE_IDENT_2
+SigLinha pline2 822 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 166.0 388.0 170.0 388.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 823 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 182.0 388.0 186.0 388.0 } 2 { COR_CONF_NORM_ABERTO IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 824 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 170.0 382.0 182.0 382.0 182.0 394.0 170.0 394.0 } 2 { COR_CONF_NORM_ABERTO IGN } CHEIO ENUM_FG 
+#SigGrupo group 825 Sombra 822 823 824
+SigLinha pline2 826 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 126.0 388.0 130.0 388.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 827 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 142.0 388.0 146.0 388.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 828 Sombra 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.0 382.0 142.0 382.0 142.0 394.0 130.0 394.0 } 2 { COR_CONF_NORM_FECHADO COR_CONF_NORM_FECHADO } CHEIO ENUM_FG 
+#SigGrupo group 829 Sombra 826 827 828
+SigTexto texto8 14 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 23.5 53.5 80.5 53.5 80.5 74.5 23.5 74.5 } 2 { COR_700_KV IGN } 0.0 {700 kV} %6s FONTE_IDENT_1
+SigTexto texto8 16 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 23.5 149.5 80.5 149.5 80.5 170.5 23.5 170.5 } 2 { COR_500_KV IGN } 0.0 {500 kV} %6s FONTE_IDENT_1
+SigTexto texto8 18 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 23.5 197.5 80.5 197.5 80.5 218.5 23.5 218.5 } 2 { COR_345_KV IGN } 0.0 {345 kV} %6s FONTE_IDENT_1
+SigTexto texto8 22 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 33.5 245.5 80.5 245.5 80.5 266.5 33.5 266.5 } 2 { COR_20_KV IGN } 0.0 {20 kV} %5s FONTE_IDENT_1
+SigTexto texto 225 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Medida na região de Advertência } { } NE 0 4 { 618.3 56.0 648.3 56.0 648.3 76.0 618.3 76.0 } 2 { COR_ADV IGN } 0.0 {120} %3s FONTE_MEDIDA
+SigTexto texto 226 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Medida na região de Urgência } { } NE 0 4 { 618.3 82.0 648.3 82.0 648.3 102.0 618.3 102.0 } 2 { COR_URG IGN } 0.0 {140} %3s FONTE_MEDIDA
+SigTexto texto 227 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Medida na região de Escala } { } NE 0 4 { 618.3 108.0 648.3 108.0 648.3 128.0 618.3 128.0 } 2 { COR_ESC IGN } 0.0 {150} %3s FONTE_MEDIDA
+SigTexto texto 237 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Medida na região de Advertência\ncom Alarme Não Reconhecido } { } NE 0 4 { 552.3 56.0 602.3 56.0 602.3 76.0 552.3 76.0 } 2 { COR_ADV_BLINK_FG COR_ADV_BLINK_BG } 0.0 { 120 } %5s FONTE_MEDIDA
+SigTexto texto 238 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Medida na região de Urgência\ncom Alarme Não Reconhecido } { } NE 0 4 { 552.3 82.0 602.3 82.0 602.3 102.0 552.3 102.0 } 2 { COR_URG_BLINK_FG COR_URG_BLINK_BG } 0.0 { 140 } %5s FONTE_MEDIDA
+SigTexto texto 239 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Medida na região de Escala\ncom Alarme Não Reconhecido } { } NE 0 4 { 552.3 108.0 602.3 108.0 602.3 128.0 552.3 128.0 } 2 { COR_ESC_BLINK_FG COR_ESC_BLINK_BG } 0.0 { 150 } %5s FONTE_MEDIDA
+SigTexto texto8 255 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 618.3 134.0 648.3 134.0 648.3 154.0 618.3 154.0 } 2 { COR_MANUA IGN } 0.0 {125} %3s FONTE_MEDIDA
+SigTexto texto8 257 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 618.3 160.0 648.3 160.0 648.3 180.0 618.3 180.0 } 2 { COR_MANUA IGN } 0.0 {125} %3s FONTE_MEDIDA
+SigTexto texto8 259 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 628.3 186.0 648.3 186.0 648.3 206.0 628.3 206.0 } 2 { IGN IGN } 0.0 {30} %2s FONTE_MEDIDA
+SigTexto texto8 264 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 628.3 212.0 648.3 212.0 648.3 232.0 628.3 232.0 } 2 { IGN IGN } 0.0 {30} %2s FONTE_MEDIDA
+SigTexto texto8 266 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 618.3 238.0 648.3 238.0 648.3 258.0 618.3 258.0 } 2 { COR_FOVAR IGN } 0.0 {130} %3s FONTE_MEDIDA
+SigTexto texto8 268 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 618.3 264.0 648.3 264.0 648.3 284.0 618.3 284.0 } 2 { COR_FVORG IGN } 0.0 {130} %3s FONTE_MEDIDA
+SigTexto texto8 272 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 618.3 290.0 648.3 290.0 648.3 310.0 618.3 310.0 } 2 { COR_FALHA IGN } 0.0 {130} %3s FONTE_MEDIDA
+SigTexto texto8 274 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 618.3 316.0 648.3 316.0 648.3 336.0 618.3 336.0 } 2 { COR_IVORG IGN } 0.0 {130} %3s FONTE_MEDIDA
+SigTexto texto8 276 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 638.3 368.0 648.3 368.0 648.3 388.0 638.3 388.0 } 2 { COR_NOSUP IGN } 0.0 {0} %1s FONTE_MEDIDA
+SigTexto texto8 321 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 628.3 420.0 648.3 420.0 648.3 440.0 628.3 440.0 } 2 { COR_ERREE IGN } 0.0 {90} %2s FONTE_MEDIDA
+SigTexto texto 470 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Medida na região Normal } { } NE 0 4 { 628.3 30.0 648.3 30.0 648.3 50.0 628.3 50.0 } 2 { COR_NORM_ANA IGN } 0.0 {80} %2s FONTE_MEDIDA
+SigTexto texto8 473 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 628.3 186.0 648.3 186.0 648.3 206.0 628.3 206.0 } 2 { COR_NORM_ANA IGN } 0.0 {80} %2s FONTE_MEDIDA
+SigTexto texto8 475 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 628.3 212.0 648.3 212.0 648.3 232.0 628.3 232.0 } 2 { COR_NORM_ANA IGN } 0.0 {80} %2s FONTE_MEDIDA
+SigTexto texto 559 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Medida na região Normal\ncom Alarme Não Reconhecido } { } NE 0 4 { 549.3 30.0 609.3 30.0 609.3 50.0 549.3 50.0 } 2 { PRETO COR_NORM_DIG } 0.0 {   80 } %6s FONTE_MEDIDA
+SigTexto texto8 562 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 134.0 662.3 134.0 662.3 154.0 652.3 154.0 } 2 { OURO IGN } 0.0 {m} %1s FONTE_MEDIDA
+SigTexto texto8 564 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 160.0 662.3 160.0 662.3 180.0 652.3 180.0 } 2 { BRANCO IGN } 0.0 {m} %1s FONTE_MEDIDA
+SigTexto texto8 566 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 238.0 662.3 238.0 662.3 258.0 652.3 258.0 } 2 { OURO IGN } 0.0 {d} %1s FONTE_MEDIDA
+SigTexto texto8 568 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 264.0 662.3 264.0 662.3 284.0 652.3 284.0 } 2 { BRANCO IGN } 0.0 {d} %1s FONTE_MEDIDA
+SigTexto texto8 570 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 290.0 662.3 290.0 662.3 310.0 652.3 310.0 } 2 { OURO IGN } 0.0 {x} %1s FONTE_MEDIDA
+SigTexto texto8 572 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 316.0 662.3 316.0 662.3 336.0 652.3 336.0 } 2 { BRANCO IGN } 0.0 {x} %1s FONTE_MEDIDA
+SigTexto texto8 574 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 368.0 662.3 368.0 662.3 388.0 652.3 388.0 } 2 { CIANO IGN } 0.0 {n} %1s FONTE_MEDIDA
+SigTexto texto8 580 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 446.0 662.3 446.0 662.3 466.0 652.3 466.0 } 2 { OURO IGN } 0.0 {r} %1s FONTE_MEDIDA
+SigTexto texto8 582 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 628.3 446.0 648.3 446.0 648.3 466.0 628.3 466.0 } 2 { COR_NORM_ANA IGN } 0.0 {80} %2s FONTE_MEDIDA
+SigTexto texto8 587 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 472.0 662.3 472.0 662.3 492.0 652.3 492.0 } 2 { COR_MANUA IGN } 0.0 {i} %1s FONTE_MEDIDA
+SigTexto texto8 588 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 619.3 472.0 649.3 472.0 649.3 492.0 619.3 492.0 } 2 { COR_NORM_ANA IGN } 0.0 {-80} %3s FONTE_MEDIDA
+SigTexto texto8 590 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 420.0 662.3 420.0 662.3 440.0 652.3 440.0 } 2 { AMARELO IGN } 0.0 {g} %1s FONTE_MEDIDA
+SigTexto texto8 595 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 628.3 394.0 648.3 394.0 648.3 414.0 628.3 414.0 } 2 { COR_NORM IGN } 0.0 {78} %2s FONTE_MEDIDA
+SigTexto texto8 596 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 394.0 662.3 394.0 662.3 414.0 652.3 414.0 } 2 { AMARELO IGN } 0.0 {e} %1s FONTE_MEDIDA
+SigTexto texto8 710 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 618.3 342.0 648.3 342.0 648.3 362.0 618.3 362.0 } 2 { MAGENTA IGN } 0.0 {130} %3s FONTE_MEDIDA
+SigTexto texto8 711 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 652.3 342.0 662.3 342.0 662.3 362.0 652.3 362.0 } 2 { BRANCO IGN } 0.0 {z} %1s FONTE_MEDIDA
+SigTexto texto8 756 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 254.5 351.5 261.5 351.5 261.5 368.5 254.5 368.5 } 2 { OURO IGN } 0.0 {x} %1s FONTE_INDIC_QUALID
+SigTexto texto8 757 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 290.5 351.5 297.5 351.5 297.5 368.5 290.5 368.5 } 2 { OURO IGN } 0.0 {x} %1s FONTE_INDIC_QUALID
+SigLinha pline2 691 Textos 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 166.0 348.0 170.0 348.0 } 2 { COR_NINCI COR_NINCI } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 692 Textos 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 182.0 348.0 186.0 348.0 } 2 { COR_NINCI COR_NINCI } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 693 Textos 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 170.0 342.0 182.0 342.0 182.0 354.0 170.0 354.0 } 2 { COR_NINCI COR_NINCI } CHEIO ENUM_FG 
+SigTexto texto8 697 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 184.5 351.5 191.5 351.5 191.5 368.5 184.5 368.5 } 2 { OURO IGN } 0.0 {x} %1s FONTE_INDIC_QUALID
+#SigGrupo group 690 Textos 691 692 693 697
+SigLinha pline2 687 Textos 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 126.0 348.0 130.0 348.0 } 2 { COR_NINCI IGN } ABERTO CHEIO ENUM_FG 
+SigLinha pline2 688 Textos 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 2 { 142.0 348.0 146.0 348.0 } 2 { COR_NINCI IGN } ABERTO CHEIO ENUM_FG 
+SigRetangulo retangulo 689 Textos 0 { } IGN 0 2 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 130.0 342.0 142.0 342.0 142.0 354.0 130.0 354.0 } 2 { COR_NINCI IGN } CHEIO ENUM_FG 
+SigTexto texto8 699 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 144.5 351.5 151.5 351.5 151.5 368.5 144.5 368.5 } 2 { OURO IGN } 0.0 {x} %1s FONTE_INDIC_QUALID
+SigTexto texto8 830 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 146.5 385.5 149.5 385.5 149.5 402.5 146.5 402.5 } 2 { COR_MANUA IGN } 0.0 {i} %1s FONTE_INDIC_QUALID
+SigTexto texto8 832 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 186.5 386.5 189.5 386.5 189.5 403.5 186.5 403.5 } 2 { COR_MANUA IGN } 0.0 {i} %1s FONTE_INDIC_QUALID
+SigTexto texto8 834 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 255.5 387.5 258.5 387.5 258.5 404.5 255.5 404.5 } 2 { COR_MANUA IGN } 0.0 {i} %1s FONTE_INDIC_QUALID
+SigTexto texto8 836 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 291.5 387.5 294.5 387.5 294.5 404.5 291.5 404.5 } 2 { COR_MANUA IGN } 0.0 {i} %1s FONTE_INDIC_QUALID
+SigTexto texto8 838 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 33.5 293.5 80.5 293.5 80.5 314.5 33.5 314.5 } 2 { COR_18_KV IGN } 0.0 {18 kV} %5s FONTE_IDENT_1
+SigTexto texto8 840 Textos 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 23.5 101.5 80.5 101.5 80.5 122.5 23.5 122.5 } 2 { COR_600_KV IGN } 0.0 {600 kV} %6s FONTE_IDENT_1
+SigRetangulo moldura,frame=2 597 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 544.0 24.0 922.0 24.0 922.0 556.0 544.0 556.0 } 2 { BRANCO IGN } CHEIO ENUM_FG 
+SigRetangulo moldura,frame=2 629 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 108.0 24.0 528.0 24.0 528.0 410.0 108.0 410.0 } 2 { BRANCO IGN } CHEIO ENUM_FG 
+SigRetangulo moldura,frame=2 631 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 12.0 40.0 92.0 40.0 92.0 410.0 12.0 410.0 } 2 { BRANCO IGN } CHEIO ENUM_FG 
+SigRetangulo moldura,frame=2 701 Moldura3D 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 12.0 432.0 527.0 432.0 527.0 603.0 12.0 603.0 } 2 { BRANCO IGN } CHEIO ENUM_FG 

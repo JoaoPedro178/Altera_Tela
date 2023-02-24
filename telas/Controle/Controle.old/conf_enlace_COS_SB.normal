@@ -1,0 +1,144 @@
+;
+TELA BRANCO COR_FUNDO_TELA IGN 10 nzoom 1.0 xc 595.5 yc 376.0 gridx 4.0 gridy 4.0
+
+VERSAO 1.19 
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Camada1 NAO_BLOQUEADA PRETO 0
+CAMADA Decorativos3D NAO_BLOQUEADA PRETO 0
+CAMADA Ligacoes3D NAO_BLOQUEADA CINZA_PROFUNDO 0
+CAMADA caixa3D NAO_BLOQUEADA PRETO 0
+CAMADA Juncoes NAO_BLOQUEADA PRETO 0
+CAMADA Lia3D NAO_BLOQUEADA PRETO 0
+CAMADA Controles NAO_BLOQUEADA OURO 0
+CAMADA Legenda NAO_BLOQUEADA PRETO 0
+CAMADA Placas NAO_BLOQUEADA PRETO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+CAMADA Estatistica NAO_BLOQUEADA PRETO 0
+
+FILTRO EsquemaBasico
+FILTRO ComandoDistribuicao
+FILTRO Controles
+FILTRO Legenda
+FILTRO LegendaPacotes
+FILTRO Estatisticas
+FILTRO Ingles
+FILTRO Portugues
+
+GR_FILTROS gf1 { Esquema Basico } MOSTRAR GR_OR ATIVAR 1 { EsquemaBasico }
+GR_FILTROS gf2 { Em ingles } MOSTRAR GR_OR NAO_ATIVAR 1 { Ingles }
+GR_FILTROS gf3 { Esquema Basico com Controles } MOSTRAR GR_OR NAO_ATIVAR 2 { EsquemaBasico Controles }
+GR_FILTROS gf4 { Mostrar Comando Distrib } MOSTRAR GR_OR NAO_ATIVAR 2 { EsquemaBasico ComandoDistribuicao }
+GR_FILTROS gf5 { Mostrar Comando Distrib e Controles } MOSTRAR GR_OR NAO_ATIVAR 3 { EsquemaBasico ComandoDistribuicao Controles }
+GR_FILTROS gf6 { Legenda de Pacotes } MOSTRAR GR_OR NAO_ATIVAR 3 { EsquemaBasico Legenda LegendaPacotes }
+
+LINK { Indice Geral } { Indices/Ind_Geral } POSICAO_ZOOM_ORIG
+LINK { Rede Computacional } { Controle/conf_sistema } POSICAO_ZOOM_ORIG
+
+SigBotao botao2 6180 Estatistica 1 { EsquemaBasico } IGN 0 1 { FILTRAR Estatisticas } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 21.4 542.8 144.9 542.8 144.9 568.3 21.4 568.3 } 4 { COR_BOTAO_LABEL COR_BOTAO_FACE COR_BOTAO_REFLEXO COR_BOTAO_SOMBRA } 0.0 {Estatísticas} %12s FONTE_IDENT_4
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botao2 6181 Estatistica 1 { EsquemaBasico } IGN 0 1 { FILTRAR Controles } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 21.4 507.3 144.9 507.3 144.9 532.8 21.4 532.8 } 4 { COR_BOTAO_LABEL COR_BOTAO_FACE COR_BOTAO_REFLEXO COR_BOTAO_SOMBRA } 0.0 {Controles} %9s FONTE_IDENT_4
+ 0 2 NAO_TOGGLE ESTATICO
+SigBotao botleg 6739 Estatistica 1 { EsquemaBasico } IGN 0 1 { FILTRAR Legenda } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 21.4 578.3 144.9 578.3 144.9 603.8 21.4 603.8 } 4 { COR_BOTAO_LABEL COR_BOTAO_FACE COR_BOTAO_REFLEXO COR_BOTAO_SOMBRA } 0.0 {Legenda} %7s FONTE_IDENT_4
+ 0 2 NAO_TOGGLE ESTATICO
+SigRetangulo retangulo3D 7207 Estatistica 1 { Estatisticas } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 556.0 262.3 497.4 262.3 497.4 179.7 556.0 179.7 } 2 { BRANCO CINZA_MEDIO } CHEIO ENUM_FG 
+SigRetangulo retangulo3D 7208 Estatistica 1 { Estatisticas } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 496.0 262.3 448.4 262.3 448.4 179.7 496.0 179.7 } 2 { BRANCO GELO } CHEIO ENUM_FG 
+SigInteiro celeo_nd 7209 Estatistica 1 { Estatisticas } IGN 0 1 { } { SELECT e_errtx FROM mul WHERE id = celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 510.7 233.0 540.7 233.0 540.7 245.0 510.7 245.0 } 2 { VERMELHO IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigInteiro celeo_nd 7210 Estatistica 1 { Estatisticas } IGN 0 1 { } { SELECT e_timot FROM mul WHERE id = celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 510.7 217.0 540.7 217.0 540.7 229.0 510.7 229.0 } 2 { VERMELHO IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigInteiro celeo_nd 7211 Estatistica 1 { Estatisticas } IGN 0 1 { } { SELECT e_nmltx FROM mul WHERE id = celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 510.7 201.0 540.7 201.0 540.7 213.0 510.7 213.0 } 2 { VERDE IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigInteiro celeo_nd 7212 Estatistica 1 { Estatisticas } IGN 0 1 { } { SELECT e_nmlrx FROM mul WHERE id = celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 510.7 185.0 540.7 185.0 540.7 197.0 510.7 197.0 } 2 { VERDE IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigInteiro celeo_nd 7213 Estatistica 1 { Estatisticas } IGN 0 1 { } { SELECT e_ndesc FROM mul WHERE id = celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 510.7 249.0 540.7 249.0 540.7 261.0 510.7 261.0 } 2 { VERMELHO IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigTexto texto7 7214 Estatistica 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 455.5 183.0 480.5 183.0 480.5 195.0 455.5 195.0 } 2 { PRETO IGN } 0.0 {MRX} %3s FONTE_IDENT_4
+SigTexto texto7 7215 Estatistica 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 455.5 199.0 480.5 199.0 480.5 211.0 455.5 211.0 } 2 { PRETO IGN } 0.0 {MTX} %3s FONTE_IDENT_4
+SigTexto texto7 7216 Estatistica 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 458.0 215.1 478.0 215.1 478.0 227.1 458.0 227.1 } 2 { PRETO IGN } 0.0 {TIM} %3s FONTE_IDENT_4
+SigTexto texto7 7217 Estatistica 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 457.5 233.1 478.5 233.1 478.5 245.1 457.5 245.1 } 2 { PRETO IGN } 0.0 {ETX} %3s FONTE_IDENT_4
+SigTexto texto7 7218 Estatistica 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 457.0 249.1 479.0 249.1 479.0 261.1 457.0 261.1 } 2 { PRETO IGN } 0.0 {DSC} %3s FONTE_IDENT_4
+SigTexto texto9 6884 Sombra 1 { EsquemaBasico } IGN 0 3 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 308.9 30.5 641.1 30.5 641.1 57.5 308.9 57.5 } 2 { BRANCO IGN } 0.0 {Supervisão da Comunicação} %25s FONTE_TITULO
+SigRetangulo Modem 7057 Sombra 1 { Legenda } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 398.0 555.0 410.0 555.0 410.0 563.0 398.0 563.0 } 2 { BRANCO VERMELHO } CHEIO ENUM_BG 
+SigRetangulo Modem 7058 Sombra 1 { Legenda } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 417.0 555.0 429.0 555.0 429.0 563.0 417.0 563.0 } 2 { BRANCO VERDE_ESCURO } CHEIO ENUM_BG 
+SigTexto NomeNoS1 7224 Sombra 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 651.5 122.9 767.5 122.9 767.5 143.9 651.5 143.9 } 2 { BRANCO IGN } 0.0 {Site Principal} %14s FONTE_SUBTITULOS
+SigTexto NomeNoS1 7225 Sombra 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 255.6 165.4 295.6 165.4 295.6 181.4 255.6 181.4 } 2 { PRETO IGN } 0.0 {RTN1} %4s FONTE_IDENT_2
+SigInteiro GerAoi-srv1 7231 Sombra 1 { EsquemaBasico } IGN 0 1 { } { SELECT estad FROM inp WHERE id = GerAoi-srv1 } <OFFSET> ENTRAVEL { } { } NE 0 4 { 252.0 200.0 294.0 200.0 294.0 214.0 252.0 214.0 } 7 { CINZA_MEDIO IGN IGN AMARELO AMARELO IGN VERDE_CLARO } 0.0 { . SCADA SCADA . SCADA } %5s FONTE_IDENT_3 IGN SETA_IGN 
+SigRetangulo SB_SP_srv1 7372 Sombra 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit0 FROM pds WHERE id = SB_SP_srv1 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 247.5 163.0 252.0 163.0 252.0 166.0 247.5 166.0 } 4 { BRANCO GELO VERMELHO VERDE_ESCURO } CHEIO ENUM_BG 
+SigTexto NomeNoS1 7509 Sombra 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 370.4 59.9 512.6 59.9 512.6 86.9 370.4 86.9 } 2 { IGN IGN } 0.0 {Site Backup} %11s FONTE_TITULO
+SigTexto NomeNoS1 7567 Sombra 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 147.6 165.4 187.6 165.4 187.6 181.4 147.6 181.4 } 2 { PRETO IGN } 0.0 {RTN2} %4s FONTE_IDENT_2
+SigRetangulo SB_SP_srv1 7568 Sombra 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit0 FROM pds WHERE id = SB_SP_srv2 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 139.5 163.0 144.0 163.0 144.0 166.0 139.5 166.0 } 4 { BRANCO GELO VERMELHO VERDE_ESCURO } CHEIO ENUM_BG 
+SigTexto texto9 7059 Legenda 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 525.4 521.0 638.5 521.0 638.5 533.0 525.4 533.0 } 2 { BRANCO IGN } 0.0 {Conexão ao servidor 1} %21s FONTE_IDENT_4
+SigLinha pline5 7060 Legenda 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 6 { 401.0 548.0 401.0 548.0 401.0 548.0 401.0 548.0 401.0 528.0 501.0 528.0 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigTexto texto9 7061 Legenda 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 525.4 533.0 638.5 533.0 638.5 545.0 525.4 545.0 } 2 { BRANCO IGN } 0.0 {Conexão ao servidor 2} %21s FONTE_IDENT_4
+SigLinha pline7 7062 Legenda 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 3 { 424.0 548.0 424.0 540.0 500.0 540.0 } 2 { BRANCO IGN } ABERTO CHEIO ENUM_FG 
+SigTexto texto9 7415 Legenda 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 226.9 518.0 357.1 518.0 357.1 530.0 226.9 530.0 } 2 { BRANCO IGN } 0.0 {Informação não disponível} %25s FONTE_IDENT_4
+SigTexto texto9 7416 Legenda 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 226.9 534.0 333.0 534.0 333.0 546.0 226.9 546.0 } 2 { 138KV IGN } 0.0 {Inibido pelo Operador} %21s FONTE_IDENT_4
+SigTexto texto9 7417 Legenda 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 226.9 550.0 314.0 550.0 314.0 562.0 226.9 562.0 } 2 { VERMELHO IGN } 0.0 {Inoperante - NOK} %16s FONTE_IDENT_4
+SigTexto texto9 7418 Legenda 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 226.9 566.0 331.0 566.0 331.0 578.0 226.9 578.0 } 2 { VERDE_ESCURO IGN } 0.0 {Operacional Primário} %20s FONTE_IDENT_4
+SigTexto texto9 7419 Legenda 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 226.9 582.0 344.0 582.0 344.0 594.0 226.9 594.0 } 2 { VERDE_CLARO IGN } 0.0 {Operacional Secundário} %22s FONTE_IDENT_4
+SigRetangulo N 7063 Lia3D 1 { Legenda } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 394.0 551.0 467.0 551.0 467.0 591.0 394.0 591.0 } 2 { BRANCO VERDE_ESCURO } CHEIO ENUM_BG 
+SigRetangulo srv1 7247 caixa3D 1 { EsquemaBasico } IGN 0 1 { } { SELECT esscd FROM noh WHERE id = srv1 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 306.6 189.4 240.6 189.4 240.6 157.4 306.6 157.4 } 4 { IGN AZUL_CADET VERDE_ESCURO VERDE_CLARO } CHEIO ENUM_BG 
+SigRetangulo gmcd-srv1 7248 caixa3D 1 { EsquemaBasico } IGN 0 3 { } { SELECT estad FROM inp WHERE id = gmcd-srv1 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 306.1 188.5 241.1 188.5 241.1 158.3 306.1 158.3 } 11 { IGN VERMELHO VERMELHO AMARELO AMARELO VERMELHO IGN VERMELHO VERMELHO VERMELHO VERMELHO } CHEIO ENUM_BG 
+SigRetangulo srv1 7569 caixa3D 1 { EsquemaBasico } IGN 0 1 { } { SELECT esscd FROM noh WHERE id = srv1 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 197.6 189.4 131.6 189.4 131.6 157.4 197.6 157.4 } 4 { IGN AZUL_CADET VERDE_ESCURO VERDE_CLARO } CHEIO ENUM_BG 
+SigRetangulo gmcd-srv1 7570 caixa3D 1 { EsquemaBasico } IGN 0 3 { } { SELECT estad FROM inp WHERE id = gmcd-srv2 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 198.1 188.5 133.1 188.5 133.1 158.3 198.1 158.3 } 11 { IGN VERMELHO VERMELHO AMARELO AMARELO VERMELHO IGN VERMELHO VERMELHO VERMELHO VERMELHO } CHEIO ENUM_BG 
+SigRetangulo retangulo 7257 Decorativos3D 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 101.0 109.0 337.0 109.0 337.0 224.0 101.0 224.0 } 2 { BRANCO IGN } CHEIO ENUM_FG 
+SigRetangulo CaixaMonitorS1 7258 Decorativos3D 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 231.6 149.3 315.6 149.3 315.6 197.5 231.6 197.5 } 2 { GELO CINZA_ESCURO } CHEIO ENUM_FG 
+SigRetangulo retangulo 7477 Decorativos3D 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 645.0 113.0 777.0 113.0 777.0 228.0 645.0 228.0 } 2 { BRANCO IGN } CHEIO ENUM_FG 
+SigRetangulo CaixaMonitorS1 7571 Decorativos3D 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 123.6 149.3 207.6 149.3 207.6 197.5 123.6 197.5 } 2 { GELO CINZA_ESCURO } CHEIO ENUM_FG 
+SigLinha NAD-02 7561 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit12 FROM pds WHERE id = NAD-02 } <OFFSET> ENTRAVEL { } { } NE 0 4 { 753.7 248.2 748.7 248.2 748.7 335.8 753.7 335.8 } 4 { IGN IGN VERDE VERMELHO } FECHADO CHEIO ENUM_BG 
+SigLinha cleo_nop 7397 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT opera FROM lia WHERE id = cleo_nop } <OFFSET> NAO_ENTRAVEL { } { } NE 0 3 { 255.0 235.0 265.0 251.0 245.0 251.0 } 3 { IGN VERDE VERMELHO } FECHADO CHEIO ENUM_BG 
+SigLinha cleo_nop 7398 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT e_estad@bit7 FROM mul WHERE id = cleo_nop } <OFFSET> NAO_ENTRAVEL { } { } NE 0 3 { 255.0 235.0 265.0 251.0 245.0 251.0 } 4 { IGN GELO IGN AMARELO_CLARO } FECHADO CHEIO ENUM_BG 
+SigLinha cleo_nop 7400 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT opera FROM lia WHERE id = cleo_nop } <OFFSET> ENTRAVEL { } { } NE 0 4 { 257.7 243.0 252.7 243.0 252.7 301.0 257.7 301.0 } 3 { IGN VERDE VERMELHO } FECHADO CHEIO ENUM_BG 
+SigLinha cleo_nop 7401 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT e_estad@bit7 FROM mul WHERE id = cleo_nop } <OFFSET> ENTRAVEL { } { } NE 0 4 { 257.7 243.0 252.7 243.0 252.7 301.0 257.7 301.0 } 4 { IGN GELO IGN AMARELO_CLARO } FECHADO CHEIO ENUM_BG 
+SigControle DTV-LIA-cleo_nop 7396 Camada1 1 { Controles } IGN 0 1 { } { SELECT a1_flags FROM cgs WHERE id = DTV-LIA-cleo_nop } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 255.2 270.7 259.5 275.0 255.2 279.3 250.9 275.0 } 2 { PRETO BRANCO } 
+SigControle ATV-LIA-cleo_nop 7395 Camada1 1 { Controles } IGN 0 1 { } { SELECT a1_flags FROM cgs WHERE id = ATV-LIA-cleo_nop } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 255.2 254.6 259.6 259.0 255.2 263.4 250.8 259.0 } 2 { PRETO BRANCO } 
+SigRetangulo retangulo3D 7420 Camada1 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 718.0 606.3 676.4 606.3 676.4 523.7 718.0 523.7 } 2 { BRANCO GELO } CHEIO ENUM_FG 
+SigTexto texto7 7421 Camada1 1 { Legenda } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 683.5 530.0 708.5 530.0 708.5 542.0 683.5 542.0 } 2 { PRETO IGN } 0.0 {MRX} %3s FONTE_IDENT_4
+SigTexto texto7 7422 Camada1 1 { Legenda } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 683.5 546.0 708.5 546.0 708.5 558.0 683.5 558.0 } 2 { PRETO IGN } 0.0 {MTX} %3s FONTE_IDENT_4
+SigTexto texto7 7423 Camada1 1 { Legenda } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 686.0 562.0 706.0 562.0 706.0 574.0 686.0 574.0 } 2 { PRETO IGN } 0.0 {TIM} %3s FONTE_IDENT_4
+SigTexto texto7 7424 Camada1 1 { Legenda } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 685.5 578.0 706.5 578.0 706.5 590.0 685.5 590.0 } 2 { PRETO IGN } 0.0 {ETX} %3s FONTE_IDENT_4
+SigTexto texto7 7425 Camada1 1 { Legenda } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 685.0 594.0 707.0 594.0 707.0 606.0 685.0 606.0 } 2 { PRETO IGN } 0.0 {DSC} %3s FONTE_IDENT_4
+SigTexto texto9 7426 Camada1 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 737.5 530.0 846.5 530.0 846.5 542.0 737.5 542.0 } 2 { BRANCO IGN } 0.0 {Mensagens recebidas} %19s FONTE_IDENT_4
+SigTexto texto9 7427 Camada1 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 737.5 546.0 861.6 546.0 861.6 558.0 737.5 558.0 } 2 { BRANCO IGN } 0.0 {Mensagens transmitidas} %22s FONTE_IDENT_4
+SigTexto texto9 7428 Camada1 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 737.5 562.0 778.5 562.0 778.5 574.0 737.5 574.0 } 2 { BRANCO IGN } 0.0 {Timeout} %7s FONTE_IDENT_4
+SigTexto texto9 7429 Camada1 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 737.5 578.0 843.5 578.0 843.5 590.0 737.5 590.0 } 2 { BRANCO IGN } 0.0 {Erros de transmissão} %20s FONTE_IDENT_4
+SigTexto texto9 7430 Camada1 1 { Legenda } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 737.5 594.0 804.5 594.0 804.5 606.0 737.5 606.0 } 2 { BRANCO IGN } 0.0 {Desconexões} %11s FONTE_IDENT_4
+SigRetangulo retangulo3D 7432 Camada1 1 { Estatisticas } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 270.0 442.3 228.4 442.3 228.4 359.7 270.0 359.7 } 2 { BRANCO GELO } CHEIO ENUM_FG 
+SigRetangulo retangulo3D 7433 Camada1 1 { Estatisticas } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 334.0 442.3 271.4 442.3 271.4 359.7 334.0 359.7 } 2 { BRANCO CINZA_MEDIO } CHEIO ENUM_FG 
+SigInteiro cleo_nop 7434 Camada1 1 { Estatisticas } IGN 0 1 { } { SELECT e_errtx FROM mul WHERE id = cleo_nop } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 287.7 413.0 317.7 413.0 317.7 425.0 287.7 425.0 } 2 { VERMELHO IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigInteiro cleo_nop 7435 Camada1 1 { Estatisticas } IGN 0 1 { } { SELECT e_timot FROM mul WHERE id = cleo_nop } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 287.7 397.0 317.7 397.0 317.7 409.0 287.7 409.0 } 2 { VERMELHO IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigInteiro cleo_nop 7436 Camada1 1 { Estatisticas } IGN 0 1 { } { SELECT e_nmltx FROM mul WHERE id = cleo_nop } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 287.7 381.0 317.7 381.0 317.7 393.0 287.7 393.0 } 2 { VERDE IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigInteiro cleo_nop 7437 Camada1 1 { Estatisticas } IGN 0 1 { } { SELECT e_nmlrx FROM mul WHERE id = cleo_nop } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 287.7 365.0 317.7 365.0 317.7 377.0 287.7 377.0 } 2 { VERDE IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigInteiro cleo_nop 7438 Camada1 1 { Estatisticas } IGN 0 1 { } { SELECT e_ndesc FROM mul WHERE id = cleo_nop } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 287.7 429.0 317.7 429.0 317.7 441.0 287.7 441.0 } 2 { VERMELHO IGN } 0.0 { 00000 } %5d FONTE_IDENT_4 IGN SETA_IGN 
+SigTexto texto7 7439 Camada1 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 235.5 366.0 260.5 366.0 260.5 378.0 235.5 378.0 } 2 { PRETO IGN } 0.0 {MRX} %3s FONTE_IDENT_4
+SigTexto texto7 7440 Camada1 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 235.5 382.0 260.5 382.0 260.5 394.0 235.5 394.0 } 2 { PRETO IGN } 0.0 {MTX} %3s FONTE_IDENT_4
+SigTexto texto7 7441 Camada1 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 238.0 398.0 258.0 398.0 258.0 410.0 238.0 410.0 } 2 { PRETO IGN } 0.0 {TIM} %3s FONTE_IDENT_4
+SigTexto texto7 7442 Camada1 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 237.5 414.0 258.5 414.0 258.5 426.0 237.5 426.0 } 2 { PRETO IGN } 0.0 {ETX} %3s FONTE_IDENT_4
+SigTexto texto7 7443 Camada1 1 { Estatisticas } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 237.0 430.0 259.0 430.0 259.0 442.0 237.0 442.0 } 2 { PRETO IGN } 0.0 {DSC} %3s FONTE_IDENT_4
+SigRetangulo celeo_nd 7456 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT opera FROM lia WHERE id = celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 647.3 155.8 774.4 155.8 774.4 190.0 647.3 190.0 } 3 { IGN VERDE_ESCURO VERMELHO } CHEIO ENUM_BG 
+SigTexto texto9 7457 Camada1 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 164.5 118.9 269.5 118.9 269.5 140.0 164.5 140.0 } 2 { BRANCO IGN } 0.0 {Site Backup} %11s FONTE_SUBTITULOS
+SigRetangulo cleo_nop 7458 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT e_estn2 FROM enm WHERE id = cleo_nop-1 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 655.5 159.0 660.0 159.0 660.0 162.0 655.5 162.0 } 4 { BRANCO GELO VERMELHO VERDE_ESCURO } CHEIO ENUM_BG 
+SigRetangulo cleo_nop-2 7459 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT e_estn2 FROM enm WHERE id = cleo_nop-2 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 667.0 159.0 671.5 159.0 671.5 162.0 667.0 162.0 } 4 { BRANCO GELO VERMELHO VERDE_ESCURO } CHEIO ENUM_BG 
+SigRetangulo NADB-01 7460 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit0 FROM pds WHERE id = NADB-01 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 230.0 313.0 282.0 313.0 282.0 351.0 230.0 351.0 } 4 { BRANCO LARANJA VERDE_ESCURO VERDE_ESCURO } CHEIO ENUM_BG 
+SigRetangulo NADB-01 7461 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit12 FROM pds WHERE id = NADB-01 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 230.0 313.0 282.0 313.0 282.0 351.0 230.0 351.0 } 4 { BRANCO LARANJA IGN AMARELO_CLARO } CHEIO ENUM_BG 
+SigTexto texto9 7462 Camada1 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 247.0 325.0 265.0 325.0 265.0 339.0 247.0 339.0 } 2 { PRETO IGN } 0.0 {NADB} %2s FONTE_IDENT_3
+SigLinha celeo_nd 7480 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT opera FROM lia WHERE id = celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 3 { 305.3 235.0 313.7 251.0 297.0 251.0 } 3 { IGN VERDE VERMELHO } FECHADO CHEIO ENUM_BG 
+SigLinha celeo_nd 7481 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT e_estad@bit7 FROM mul WHERE id = celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 3 { 305.3 235.0 313.7 251.0 297.0 251.0 } 4 { IGN GELO IGN AMARELO_CLARO } FECHADO CHEIO ENUM_BG 
+SigTexto texto9 7482 Camada1 1 { EsquemaBasico } IGN 0 3 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 470.9 276.0 532.0 276.0 532.0 288.0 470.9 288.0 } 2 { BRANCO IGN } 0.0 {Sincronismo} %11s FONTE_IDENT_4
+SigLinha celeo_nd 7483 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT opera FROM lia WHERE id = celeo_nd } <OFFSET> ENTRAVEL { } { } NE 0 8 { 308.8 249.0 303.7 249.0 303.7 301.0 678.3 301.0 678.3 251.2 672.8 250.7 673.2 296.7 308.8 296.7 } 3 { IGN VERDE VERMELHO } FECHADO CHEIO ENUM_BG 
+SigLinha celeo_nd 7484 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT e_estad@bit7 FROM mul WHERE id = celeo_nd } <OFFSET> ENTRAVEL { } { } NE 0 8 { 308.8 245.0 303.7 245.0 303.7 301.0 678.3 301.0 678.3 247.4 672.8 246.8 673.2 296.4 308.8 296.4 } 4 { IGN GELO IGN AMARELO_CLARO } FECHADO CHEIO ENUM_BG 
+SigControle DTV-LIA-celeo_nd 7497 Camada1 1 { Controles } IGN 0 1 { } { SELECT a1_flags FROM cgs WHERE id = DTV-LIA-celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 306.9 270.6 311.2 274.9 306.9 279.2 302.6 274.9 } 2 { PRETO BRANCO } 
+SigControle ATV-LIA-celeo_nd 7498 Camada1 1 { Controles } IGN 0 1 { } { SELECT a1_flags FROM cgs WHERE id = ATV-LIA-celeo_nd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 306.9 254.5 311.3 258.9 306.9 263.3 302.5 258.9 } 2 { PRETO BRANCO } 
+SigRetangulo cleo_nop-1 7504 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT e_estn2 FROM enm WHERE id = cleo_nop-1 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 235.5 319.0 240.0 319.0 240.0 322.0 235.5 322.0 } 4 { BRANCO GELO VERMELHO VERDE_ESCURO } CHEIO ENUM_BG 
+SigLinha SB_SP 7507 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit0 FROM pds WHERE id = SB_SP } <OFFSET> NAO_ENTRAVEL { } { } NE 0 3 { 676.0 237.7 684.3 253.7 667.6 253.7 } 3 { IGN VERDE VERMELHO } FECHADO CHEIO ENUM_BG 
+SigRetangulo NAD-02 7537 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit0 FROM pds WHERE id = NAD-02 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 727.5 344.0 782.0 344.0 782.0 384.0 727.5 384.0 } 4 { BRANCO LARANJA VERDE_CLARO VERDE_ESCURO } CHEIO ENUM_BG 
+SigRetangulo NAD-02 7538 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit12 FROM pds WHERE id = NAD-02 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 727.5 344.0 782.0 344.0 782.0 384.0 727.5 384.0 } 4 { BRANCO LARANJA IGN VERMELHO } CHEIO ENUM_BG 
+SigRetangulo NAD-01 7539 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit0 FROM pds WHERE id = NAD-01 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 719.5 352.0 774.0 352.0 774.0 392.0 719.5 392.0 } 4 { BRANCO LARANJA VERDE_CLARO VERDE_ESCURO } CHEIO ENUM_BG 
+SigRetangulo NAD-01 7540 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit12 FROM pds WHERE id = NAD-01 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 719.5 352.0 774.0 352.0 774.0 392.0 719.5 392.0 } 4 { BRANCO LARANJA IGN VERMELHO } CHEIO ENUM_BG 
+SigTexto texto9 7541 Camada1 1 { EsquemaBasico } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 732.5 367.0 759.5 367.0 759.5 381.0 732.5 381.0 } 2 { PRETO IGN } 0.0 {NAD} %3s FONTE_IDENT_3
+SigRetangulo celeo_nd-1 7542 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit0 FROM pds WHERE id = NAD-01 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 723.5 355.0 728.0 355.0 728.0 358.0 723.5 358.0 } 4 { BRANCO GELO VERDE_ESCURO VERMELHO } CHEIO ENUM_BG 
+SigRetangulo celeo_nd-2 7543 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit0 FROM pds WHERE id = NAD-02 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 735.0 346.0 739.5 346.0 739.5 349.0 735.0 349.0 } 4 { BRANCO GELO VERDE_ESCURO VERMELHO } CHEIO ENUM_BG 
+SigLinha pline4 7546 Camada1 1 { EsquemaBasico } IGN 0 2 { } { SELECT a1_flags@bit12 FROM pds WHERE id = NAD-01 } <OFFSET> ENTRAVEL { } { } NE 0 2 { 772.6 288.0 731.4 324.0 } 4 { VERMELHO IGN IGN VERMELHO } ABERTO TRACEJADO_CURTO ENUM_FG 
+SigLinha NAD-01 7547 Camada1 1 { EsquemaBasico } IGN 0 2 { } { SELECT a1_flags@bit12 FROM pds WHERE id = NAD-01 } <OFFSET> ENTRAVEL { } { } NE 0 2 { 731.4 288.0 772.6 324.0 } 4 { VERMELHO IGN IGN VERMELHO } ABERTO TRACEJADO_CURTO ENUM_FG 
+SigLinha NAD-02 7556 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit12 FROM pds WHERE id = NAD-02 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 3 { 751.0 239.0 761.0 255.0 741.0 255.0 } 4 { IGN VERDE VERDE VERMELHO } FECHADO CHEIO ENUM_BG 
+SigLinha NAD-01 7557 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit12 FROM pds WHERE id = NAD-01 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 3 { 751.0 239.0 761.0 255.0 741.0 255.0 } 4 { IGN GELO VERDE VERMELHO } FECHADO CHEIO ENUM_BG 
+SigLinha NAD-01 7559 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT a1_flags@bit12 FROM pds WHERE id = NAD-01 } <OFFSET> ENTRAVEL { } { } EQ 0 4 { 753.7 248.2 748.7 248.2 748.7 335.8 753.7 335.8 } 4 { IGN GELO VERDE VERMELHO } FECHADO CHEIO ENUM_BG 
+SigRetangulo cleo_nop-1 7573 Camada1 1 { EsquemaBasico } IGN 0 1 { } { SELECT e_estn2 FROM enm WHERE id = cleo_nop-2 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 243.5 319.0 248.0 319.0 248.0 322.0 243.5 322.0 } 4 { BRANCO GELO VERMELHO VERDE_ESCURO } CHEIO ENUM_BG 

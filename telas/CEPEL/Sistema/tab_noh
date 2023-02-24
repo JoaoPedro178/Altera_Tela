@@ -1,0 +1,121 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 10 nzoom 1.0 xc 447.0 yc 299.0 gridx 4.0 gridy 4.0
+
+VERSAO 1.09 
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Fundo3D NAO_BLOQUEADA CINZA_PROFUNDO 0
+CAMADA Moldura3D NAO_BLOQUEADA CINZA_PROFUNDO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+CAMADA BaixoRelevo NAO_BLOQUEADA AREIA 0
+CAMADA Medidas NAO_BLOQUEADA PRETO 0
+
+
+
+
+
+SigTexto titulo_princ1 394 Sombra 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 4 { 376.9 27.5 599.1 27.5 599.1 52.5 376.9 52.5 } 2 { OURO PRETO } 0.0 {Nós da rede do SAGE} %19s FONTE_TITULO
+SigTabular tabu2 1826 Sombra 0 { } IGN 0 7 { } { } <OFFSET> NAO_ENTRAVEL 2 { 28.8 64.0 925.3 255.2 } 5 { BRANCO CINZA CINZA_MEDIO CINZA_ESCURO IGN } 8 10 4 4 1 12 4 8 S S N 
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto173 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 50.3 89.0 61.3 89.0 61.3 103.0 50.3 103.0 } 2 { PALHA GRAFITE } 0.0 {Id} %2s FONTE_IDENT_3
+
+            SigTexto texto7 -1 Sombra 0 { } IGN 0 1 { } { SELECT id FROM noh } 00000000 NAO_ENTRAVEL 4 { 41.8 230.2 69.8 230.2 69.8 243.2 41.8 243.2 } 2 { BRANCO GRAFITE } 0.0 {MMMM} %-4s FONTE_MEDIDA
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto175 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 92.8 89.0 161.9 89.0 161.9 103.0 92.8 103.0 } 2 { PALHA GRAFITE } 0.0 {Endereço ip} %11s FONTE_IDENT_3
+
+            SigTexto texto72 -1 Sombra 0 { } IGN 0 1 { } { SELECT endip FROM noh } <OFFSET> ENTRAVEL 4 { 81.8 230.2 172.9 230.2 172.9 243.2 81.8 243.2 } 2 { BRANCO IGN } 0.0 {MMMMMMMMMMMMM} %-13s FONTE_MEDIDA
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto177 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 234.5 82.0 303.5 82.0 303.5 110.0 234.5 110.0 } 2 { PALHA GRAFITE } 0.0 {Data/Hora\nda ativação} %22s FONTE_IDENT_3
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { } { SELECT hativ FROM noh } <OFFSET> ENTRAVEL 4 { 184.9 230.2 353.1 230.2 353.1 243.2 184.9 243.2 } 2 { BRANCO IGN } 0.0 { H_DIA_MM_ANO_HOR_MIN_SEG } H_DIA_MM_ANO_HOR_MIN_SEG FONTE_MEDIDA IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto179 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 419.2 82.0 479.2 82.0 479.2 110.0 419.2 110.0 } 2 { PALHA GRAFITE } 0.0 {Data/Hora\nda coleta\ndesses dados} %33s FONTE_IDENT_3
+
+            SigInteiro numero3 -1 Sombra 0 { } IGN 0 1 { } { SELECT horan FROM noh } <OFFSET> ENTRAVEL 4 { 365.1 230.2 533.3 230.2 533.3 243.2 365.1 243.2 } 2 { BRANCO IGN } 0.0 { H_DIA_MM_ANO_HOR_MIN_SEG } H_DIA_MM_ANO_HOR_MIN_SEG FONTE_MEDIDA IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto181 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 545.3 75.0 586.3 75.0 586.3 117.0 545.3 117.0 } 2 { PALHA GRAFITE } 0.0 {Uso de\ncpu\n(%)} %16s FONTE_IDENT_3
+
+            SigInteiro numero2,unid=p -1 Sombra 0 { } IGN 0 1 { } { SELECT cpu_usage FROM noh } <OFFSET> NAO_ENTRAVEL 4 { 555.3 230.2 576.3 230.2 576.3 243.2 555.3 243.2 } 4 { BRANCO GRAFITE ABOBORA ABOBORA } 0.0 { 000 } +%3d FONTE_MEDIDA IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto183 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 598.3 75.0 649.3 75.0 649.3 117.0 598.3 117.0 } 2 { PALHA GRAFITE } 0.0 {Uso de\nmemória\n(%)} %20s FONTE_IDENT_3
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { } { SELECT mem_usage FROM noh } <OFFSET> NAO_ENTRAVEL 4 { 613.3 230.2 634.3 230.2 634.3 243.2 613.3 243.2 } 4 { BRANCO GRAFITE ABOBORA ABOBORA } 0.0 { 000 } +%3d FONTE_MEDIDA IGN SETA_IGN 
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto185 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 661.3 75.0 702.3 75.0 702.3 117.0 661.3 117.0 } 2 { PALHA GRAFITE } 0.0 {Uso de\nswap\n(%)} %17s FONTE_IDENT_3
+
+            SigInteiro numero3 -1 Sombra 0 { } IGN 0 1 { } { SELECT swap_usage FROM noh } <OFFSET> NAO_ENTRAVEL 4 { 671.3 230.2 692.3 230.2 692.3 243.2 671.3 243.2 } 4 { BRANCO GRAFITE VERDE_MEDIO AMARELO_CLARO } 0.0 { 000 } +%3d FONTE_MEDIDA IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto187 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 714.3 75.0 773.3 75.0 773.3 117.0 714.3 117.0 } 2 { PALHA GRAFITE } 0.0 {Ocupação\nSAGE\n(%)} %21s FONTE_IDENT_3
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { } { SELECT disk_use_sage FROM noh } <OFFSET> ENTRAVEL 4 { 733.3 230.2 754.3 230.2 754.3 243.2 733.3 243.2 } 2 { BRANCO IGN } 0.0 { 000 } %3d FONTE_MEDIDA IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto189 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 785.3 75.0 844.3 75.0 844.3 117.0 785.3 117.0 } 2 { PALHA GRAFITE } 0.0 {Ocupação\nARQS\n(%)} %21s FONTE_IDENT_3
+
+            SigInteiro numero3 -1 Sombra 0 { } IGN 0 1 { } { SELECT disk_use_arqs FROM noh } <OFFSET> ENTRAVEL 4 { 804.3 230.2 825.3 230.2 825.3 243.2 804.3 243.2 } 2 { BRANCO IGN } 0.0 { 000 } %3d FONTE_MEDIDA IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto191 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 856.3 75.0 915.3 75.0 915.3 117.0 856.3 117.0 } 2 { PALHA GRAFITE } 0.0 {Ocupação\nLOG\n(%)} %20s FONTE_IDENT_3
+
+            SigInteiro numero4 -1 Sombra 0 { } IGN 0 1 { } { SELECT disk_use_log FROM noh } <OFFSET> ENTRAVEL 4 { 875.3 230.2 896.3 230.2 896.3 243.2 875.3 243.2 } 2 { BRANCO IGN } 0.0 { 000 } %3d FONTE_MEDIDA IGN SETA_IGN 
+
+SigTabular tabu2 1932 Sombra 0 { } IGN 0 7 { } { } <OFFSET> NAO_ENTRAVEL 2 { 28.8 296.0 943.3 497.0 } 5 { BRANCO CINZA CINZA_MEDIO CINZA_ESCURO IGN } 8 10 4 4 1 12 4 8 S S N 
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto29 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 50.3 314.0 61.3 314.0 61.3 328.0 50.3 328.0 } 2 { PALHA GRAFITE } 0.0 {Id} %2s FONTE_IDENT_3
+
+            SigTexto texto7 -1 Sombra 0 { } IGN 0 1 { } { SELECT id FROM noh } 00000000 NAO_ENTRAVEL 4 { 41.8 470.5 69.8 470.5 69.8 483.5 41.8 483.5 } 2 { BRANCO GRAFITE } 0.0 {MMMM} %-4s FONTE_MEDIDA
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto31 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 92.8 314.0 161.9 314.0 161.9 328.0 92.8 328.0 } 2 { PALHA GRAFITE } 0.0 {Endereço ip} %11s FONTE_IDENT_3
+
+            SigTexto texto72 -1 Sombra 0 { } IGN 0 1 { } { SELECT endip FROM noh } <OFFSET> ENTRAVEL 4 { 81.8 470.5 172.9 470.5 172.9 483.5 81.8 483.5 } 2 { BRANCO IGN } 0.0 {MMMMMMMMMMMMM} %-13s FONTE_MEDIDA
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto33 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 234.5 307.0 303.5 307.0 303.5 335.0 234.5 335.0 } 2 { PALHA GRAFITE } 0.0 {Data/Hora\nda ativação} %22s FONTE_IDENT_3
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { } { SELECT hativ FROM noh } <OFFSET> ENTRAVEL 4 { 184.9 470.5 353.1 470.5 353.1 483.5 184.9 483.5 } 2 { BRANCO IGN } 0.0 { H_DIA_MM_ANO_HOR_MIN_SEG } H_DIA_MM_ANO_HOR_MIN_SEG FONTE_MEDIDA IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto35 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 419.2 307.0 479.2 307.0 479.2 335.0 419.2 335.0 } 2 { PALHA GRAFITE } 0.0 {Data/Hora\nda coleta\ndesses dados} %33s FONTE_IDENT_3
+
+            SigInteiro numero3 -1 Sombra 0 { } IGN 0 1 { } { SELECT horan FROM noh } <OFFSET> ENTRAVEL 4 { 365.1 470.5 533.3 470.5 533.3 483.5 365.1 483.5 } 2 { BRANCO IGN } 0.0 { H_DIA_MM_ANO_HOR_MIN_SEG } H_DIA_MM_ANO_HOR_MIN_SEG FONTE_MEDIDA IGN SETA_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto37 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 549.8 307.0 590.8 307.0 590.8 335.0 549.8 335.0 } 2 { PALHA GRAFITE } 0.0 {Uso de\ncpu} %11s FONTE_IDENT_3
+
+            SigGrafBarra grafb2 -1 Sombra 0 { } IGN 0 1 { } { SELECT cpu_usage FROM noh } <OFFSET> ENTRAVEL 2 { 545.3 469.0 595.3 485.0 } 2 { BRANCO CINZA_CLARO } E IGN 0.0 1 4 { COR_NORM 70.0 COR_ADV 80.0 COR_URG 90.0 COR_ESC 100.0 } 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto39 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 607.3 307.0 658.3 307.0 658.3 335.0 607.3 335.0 } 2 { PALHA GRAFITE } 0.0 {Uso de\nmemória} %15s FONTE_IDENT_3
+
+            SigGrafBarra grafb2 -1 Sombra 0 { } IGN 0 1 { } { SELECT mem_usage FROM noh } <OFFSET> ENTRAVEL 2 { 607.8 469.0 657.8 485.0 } 2 { BRANCO CINZA_CLARO } E IGN 0.0 1 4 { COR_NORM 70.0 COR_ADV 80.0 COR_URG 90.0 COR_ESC 100.0 } 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto41 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 674.8 307.0 715.8 307.0 715.8 335.0 674.8 335.0 } 2 { PALHA GRAFITE } 0.0 {Uso de\nswap} %12s FONTE_IDENT_3
+
+            SigGrafBarra grafb2 -1 Sombra 0 { } IGN 0 1 { } { SELECT swap_usage FROM noh } <OFFSET> ENTRAVEL 2 { 670.3 469.0 720.3 485.0 } 2 { BRANCO CINZA_CLARO } E IGN 0.0 1 4 { COR_NORM 70.0 COR_ADV 80.0 COR_URG 90.0 COR_ESC 100.0 } 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto43 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 732.3 307.0 791.3 307.0 791.3 335.0 732.3 335.0 } 2 { PALHA GRAFITE } 0.0 {Ocupação\nSAGE} %16s FONTE_IDENT_3
+
+            SigGrafBarra grafb2 -1 Sombra 0 { } IGN 0 1 { } { SELECT disk_use_sage FROM noh } <OFFSET> ENTRAVEL 2 { 736.8 469.0 786.8 485.0 } 2 { BRANCO CINZA_CLARO } E IGN 0.0 1 4 { COR_NORM 70.0 COR_ADV 80.0 COR_URG 90.0 COR_ESC 100.0 } 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto45 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 803.3 307.0 862.3 307.0 862.3 335.0 803.3 335.0 } 2 { PALHA GRAFITE } 0.0 {Ocupação\nARQS} %16s FONTE_IDENT_3
+
+            SigGrafBarra grafb2 -1 Sombra 0 { } IGN 0 1 { } { SELECT disk_use_arqs FROM noh } <OFFSET> ENTRAVEL 2 { 807.8 469.0 857.8 485.0 } 2 { BRANCO CINZA_CLARO } E IGN 0.0 1 4 { COR_NORM 70.0 COR_ADV 80.0 COR_URG 90.0 COR_ESC 100.0 } 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto47 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL 4 { 874.3 307.0 933.3 307.0 933.3 335.0 874.3 335.0 } 2 { PALHA GRAFITE } 0.0 {Ocupação\nLOG} %15s FONTE_IDENT_3
+
+            SigGrafBarra grafb2 -1 Sombra 0 { } IGN 0 1 { } { SELECT disk_use_log FROM noh } <OFFSET> ENTRAVEL 2 { 878.8 469.0 928.8 485.0 } 2 { BRANCO CINZA_CLARO } E IGN 0.0 1 4 { COR_NORM 70.0 COR_ADV 80.0 COR_URG 90.0 COR_ESC 100.0 } 
+

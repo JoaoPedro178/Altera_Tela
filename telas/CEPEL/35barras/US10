@@ -1,0 +1,264 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 10 nzoom 1.0 xc 585.5 yc 404.5 gridx 4.0 gridy 4.0
+
+VERSAO 1.10 
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA secoes_de_barra_<138KV NAO_BLOQUEADA BRANCO 0
+CAMADA car_cre_csi_uge_<138KV NAO_BLOQUEADA BRANCO 0
+CAMADA medidas_analogicas_<138KV NAO_BLOQUEADA BRANCO 0
+CAMADA chaves_seccionadoras_500KV NAO_BLOQUEADA COR_500_KV 0
+CAMADA disjuntores_500KV NAO_BLOQUEADA COR_500_KV 0
+CAMADA secoes_de_barra_500KV NAO_BLOQUEADA COR_500_KV 0
+CAMADA linhas_e_ramais_de_linha_500KV NAO_BLOQUEADA COR_500_KV 0
+CAMADA medidas_analogicas_500KV NAO_BLOQUEADA COR_500_KV 0
+CAMADA transformadores NAO_BLOQUEADA BRANCO 0
+CAMADA CAMADA_BACKGROUND NAO_BLOQUEADA BRANCO 0
+CAMADA linhas_e_ramais_de_linha_<138KV NAO_BLOQUEADA BRANCO 0
+CAMADA Moldura3D NAO_BLOQUEADA PRETO 0
+CAMADA BaixoRelevo NAO_BLOQUEADA PRETO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+
+
+
+DESCONG Id_ch_dj 0.5 1.8
+
+LINK { Indice Geral } { Indice } POSICAO_ZOOM_ORIG
+LINK { Indice 35barras } { 35barras/Indice_35barras } POSICAO_ZOOM_ORIG
+LINK { Diagrama de Area } { 35barras/Unifilar } POSICAO_ZOOM_ORIG
+LINK { Valores Analogicos } { Sistema/tab_ana } POSICAO_ZOOM_ORIG
+LINK { Valores Digitais } { Sistema/tab_dig } POSICAO_ZOOM_ORIG
+
+SigGrafBarra C4E33DUGMW 1104 Sombra 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33DUGMW } 00000184 NAO_ENTRAVEL 2 { 170.7 459.3 181.7 515.3 } 2 { COR_20_KV IGN } N IGN 0.0 1 1 { COR_20_KV 418.0 } 
+SigGrafBarra C4E33AUGMW 1106 Sombra 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33AUGMW } 00000172 NAO_ENTRAVEL 2 { 722.7 459.3 733.7 515.3 } 2 { COR_20_KV IGN } N IGN 0.0 1 1 { COR_20_KV 418.0 } 
+SigGrafBarra C4E33BUGMW 1108 Sombra 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33BUGMW } 00000176 NAO_ENTRAVEL 2 { 554.7 459.3 565.7 515.3 } 2 { COR_20_KV IGN } N IGN 0.0 1 1 { COR_20_KV 418.0 } 
+SigGrafBarra C4E33CUGMW 1110 Sombra 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33CUGMW } 00000180 NAO_ENTRAVEL 2 { 338.7 459.3 349.7 515.3 } 2 { COR_20_KV IGN } N IGN 0.0 1 1 { COR_20_KV 418.0 } 
+SigTexto TituloUS 1145 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 22.6 17.0 113.7 17.0 113.7 42.0 22.6 42.0 } 2 { OURO PRETO } 0.0 {Usina 10} %8s FONTE_TITULO
+SigTexto texto_C4E19AE20ALT1DL1A 790 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 798.0 57.0 834.0 57.0 834.0 71.0 798.0 71.0 } 2 { COR_500_KV PRETO } 0.0 {DL1A} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB1A 97 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 798.0 113.0 834.0 113.0 834.0 127.0 798.0 127.0 } 2 { COR_500_KV PRETO } 0.0 {CB1A} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB1B 80 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 854.0 181.0 890.0 181.0 890.0 195.0 854.0 195.0 } 2 { COR_500_KV PRETO } 0.0 {CB1B} %4s FONTE_LABEL
+SigTexto texto_E18ASBB 1011 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 907.0 216.5 916.0 216.5 916.0 231.5 907.0 231.5 } 2 { COR_500_KV PRETO } 0.0 {B} %1s FONTE_MEDIDA
+SigTexto texto_E18ASBA 1012 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 907.0 144.5 916.0 144.5 916.0 159.5 907.0 159.5 } 2 { COR_500_KV PRETO } 0.0 {A} %1s FONTE_MEDIDA
+SigTexto texto_C4E20ACB2A 109 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 798.0 241.0 834.0 241.0 834.0 255.0 798.0 255.0 } 2 { COR_500_KV PRETO } 0.0 {CB2A} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB2B 519 Sombra 0 { } Id_ch_dj 90 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 742.0 265.0 778.0 265.0 778.0 279.0 742.0 279.0 } 2 { COR_500_KV PRETO } 0.0 {CB2B} %4s FONTE_LABEL
+SigTexto texto_C4E20ADT1B 39 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 798.0 313.0 834.0 313.0 834.0 327.0 798.0 327.0 } 2 { COR_500_KV PRETO } 0.0 {DT1B} %4s FONTE_LABEL
+SigTexto texto_S10TR24 122 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 252.0 368.5 288.0 368.5 288.0 383.5 252.0 383.5 } 2 { COR_IDENT_TRAFO PRETO } 0.0 {TR24} %4s FONTE_MEDIDA
+SigTexto texto_C4E33AUG4 1091 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 248.0 424.5 275.0 424.5 275.0 439.5 248.0 439.5 } 2 { COR_20_KV PRETO } 0.0 {UG4} %3s FONTE_MEDIDA
+SigTexto texto_C4E20ACP1B 86 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 702.0 329.0 738.0 329.0 738.0 343.0 702.0 343.0 } 2 { COR_500_KV PRETO } 0.0 {CP1B} %4s FONTE_LABEL
+SigTexto S10TR23 119 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 420.0 368.5 456.0 368.5 456.0 383.5 420.0 383.5 } 2 { COR_IDENT_TRAFO PRETO } 0.0 {TR23} %4s FONTE_MEDIDA
+SigTexto texto_C4E33AUG4 1089 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 416.0 424.5 443.0 424.5 443.0 439.5 416.0 439.5 } 2 { COR_20_KV PRETO } 0.0 {UG3} %3s FONTE_MEDIDA
+SigTexto texto_C4E20ADT2B 36 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 630.0 313.0 666.0 313.0 666.0 327.0 630.0 327.0 } 2 { COR_500_KV PRETO } 0.0 {DT2B} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB3A 106 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 630.0 241.0 666.0 241.0 666.0 255.0 630.0 255.0 } 2 { COR_500_KV PRETO } 0.0 {CB3A} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB3B 555 Sombra 0 { } Id_ch_dj 90 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 574.0 265.0 610.0 265.0 610.0 279.0 574.0 279.0 } 2 { COR_500_KV PRETO } 0.0 {CB3B} %4s FONTE_LABEL
+SigTexto texto_C4E20ACP2B 77 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 534.0 329.0 570.0 329.0 570.0 343.0 534.0 343.0 } 2 { COR_500_KV PRETO } 0.0 {CP2B} %4s FONTE_LABEL
+SigTexto texto_C4E20ADT3B 788 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 414.0 313.0 450.0 313.0 450.0 327.0 414.0 327.0 } 2 { COR_500_KV PRETO } 0.0 {DT3B} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB5A 781 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 414.0 241.0 450.0 241.0 450.0 255.0 414.0 255.0 } 2 { COR_500_KV PRETO } 0.0 {CB5A} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB5B 787 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 358.0 265.0 394.0 265.0 394.0 279.0 358.0 279.0 } 2 { COR_500_KV PRETO } 0.0 {CB5B} %4s FONTE_LABEL
+SigTexto texto_C4E20ACP3B 778 Sombra 0 { } Id_ch_dj 90 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 318.0 329.0 354.0 329.0 354.0 343.0 318.0 343.0 } 2 { COR_500_KV PRETO } 0.0 {CP3B} %4s FONTE_LABEL
+SigTexto texto_S10TR21 893 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 804.0 368.5 840.0 368.5 840.0 383.5 804.0 383.5 } 2 { COR_IDENT_TRAFO PRETO } 0.0 {TR21} %4s FONTE_MEDIDA
+SigTexto texto_C4E33AUG1 868 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 800.0 424.5 827.0 424.5 827.0 439.5 800.0 439.5 } 2 { COR_20_KV PRETO } 0.0 {UG1} %3s FONTE_MEDIDA
+SigTexto texto_C4E20ADT4B 891 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 246.0 313.0 282.0 313.0 282.0 327.0 246.0 327.0 } 2 { COR_500_KV PRETO } 0.0 {DT4B} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB6A 886 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 246.0 241.0 282.0 241.0 282.0 255.0 246.0 255.0 } 2 { COR_500_KV PRETO } 0.0 {CB6A} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB6B 884 Sombra 0 { } Id_ch_dj 90 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 190.0 265.0 226.0 265.0 226.0 279.0 190.0 279.0 } 2 { COR_500_KV PRETO } 0.0 {CB6B} %4s FONTE_LABEL
+SigTexto texto_C4E20ACP4B 945 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 150.0 329.0 186.0 329.0 186.0 343.0 150.0 343.0 } 2 { COR_500_KV PRETO } 0.0 {CP4B} %4s FONTE_LABEL
+SigTexto texto_C4E20ADAAB 912 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 110.0 181.0 146.0 181.0 146.0 195.0 110.0 195.0 } 2 { COR_500_KV PRETO } 0.0 {DAAB} %4s FONTE_LABEL
+SigTexto texto_E18ASBB 1007 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 20.0 216.5 29.0 216.5 29.0 231.5 20.0 231.5 } 2 { COR_500_KV PRETO } 0.0 {B} %1s FONTE_MEDIDA
+SigTexto texto_E18ASBA 1008 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 20.0 144.5 29.0 144.5 29.0 159.5 20.0 159.5 } 2 { COR_500_KV PRETO } 0.0 {A} %1s FONTE_MEDIDA
+SigTexto texto_C4E19AE20ALT2DL2A 792 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 414.0 57.0 450.0 57.0 450.0 71.0 414.0 71.0 } 2 { COR_500_KV PRETO } 0.0 {DL2A} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB4A 784 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 414.0 113.0 450.0 113.0 450.0 127.0 414.0 127.0 } 2 { COR_500_KV PRETO } 0.0 {CB4A} %4s FONTE_LABEL
+SigTexto texto_C4E20ACB4B 776 Sombra 0 { } Id_ch_dj 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 470.0 181.0 506.0 181.0 506.0 195.0 470.0 195.0 } 2 { COR_500_KV PRETO } 0.0 {CB4B} %4s FONTE_LABEL
+SigTexto texto_S10TR22 806 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 636.0 368.5 672.0 368.5 672.0 383.5 636.0 383.5 } 2 { COR_IDENT_TRAFO PRETO } 0.0 {TR22} %4s FONTE_MEDIDA
+SigTexto texto_C4E33AUG2 1087 Sombra 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 632.0 424.5 659.0 424.5 659.0 439.5 632.0 439.5 } 2 { COR_20_KV PRETO } 0.0 {UG2} %3s FONTE_MEDIDA
+SigJuncaoOrtogonal juncortog3 220 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 520.0 224.0 520.0 224.0 520.0 328.0 } 1 { COR_500_KV } CHEIO 218 1 78 1 
+SigConector conector11 231 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 782.0 350.0 786.0 354.0 } 2 { COR_500_KV COR_500_KV } 
+SigJuncaoOrtogonal juncortog3 235 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 688.0 344.0 688.0 352.0 784.0 352.0 } 1 { COR_500_KV } CHEIO 87 2 231 1 
+SigConector conector2 238 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 614.0 350.0 618.0 354.0 } 2 { COR_500_KV COR_500_KV } 
+SigJuncaoOrtogonal juncortog5 243 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 520.0 344.0 520.0 352.0 616.0 352.0 } 1 { COR_500_KV } CHEIO 78 2 238 1 
+SigJuncaoOrtogonal juncortog5 432 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 784.0 352.0 784.0 352.0 784.0 364.0 } 1 { COR_500_KV } CHEIO 231 1 123 2 
+SigConector conector11 523 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 782.0 294.0 786.0 298.0 } 2 { COR_500_KV COR_500_KV } 
+SigJuncaoOrtogonal juncortog3 531 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 784.0 240.0 784.0 240.0 784.0 128.0 } 1 { COR_500_KV } CHEIO 110 1 98 2 
+SigJuncaoOrtogonal juncortog3 532 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 784.0 112.0 784.0 112.0 784.0 72.0 } 1 { COR_500_KV } CHEIO 98 1 28 2 
+SigConector conector15 535 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 782.0 94.0 786.0 98.0 } 2 { COR_500_KV COR_500_KV } 
+SigJuncaoOrtogonal juncortog3 545 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 840.0 224.0 840.0 224.0 840.0 196.0 } 1 { COR_500_KV } CHEIO 542 1 81 2 
+SigConector conector11 562 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 614.0 294.0 618.0 298.0 } 2 { COR_500_KV COR_500_KV } 
+SigConector conector9 810 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 454.0 206.0 458.0 210.0 } 2 { COR_FUNDO_TELA IGN } 
+SigConector conector9 811 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 398.0 134.0 402.0 138.0 } 2 { COR_FUNDO_TELA IGN } 
+SigConector conector15 812 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 398.0 94.0 402.0 98.0 } 2 { COR_500_KV COR_500_KV } 
+SigConector conector11 818 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 398.0 294.0 402.0 298.0 } 2 { COR_500_KV COR_500_KV } 
+SigJuncaoOrtogonal juncortog3 823 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 304.0 344.0 304.0 352.0 400.0 352.0 } 1 { COR_500_KV } CHEIO 786 2 824 1 
+SigConector conector11 824 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 398.0 350.0 402.0 354.0 } 2 { COR_500_KV COR_500_KV } 
+SigJuncaoOrtogonal juncortog3 895 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 232.0 240.0 232.0 240.0 232.0 152.0 } 1 { COR_500_KV } CHEIO 885 1 904 1 
+SigConector conector11 900 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 230.0 294.0 234.0 298.0 } 2 { COR_500_KV COR_500_KV } 
+SigJuncaoOrtogonal juncortog5 905 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 136.0 344.0 136.0 352.0 232.0 352.0 } 1 { COR_500_KV } CHEIO 888 2 906 1 
+SigConector conector2 906 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 230.0 350.0 234.0 354.0 } 2 { COR_500_KV COR_500_KV } 
+SigJuncaoOrtogonal juncortog3 915 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 96.0 152.0 96.0 152.0 96.0 180.0 } 1 { COR_500_KV } CHEIO 135 1 910 1 
+SigJuncaoOrtogonal juncortog3 922 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 400.0 240.0 400.0 240.0 400.0 152.0 } 1 { COR_500_KV } CHEIO 780 1 919 1 
+SigJuncaoOrtogonal juncortog3 923 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 400.0 128.0 400.0 128.0 400.0 152.0 } 1 { COR_500_KV } CHEIO 783 2 919 1 
+SigJuncaoOrtogonal juncortog3 924 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 304.0 328.0 304.0 328.0 304.0 224.0 } 1 { COR_500_KV } CHEIO 786 1 819 1 
+SigJuncaoOrtogonal juncortog3 440 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 232.0 352.0 232.0 352.0 232.0 364.0 } 1 { COR_500_KV } CHEIO 906 1 892 2 
+SigJuncaoOrtogonal juncortog3 933 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 400.0 364.0 400.0 364.0 400.0 352.0 } 1 { COR_500_KV } CHEIO 805 2 824 1 
+SigJuncaoOrtogonal juncortog3 934 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 616.0 364.0 616.0 364.0 616.0 352.0 } 1 { COR_500_KV } CHEIO 120 2 238 1 
+SigJuncaoOrtogonal juncortog3 939 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 456.0 180.0 456.0 96.0 400.0 96.0 } 1 { COR_500_KV } CHEIO 777 1 812 1 
+SigJuncaoOrtogonal juncortog3 940 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 400.0 112.0 400.0 112.0 400.0 96.0 } 1 { COR_500_KV } CHEIO 783 1 812 1 
+SigJuncaoOrtogonal juncortog3 941 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 400.0 96.0 400.0 96.0 400.0 72.0 } 1 { COR_500_KV } CHEIO 812 1 791 2 
+SigJuncaoOrtogonal juncortog3 942 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 688.0 328.0 688.0 328.0 688.0 224.0 } 1 { COR_500_KV } CHEIO 87 1 219 1 
+SigJuncaoOrtogonal juncortog3 944 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 840.0 180.0 840.0 96.0 784.0 96.0 } 1 { COR_500_KV } CHEIO 81 1 535 1 
+SigJuncaoOrtogonal juncortog3 946 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 136.0 328.0 136.0 328.0 136.0 224.0 } 1 { COR_500_KV } CHEIO 888 1 907 1 
+SigJuncaoOrtogonal juncortog3 952 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 560.0 280.0 560.0 296.0 616.0 296.0 } 1 { COR_500_KV } CHEIO 556 1 562 1 
+SigJuncaoOrtogonal juncortog3 954 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 232.0 296.0 176.0 296.0 176.0 280.0 } 1 { COR_500_KV } CHEIO 900 1 883 1 
+SigJuncaoOrtogonal juncortog10 996 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 784.0 388.0 784.0 388.0 784.0 420.0 } 1 { COR_20_KV } CHEIO 123 1 251 1 
+SigJuncaoOrtogonal juncortog10 997 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 616.0 388.0 616.0 388.0 616.0 420.0 } 1 { COR_20_KV } CHEIO 120 1 254 1 
+SigJuncaoOrtogonal juncortog10 998 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 400.0 388.0 400.0 388.0 400.0 420.0 } 1 { COR_20_KV } CHEIO 805 1 760 1 
+SigJuncaoOrtogonal juncortog10 1001 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 232.0 388.0 232.0 388.0 232.0 420.0 } 1 { COR_20_KV } CHEIO 892 1 1000 1 
+SigJuncaoOrtogonal juncortog3 1003 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 176.0 264.0 176.0 264.0 176.0 224.0 } 1 { COR_500_KV } CHEIO 883 2 901 1 
+SigJuncaoOrtogonal juncortog3 1004 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 728.0 280.0 728.0 296.0 784.0 296.0 } 1 { COR_500_KV } CHEIO 518 1 523 1 
+SigJuncaoOrtogonal juncortog3 1005 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 728.0 264.0 728.0 264.0 728.0 224.0 } 1 { COR_500_KV } CHEIO 518 2 513 1 
+SigJuncaoOrtogonal juncortog3 1093 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 96.0 196.0 96.0 196.0 96.0 224.0 } 1 { COR_500_KV } CHEIO 910 2 137 1 
+SigJuncaoOrtogonal juncortog3 1094 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 400.0 56.0 400.0 56.0 400.0 48.0 } 1 { COR_500_KV } CHEIO 791 1 798 1 
+SigJuncaoOrtogonal juncortog3 1095 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 784.0 48.0 784.0 48.0 784.0 56.0 } 1 { COR_500_KV } CHEIO 128 1 28 1 
+SigJuncaoOrtogonal juncortog3 1148 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 616.0 240.0 616.0 240.0 616.0 152.0 } 1 { COR_500_KV } CHEIO 107 1 1147 1 
+SigMedida C4E20AE19ALT2MW 1017 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E20AE19ALT2MW } 00000166 ENTRAVEL 4 { 420.7 22.2 456.8 22.2 456.8 37.2 420.7 37.2 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1018 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 463.7 22.2 481.7 22.2 481.7 37.2 463.7 37.2 } 2 { COR_500_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+SigMedida C4E20AE19ALT2MR 1019 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E20AE19ALT2MR } 00000165 NAO_ENTRAVEL 4 { 420.7 42.8 456.8 42.8 456.8 57.8 420.7 57.8 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1020 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 461.7 42.8 497.7 42.8 497.7 57.8 461.7 57.8 } 2 { COR_500_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+#SigGrupo group 1151 linhas_e_ramais_de_linha_<138KV 1017 1018 1019 1020
+SigMedida C4E20AE19ALT1MW 1013 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E20AE19ALT1MW } 00000164 NAO_ENTRAVEL 4 { 804.7 22.2 840.8 22.2 840.8 37.2 804.7 37.2 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1014 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 4 { 847.7 22.2 865.7 22.2 865.7 37.2 847.7 37.2 } 2 { COR_500_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+SigMedida C4E20AE19ALT1MR 1015 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E20AE19ALT1MR } 00000163 NAO_ENTRAVEL 4 { 804.7 42.8 840.8 42.8 840.8 57.8 804.7 57.8 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1016 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 845.7 42.8 881.7 42.8 881.7 57.8 845.7 57.8 } 2 { COR_500_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+#SigGrupo group 1152 linhas_e_ramais_de_linha_<138KV 1013 1014 1015 1016
+SigMedida C4S10E33ATR21MR 1057 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4S10E33ATR21MR } 00000185 NAO_ENTRAVEL 4 { 803.5 406.8 839.5 406.8 839.5 421.8 803.5 421.8 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1058 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 844.5 406.8 880.5 406.8 880.5 421.8 844.5 421.8 } 2 { COR_500_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigMedida C4S10E33ATR21MW 1059 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4S10E33ATR21MW } 00000186 NAO_ENTRAVEL 4 { 803.5 386.2 839.5 386.2 839.5 401.2 803.5 401.2 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1060 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 846.5 386.2 864.5 386.2 864.5 401.2 846.5 401.2 } 2 { COR_500_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+#SigGrupo group 1153 linhas_e_ramais_de_linha_<138KV 1057 1058 1059 1060
+SigMedida C4S10E33BTR22MR 1065 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4S10E33BTR22MR } 00000187 NAO_ENTRAVEL 4 { 635.5 406.8 671.5 406.8 671.5 421.8 635.5 421.8 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1066 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 676.5 406.8 712.5 406.8 712.5 421.8 676.5 421.8 } 2 { COR_500_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigMedida C4S10E33BTR22MW 1067 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4S10E33BTR22MW } 00000188 NAO_ENTRAVEL 4 { 635.5 386.2 671.5 386.2 671.5 401.2 635.5 401.2 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1068 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 678.5 386.2 696.5 386.2 696.5 401.2 678.5 401.2 } 2 { COR_500_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+#SigGrupo group 1154 linhas_e_ramais_de_linha_<138KV 1065 1066 1067 1068
+SigMedida C4S10E33CTR23MR 1077 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4S10E33CTR23MR } 00000189 NAO_ENTRAVEL 4 { 419.5 406.8 455.5 406.8 455.5 421.8 419.5 421.8 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1078 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 460.5 406.8 496.5 406.8 496.5 421.8 460.5 421.8 } 2 { COR_500_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigMedida C4S10E33CTR23MW 1079 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4S10E33CTR23MW } 00000190 NAO_ENTRAVEL 4 { 419.5 386.2 455.5 386.2 455.5 401.2 419.5 401.2 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1080 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 462.5 386.2 480.5 386.2 480.5 401.2 462.5 401.2 } 2 { COR_500_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+#SigGrupo group 1155 linhas_e_ramais_de_linha_<138KV 1077 1078 1079 1080
+SigMedida C4S10E33DTR24MR 1081 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4S10E33DTR24MR } 00000191 NAO_ENTRAVEL 4 { 251.5 406.8 287.5 406.8 287.5 421.8 251.5 421.8 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1082 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 292.5 406.8 328.5 406.8 328.5 421.8 292.5 421.8 } 2 { COR_500_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigMedida C4S10E33DTR24MW 1083 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4S10E33DTR24MW } 00000192 NAO_ENTRAVEL 4 { 251.5 386.2 287.5 386.2 287.5 401.2 251.5 401.2 } 2 { COR_500_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1084 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 294.5 386.2 312.5 386.2 312.5 401.2 294.5 401.2 } 2 { COR_500_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+#SigGrupo group 1156 linhas_e_ramais_de_linha_<138KV 1081 1082 1083 1084
+SigMedida C4E33DSBKV 1049 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33DSBKV } 00000181 NAO_ENTRAVEL 4 { 197.2 490.1 233.3 490.1 233.3 505.1 197.2 505.1 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1050 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 240.2 490.1 258.2 490.1 258.2 505.1 240.2 505.1 } 2 { COR_20_KV IGN } 0.0 {kV} %2s FONTE_MEDIDA
+SigMedida C4E33DUGFR 1051 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33DUGFR } 00000182 NAO_ENTRAVEL 4 { 214.7 510.6 232.8 510.6 232.8 525.6 214.7 525.6 } 2 { COR_20_KV IGN } 0.0 {00} %2.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1052 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 240.2 510.6 258.2 510.6 258.2 525.6 240.2 525.6 } 2 { COR_20_KV IGN } 0.0 {Hz} %2s FONTE_MEDIDA
+SigMedida C4E33DUGMR 1053 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33DUGMR } 00000183 NAO_ENTRAVEL 4 { 197.2 469.5 233.3 469.5 233.3 484.5 197.2 484.5 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1054 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 238.2 469.5 274.3 469.5 274.3 484.5 238.2 484.5 } 2 { COR_20_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigMedida C4E33DUGMW 1055 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33DUGMW } 00000184 NAO_ENTRAVEL 4 { 197.2 449.0 233.3 449.0 233.3 464.0 197.2 464.0 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1056 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 240.2 449.0 258.2 449.0 258.2 464.0 240.2 464.0 } 2 { COR_20_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+#SigGrupo group 1157 linhas_e_ramais_de_linha_<138KV 1049 1050 1051 1052 1053 1054 1055 1056
+SigMedida C4E33CSBKV 1041 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33CSBKV } 00000177 NAO_ENTRAVEL 4 { 365.2 490.1 401.3 490.1 401.3 505.1 365.2 505.1 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1042 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 408.2 490.1 426.2 490.1 426.2 505.1 408.2 505.1 } 2 { COR_20_KV IGN } 0.0 {kV} %2s FONTE_MEDIDA
+SigMedida C4E33CUGFR 1043 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33CUGFR } 00000178 NAO_ENTRAVEL 4 { 382.7 510.6 400.8 510.6 400.8 525.6 382.7 525.6 } 2 { COR_20_KV IGN } 0.0 {00} %2.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1044 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 408.2 510.6 426.2 510.6 426.2 525.6 408.2 525.6 } 2 { COR_20_KV IGN } 0.0 {Hz} %2s FONTE_MEDIDA
+SigMedida C4E33CUGMR 1045 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33CUGMR } 00000179 NAO_ENTRAVEL 4 { 365.2 469.5 401.3 469.5 401.3 484.5 365.2 484.5 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1046 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 406.2 469.5 442.3 469.5 442.3 484.5 406.2 484.5 } 2 { COR_20_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigMedida C4E33CUGMW 1047 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33CUGMW } 00000180 NAO_ENTRAVEL 4 { 365.2 449.0 401.3 449.0 401.3 464.0 365.2 464.0 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1048 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 408.2 449.0 426.2 449.0 426.2 464.0 408.2 464.0 } 2 { COR_20_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+#SigGrupo group 1158 linhas_e_ramais_de_linha_<138KV 1041 1042 1043 1044 1045 1046 1047 1048
+SigMedida C4E33BSBKV 1033 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33BSBKV } 00000173 NAO_ENTRAVEL 4 { 581.2 490.1 617.3 490.1 617.3 505.1 581.2 505.1 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1034 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 624.2 490.1 642.2 490.1 642.2 505.1 624.2 505.1 } 2 { COR_20_KV IGN } 0.0 {kV} %2s FONTE_MEDIDA
+SigMedida C4E33BUGFR 1035 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33BUGFR } 00000174 NAO_ENTRAVEL 4 { 598.7 510.6 616.8 510.6 616.8 525.6 598.7 525.6 } 2 { COR_20_KV IGN } 0.0 {00} %2.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1036 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 624.2 510.6 642.2 510.6 642.2 525.6 624.2 525.6 } 2 { COR_20_KV IGN } 0.0 {Hz} %2s FONTE_MEDIDA
+SigMedida C4E33BUGMR 1037 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33BUGMR } 00000175 NAO_ENTRAVEL 4 { 581.2 469.5 617.3 469.5 617.3 484.5 581.2 484.5 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1038 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 622.2 469.5 658.3 469.5 658.3 484.5 622.2 484.5 } 2 { COR_20_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigMedida C4E33BUGMW 1039 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33BUGMW } 00000176 NAO_ENTRAVEL 4 { 581.2 449.0 617.3 449.0 617.3 464.0 581.2 464.0 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1040 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 624.2 449.0 642.2 449.0 642.2 464.0 624.2 464.0 } 2 { COR_20_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+#SigGrupo group 1159 linhas_e_ramais_de_linha_<138KV 1033 1034 1035 1036 1037 1038 1039 1040
+SigMedida C4E33ASBKV 1025 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33ASBKV } 00000169 NAO_ENTRAVEL 4 { 749.2 490.1 785.3 490.1 785.3 505.1 749.2 505.1 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1026 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 792.2 490.1 810.2 490.1 810.2 505.1 792.2 505.1 } 2 { COR_20_KV IGN } 0.0 {kV} %2s FONTE_MEDIDA
+SigMedida C4E33AUGFR 1027 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33AUGFR } 00000170 NAO_ENTRAVEL 4 { 766.7 510.6 784.8 510.6 784.8 525.6 766.7 525.6 } 2 { COR_20_KV IGN } 0.0 {00} %2.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1028 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 792.2 510.6 810.2 510.6 810.2 525.6 792.2 525.6 } 2 { COR_20_KV IGN } 0.0 {Hz} %2s FONTE_MEDIDA
+SigMedida C4E33AUGMR 1029 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33AUGMR } 00000171 NAO_ENTRAVEL 4 { 749.2 469.5 785.3 469.5 785.3 484.5 749.2 484.5 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1030 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 790.2 469.5 826.3 469.5 826.3 484.5 790.2 484.5 } 2 { COR_20_KV IGN } 0.0 {MVAr} %4s FONTE_MEDIDA
+SigMedida C4E33AUGMW 1031 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E33AUGMW } 00000172 NAO_ENTRAVEL 4 { 749.2 449.0 785.3 449.0 785.3 464.0 749.2 464.0 } 2 { COR_20_KV IGN } 0.0 {0000} %4.0f FONTE_MEDIDA SETA_NORTE INDQ_BAIXO 
+SigTexto texto_MW_750KV 1032 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 792.2 449.0 810.2 449.0 810.2 464.0 792.2 464.0 } 2 { COR_20_KV IGN } 0.0 {MW} %2s FONTE_MEDIDA
+#SigGrupo group 1160 linhas_e_ramais_de_linha_<138KV 1025 1026 1027 1028 1029 1030 1031 1032
+SigJuncaoOrtogonal juncortog3 1161 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 456.0 196.0 456.0 196.0 456.0 224.0 } 1 { COR_500_KV } CHEIO 777 2 820 1 
+SigJuncaoOrtogonal juncortog3 1162 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 344.0 280.0 344.0 296.0 400.0 296.0 } 1 { COR_500_KV } CHEIO 779 1 818 1 
+SigJuncaoOrtogonal juncortog3 1163 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 344.0 224.0 344.0 224.0 344.0 264.0 } 1 { COR_500_KV } CHEIO 928 1 779 2 
+SigJuncaoOrtogonal juncortog3 1166 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 232.0 256.0 232.0 256.0 232.0 312.0 } 1 { COR_500_KV } CHEIO 885 2 890 1 
+SigJuncaoOrtogonal juncortog3 1167 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 400.0 256.0 400.0 256.0 400.0 312.0 } 1 { COR_500_KV } CHEIO 780 2 789 1 
+SigJuncaoOrtogonal juncortog3 1168 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 616.0 256.0 616.0 256.0 616.0 312.0 } 1 { COR_500_KV } CHEIO 107 2 37 1 
+SigJuncaoOrtogonal juncortog3 1169 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 784.0 256.0 784.0 256.0 784.0 312.0 } 1 { COR_500_KV } CHEIO 110 2 40 1 
+SigJuncaoOrtogonal juncortog3 1170 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 232.0 328.0 232.0 328.0 232.0 352.0 } 1 { COR_500_KV } CHEIO 890 2 906 1 
+SigJuncaoOrtogonal juncortog3 1171 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 400.0 328.0 400.0 328.0 400.0 352.0 } 1 { COR_500_KV } CHEIO 789 2 824 1 
+SigJuncaoOrtogonal juncortog3 1172 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 616.0 328.0 616.0 328.0 616.0 352.0 } 1 { COR_500_KV } CHEIO 37 2 238 1 
+SigJuncaoOrtogonal juncortog3 1173 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 784.0 328.0 784.0 328.0 784.0 352.0 } 1 { COR_500_KV } CHEIO 40 2 231 1 
+SigJuncaoOrtogonal juncortog3 1174 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL 3 { 560.0 264.0 560.0 264.0 560.0 224.0 } 1 { COR_500_KV } CHEIO 556 2 559 1 
+SigMedida C4E20ASBBKV 1021 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E20ASBBKV } 00000168 NAO_ENTRAVEL 4 { 32.0 229.2 59.0 229.2 59.0 244.2 32.0 244.2 } 2 { COR_500_KV IGN } 0.0 {000} %3.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1022 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 70.5 229.2 88.5 229.2 88.5 244.2 70.5 244.2 } 2 { COR_500_KV IGN } 0.0 {kV} %2s FONTE_MEDIDA
+#SigGrupo group 1150 linhas_e_ramais_de_linha_<138KV 1021 1022
+SigMedida C4E20ASBAKV 1023 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { SELECT valor FROM pas WHERE id = C4E20ASBAKV } 00000167 NAO_ENTRAVEL 4 { 32.0 157.2 59.0 157.2 59.0 172.2 32.0 172.2 } 2 { COR_500_KV IGN } 0.0 {000} %3.0f FONTE_MEDIDA SETA_IGN INDQ_BAIXO 
+SigTexto texto_MW_750KV 1024 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 1 { } { } <OFFSET> NAO_ENTRAVEL 4 { 70.5 157.2 88.5 157.2 88.5 172.2 70.5 172.2 } 2 { COR_500_KV IGN } 0.0 {kV} %2s FONTE_MEDIDA
+#SigGrupo group 1180 linhas_e_ramais_de_linha_<138KV 1023 1024
+SigConector conector2 135 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 94.0 150.0 98.0 154.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector2 904 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 230.0 150.0 234.0 154.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 919 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 398.0 150.0 402.0 154.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 538 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 782.0 150.0 786.0 154.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector2 1147 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 614.0 150.0 618.0 154.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector2 137 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 94.0 222.0 98.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector8 907 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 134.0 222.0 138.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 901 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 174.0 222.0 178.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 819 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 302.0 222.0 306.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector8 218 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 518.0 222.0 522.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 559 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 558.0 222.0 562.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 219 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 686.0 222.0 690.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 513 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 726.0 222.0 730.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 542 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 838.0 222.0 842.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 928 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 342.0 222.0 346.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigConector conector9 820 linhas_e_ramais_de_linha_<138KV 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL 2 { 454.0 222.0 458.0 226.0 } 2 { COR_FUNDO_TELA COR_FUNDO_TELA } 
+SigTrafo2 C4S10TR21 892 transformadores 0 { } IGN 180 2 { GRUPO TRAFO-US10-TR24 } { } <OFFSET> NAO_ENTRAVEL 2 { 220.0 364.0 244.0 388.0 } 2 { COR_20_KV COR_500_KV } 
+SigTrafo2 C4S10TR22 805 transformadores 0 { } IGN 180 2 { GRUPO TRAFO-US10-TR23 } { } <OFFSET> NAO_ENTRAVEL 2 { 388.0 364.0 412.0 388.0 } 2 { COR_20_KV COR_500_KV } 
+SigTrafo2 C4S10TR23 120 transformadores 0 { } IGN 180 2 { GRUPO TRAFO-US10-TR22 } { } <OFFSET> NAO_ENTRAVEL 2 { 604.0 364.0 628.0 388.0 } 2 { COR_20_KV COR_500_KV } 
+SigTrafo2 C4S10TR24 123 transformadores 0 { } IGN 180 2 { GRUPO TRAFO-US10-TR21 } { } <OFFSET> NAO_ENTRAVEL 2 { 772.0 364.0 796.0 388.0 } 2 { COR_20_KV COR_500_KV } 
+SigTermLinha C4E19AE20ALT1 128 linhas_e_ramais_de_linha_500KV 0 { } IGN 180 2 { APRESENTAR $TELAS/35barras/SE09 } { } <OFFSET> NAO_ENTRAVEL 2 { 776.0 32.0 792.0 48.0 } 1 { COR_500_KV } 
+SigTermLinha C4E19AE20ALT2 798 linhas_e_ramais_de_linha_500KV 0 { } IGN 180 2 { APRESENTAR $TELAS/35barras/SE09 } { } <OFFSET> NAO_ENTRAVEL 2 { 392.0 32.0 408.0 48.0 } 1 { COR_500_KV } 
+SigBarra C4E20ASBA 12 secoes_de_barra_500KV 0 { } IGN 0 9 { } { } <OFFSET> NAO_ENTRAVEL 2 { 32.0 152.0 904.0 152.0 } 2 { COR_500_KV COR_FUNDO_TELA } ABERTO CHEIO 
+# 6
+# 1 52.0 148.0
+# 2 92.0 148.0
+# 3 92.0 148.0
+# 4 96.0 148.0
+# 5 1036.0 148.0
+# 6 1036.0 148.0
+SigBarra C4E20ASBA 1165 secoes_de_barra_500KV 0 { } IGN 0 9 { } { } <OFFSET> NAO_ENTRAVEL 2 { 32.0 224.0 904.0 224.0 } 2 { COR_500_KV COR_FUNDO_TELA } ABERTO CHEIO 
+# 0
+SigDisjuntor C4E20AE19ADL1A 28 disjuntores_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20AE19ADL1A } 00000102 NAO_ENTRAVEL 2 { 776.0 56.0 792.0 72.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigDisjuntor C4E20ADT2B 37 disjuntores_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ADT2B } 00000099 NAO_ENTRAVEL 2 { 608.0 312.0 624.0 328.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigDisjuntor C4E20ADT1B 40 disjuntores_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ADT1B } 00000098 NAO_ENTRAVEL 2 { 776.0 312.0 792.0 328.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigDisjuntor C4E20ADT3B 789 disjuntores_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ADT3B } 00000100 NAO_ENTRAVEL 2 { 392.0 312.0 408.0 328.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigDisjuntor C4E20AE19ADL2A 791 disjuntores_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20AE19ADL2A } 00000103 ENTRAVEL 2 { 392.0 56.0 408.0 72.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigDisjuntor C4E20ADT4B 890 disjuntores_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ADT4B } 00000101 NAO_ENTRAVEL 2 { 224.0 312.0 240.0 328.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigDisjuntor C4E20ADAAB 910 disjuntores_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ADAAB } 00000097 NAO_ENTRAVEL 2 { 88.0 180.0 104.0 196.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACP2B 78 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACP2B } 00000094 NAO_ENTRAVEL 2 { 512.0 328.0 528.0 344.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACP1B 87 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACP1B } 00000093 NAO_ENTRAVEL 2 { 680.0 328.0 696.0 344.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB3A 107 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB3A } 00000085 NAO_ENTRAVEL 2 { 608.0 240.0 624.0 256.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB1A 98 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB1A } 00000081 NAO_ENTRAVEL 2 { 776.0 112.0 792.0 128.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB2B 518 chaves_seccionadoras_500KV 0 { } IGN 180 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB2B } 00000084 NAO_ENTRAVEL 2 { 720.0 264.0 736.0 280.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB1B 81 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB1B } 00000082 NAO_ENTRAVEL 2 { 832.0 180.0 848.0 196.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB3B 556 chaves_seccionadoras_500KV 0 { } IGN 180 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB3B } 00000086 NAO_ENTRAVEL 2 { 552.0 264.0 568.0 280.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB4A 783 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB4A } 00000087 NAO_ENTRAVEL 2 { 392.0 112.0 408.0 128.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACP3B 786 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACP3B } 00000095 NAO_ENTRAVEL 2 { 296.0 328.0 312.0 344.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB6B 883 chaves_seccionadoras_500KV 0 { } IGN 180 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB6B } 00000092 NAO_ENTRAVEL 2 { 168.0 264.0 184.0 280.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB6A 885 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB6A } 00000091 NAO_ENTRAVEL 2 { 224.0 240.0 240.0 256.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACP4B 888 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACP4B } 00000096 NAO_ENTRAVEL 2 { 128.0 328.0 144.0 344.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB5A 780 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB5A } 00000089 NAO_ENTRAVEL 2 { 392.0 240.0 408.0 256.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB2A 110 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB2A } 00000083 NAO_ENTRAVEL 2 { 776.0 240.0 792.0 256.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB5B 779 chaves_seccionadoras_500KV 0 { } IGN 180 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB5B } 00000090 NAO_ENTRAVEL 2 { 336.0 264.0 352.0 280.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigSeccionadora C4E20ACB4B 777 chaves_seccionadoras_500KV 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds WHERE id = C4E20ACB4B } 00000088 NAO_ENTRAVEL 2 { 448.0 180.0 464.0 196.0 } 2 { COR_500_KV COR_500_KV } INDQ_BAIXO 
+SigGerador C4U10UG3 760 car_cre_csi_uge_<138KV 0 { } IGN 180 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 388.0 420.0 412.0 444.0 } 2 { COR_20_KV COR_FUNDO_TELA } 
+SigGerador C4U10UG2 254 car_cre_csi_uge_<138KV 0 { } IGN 180 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 604.0 420.0 628.0 444.0 } 2 { COR_20_KV COR_FUNDO_TELA } 
+SigGerador C4U10UG1 251 car_cre_csi_uge_<138KV 0 { } IGN 180 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 772.0 420.0 796.0 444.0 } 2 { COR_20_KV COR_FUNDO_TELA } 
+SigGerador C4U10UG4 1000 car_cre_csi_uge_<138KV 0 { } IGN 180 2 { } { } <OFFSET> NAO_ENTRAVEL 2 { 220.0 420.0 244.0 444.0 } 2 { COR_20_KV COR_FUNDO_TELA } 

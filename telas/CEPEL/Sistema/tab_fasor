@@ -1,0 +1,60 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 10 nzoom 1.0 xc 447.0 yc 299.0 gridx 4.0 gridy 4.0
+
+VERSAO 1.17 
+
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Fundo3D NAO_BLOQUEADA CINZA_PROFUNDO 0
+CAMADA Moldura3D NAO_BLOQUEADA CINZA_PROFUNDO 0
+CAMADA decoracao NAO_BLOQUEADA PRETO 0
+CAMADA fundo_botao NAO_BLOQUEADA BRANCO 0
+CAMADA texto_botao NAO_BLOQUEADA BRANCO 0
+CAMADA texto NAO_BLOQUEADA PRETO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+CAMADA BaixoRelevo NAO_BLOQUEADA AREIA 0
+CAMADA Medidas NAO_BLOQUEADA PRETO 0
+
+
+
+
+
+SigTexto titulo_princ1 394 Sombra 0 { } IGN 0 2 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 417.4 38.5 510.6 38.5 510.6 65.5 417.4 65.5 } 2 { COR_TITULO_GERAL PRETO } 0.0 {Fasores} %7s FONTE_TITULO
+SigTabular tabu2 1826 Sombra 0 { } IGN 0 7 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 2 { 40.2 84.0 838.0 469.5 } 7 { BRANCO CINZA CINZA_MEDIO CINZA_ESCURO IGN CINZA_ESCURO CINZA_ESCURO } 20 7 8 4 1 12 4 20 S S N 
+   SigColuna $filtro_id VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto136 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 101.8 101.0 114.8 101.0 114.8 117.0 101.8 117.0 } 2 { PALHA GRAFITE } 0.0 {Id} %2s FONTE_IDENT_2
+
+            SigTexto texto7 -1 Sombra 0 { } IGN 0 1 { } { SELECT id FROM fasor } 00000000 NAO_ENTRAVEL { } { } NE 0 4 { 53.2 443.0 163.3 443.0 163.3 457.0 53.2 457.0 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMM} %-10s FONTE_IDENT_3
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto138 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 265.4 101.0 305.5 101.0 305.5 117.0 265.4 117.0 } 2 { PALHA GRAFITE } 0.0 {Nome} %4s FONTE_IDENT_2
+
+            SigTexto texto27 -1 Sombra 0 { } IGN 0 1 { } { SELECT nome FROM fasor } 00000000 NAO_ENTRAVEL { } { } NE 0 4 { 175.3 443.0 395.6 443.0 395.6 457.0 175.3 457.0 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMMMMMMMMMMM} %-20s FONTE_IDENT_3
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto140 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 417.6 102.0 478.6 102.0 478.6 116.0 417.6 116.0 } 2 { PALHA GRAFITE } 0.0 {Magnitude} %9s FONTE_IDENT_3
+
+            SigMedida medida4 -1 Sombra 0 { } IGN 0 1 { } { SELECT valor.a_pas_mag FROM fasor } <OFFSET> ENTRAVEL { } { } NE 0 4 { 407.6 442.5 488.7 442.5 488.7 457.5 407.6 457.5 } 2 { BRANCO IGN } 0.0 {0000000.0} %9.1f FONTE_TAB_BOLD_GR SETA_IGN INDQ_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto142 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 500.7 102.0 539.7 102.0 539.7 116.0 500.7 116.0 } 2 { PALHA GRAFITE } 0.0 {Ângulo} %6s FONTE_IDENT_3
+
+            SigMedida medida3,unid=° -1 Sombra 0 { } IGN 0 1 { } { SELECT valor.a_pas_ang FROM fasor } <OFFSET> ENTRAVEL { } { } NE 0 4 { 502.2 442.5 538.2 442.5 538.2 457.5 502.2 457.5 } 2 { BRANCO IGN } 0.0 {0000} %4.0f FONTE_TAB_BOLD_GR SETA_IGN INDQ_IGN 
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto144 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 557.3 95.0 656.3 95.0 656.3 123.0 557.3 123.0 } 2 { PALHA GRAFITE } 0.0 {Unidade de\nMedição Fasorial} %28s FONTE_IDENT_3
+
+            SigTexto texto22 -1 Sombra 0 { } IGN 0 1 { } { SELECT id.a_pmu FROM fasor } <OFFSET> ENTRAVEL { } { } NE 0 4 { 551.7 443.0 661.8 443.0 661.8 457.0 551.7 457.0 } 2 { BRANCO IGN } 0.0 {MMMMMMMMMM} %-10s FONTE_IDENT_3
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto146 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 676.3 102.0 737.4 102.0 737.4 116.0 676.3 116.0 } 2 { PALHA GRAFITE } 0.0 {Instalação} %10s FONTE_IDENT_3
+
+            SigTexto texto107 -1 Sombra 0 { } IGN 0 1 { } { SELECT id.a_ins.a_pmu FROM fasor } <OFFSET> ENTRAVEL { } { } NE 0 4 { 673.8 443.0 739.9 443.0 739.9 457.0 673.8 457.0 } 2 { BRANCO IGN } 0.0 {MMMMMM} %-6s FONTE_IDENT_3
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto148 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 755.9 102.0 820.0 102.0 820.0 116.0 755.9 116.0 } 2 { PALHA GRAFITE } 0.0 {Frequência} %10s FONTE_IDENT_3
+
+            SigMedida medida5 -1 Sombra 0 { } IGN 0 1 { } { SELECT valor.a_pas_freq.a_pmu FROM fasor } <OFFSET> ENTRAVEL { } { } NE 0 4 { 751.9 442.5 824.0 442.5 824.0 457.5 751.9 457.5 } 2 { BRANCO IGN } 0.0 {0000.000} %8.3f FONTE_TAB_BOLD_GR SETA_IGN INDQ_IGN 
+

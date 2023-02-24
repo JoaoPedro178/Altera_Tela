@@ -1,0 +1,93 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 20 nzoom 1.0 xc 447.0 yc 299.0 gridx 4.0 gridy 4.0 manual * alr_inib * alr_nrec * normal * inv_orig *
+
+VERSAO 1.18 
+
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Sombra NAO_BLOQUEADA COR_FUNDO_TELA 0
+CAMADA Medidas NAO_BLOQUEADA PRETO 0
+CAMADA Teste NAO_BLOQUEADA PRETO 0
+
+FILTRO var_cols
+FILTRO contadores
+
+GR_FILTROS gf1 { Inicial } OCULTAR GR_OR ATIVAR 1 { var_cols }
+
+
+
+SigTexto titulo_princ1 1895 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 34.5 512.5 200.6 512.5 200.6 527.5 34.5 527.5 } 2 { LIMA IGN } 0.0 {tabdig_col_1 = $tabdig_col_1} %-28s FONTE_IDENT_3
+SigTexto titulo_princ1 1897 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 34.5 528.5 200.6 528.5 200.6 543.5 34.5 543.5 } 2 { LIMA IGN } 0.0 {tabdig_col_2 = $tabdig_col_2} %-28s FONTE_IDENT_3
+SigTexto titulo_princ1 1899 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 34.5 544.5 200.6 544.5 200.6 559.5 34.5 559.5 } 2 { LIMA IGN } 0.0 {tabdig_col_3 = $tabdig_col_3} %-28s FONTE_IDENT_3
+SigTexto titulo_princ1 1901 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 34.5 560.5 200.6 560.5 200.6 575.5 34.5 575.5 } 2 { LIMA IGN } 0.0 {tabdig_col_4 = $tabdig_col_4} %-28s FONTE_IDENT_3
+SigTexto titulo_princ1 1906 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 414.0 512.5 667.2 512.5 667.2 527.5 414.0 527.5 } 2 { LIMA IGN } 0.0 {tabdig_col_5 = $tabdig_col_5 (coluna oculta)} %-44s FONTE_IDENT_3
+SigTexto titulo_princ1 1907 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 414.5 528.5 580.6 528.5 580.6 543.5 414.5 543.5 } 2 { LIMA IGN } 0.0 {tabdig_col_6 = $tabdig_col_6} %-28s FONTE_IDENT_3
+SigTexto titulo_princ1 1908 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 414.5 544.5 580.6 544.5 580.6 559.5 414.5 559.5 } 2 { LIMA IGN } 0.0 {tabdig_col_7 = $tabdig_col_7} %-28s FONTE_IDENT_3
+SigTexto titulo_princ1 1909 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 414.5 560.5 580.6 560.5 580.6 575.5 414.5 575.5 } 2 { LIMA IGN } 0.0 {tabdig_col_8 = $tabdig_col_8} %-28s FONTE_IDENT_3
+SigTexto titulo_princ1 1912 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 663.0 512.5 922.3 512.5 922.3 527.5 663.0 527.5 } 2 { LIMA IGN } 0.0 {tabdig_col_9   = $tabdig_col_9 (coluna oculta)} %-46s FONTE_IDENT_3
+SigTexto titulo_princ1 1913 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 662.5 528.5 842.7 528.5 842.7 543.5 662.5 543.5 } 2 { LIMA IGN } 0.0 {tabdig_col_10 = $tabdig_col_10} %-30s FONTE_IDENT_3
+SigTexto titulo_princ1 1915 Teste 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 784.0 28.0 872.1 28.0 872.1 43.0 784.0 43.0 } 2 { IGN IGN } 0.0 {id_dig = $id_dig} %-16s FONTE_IDENT_3
+SigTexto titulo_princ1 1917 Teste 1 { var_cols } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 662.5 544.5 842.7 544.5 842.7 559.5 662.5 559.5 } 2 { LIMA IGN } 0.0 {tabdig_col_11 = $tabdig_col_11} %-30s FONTE_IDENT_3
+SigTexto titulo_princ1 394 Medidas 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 378.9 9.0 549.1 9.0 549.1 39.0 378.9 39.0 } 2 { OURO IGN } 0.0 {Pontos Digitais} %15s FONTE_TITULO
+SigTexto texto19 1877 Medidas 1 { contadores } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 123.5 28.5 179.5 28.5 179.5 43.5 123.5 43.5 } 2 { BRANCO IGN } 0.0 {$vt_linhas} %-10s FONTE_LABEL
+SigTexto texto19 1881 Medidas 1 { contadores } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 27.0 28.5 65.0 28.5 65.0 43.5 27.0 43.5 } 2 { BRANCO IGN } 0.0 {página} %-6s FONTE_LABEL
+SigTexto texto19 1883 Medidas 1 { contadores } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 70.9 28.5 173.1 28.5 173.1 43.5 70.9 43.5 } 2 { BRANCO IGN } 0.0 {$vt_pag_numpags} %-15s FONTE_LABEL
+SigTexto texto19 1885 Medidas 1 { contadores } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 157.5 28.5 190.5 28.5 190.5 43.5 157.5 43.5 } 2 { BRANCO IGN } 0.0 {linhas} %-6s FONTE_LABEL
+SigTabular tabdig 1826 Sombra 0 { } IGN 0 4 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 2 { 27.5 52.0 887.1 458.0 } 7 { IGN CINZA CINZA_MEDIO CINZA_ESCURO IGN CINZA_ESCURO IGN } 20 11 1 6 1 12 4 20 S S N 
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto21 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Identificador do ponto digital } { } NE 0 4 { 102.6 69.5 112.6 69.5 112.6 84.5 102.6 84.5 } 2 { PALHA IGN } 0.0 {Id} %2s FONTE_IDENT_3
+
+            SigTexto texto7 -1 Sombra 0 { } IGN 0 1 { MSG Dados|de|Colunas Digital $tabdig_col_1\n$tabdig_col_2\nda TAC $tabdig_col_3\n$tabdig_col_4 } { SELECT id FROM pds } 00000000 NAO_ENTRAVEL { } { } NE 0 4 { 37.5 431.5 177.7 431.5 177.7 446.5 37.5 446.5 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMMMMM} %-14s FONTE_IDENT_3
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto23 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Descrição do ponto digital } { } NE 0 4 { 302.8 69.5 336.8 69.5 336.8 84.5 302.8 84.5 } 2 { PALHA IGN } 0.0 {Nome} %4s FONTE_IDENT_3
+
+            SigTexto texto27 -1 Sombra 0 { } IGN 0 1 { } { SELECT nome FROM pds } 00000000 NAO_ENTRAVEL { } { } NE 0 4 { 189.7 431.5 449.9 431.5 449.9 446.5 189.7 446.5 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMMMMMMMMMMMMMMMMM} %-26s FONTE_IDENT_3
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto25 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Terminal de aquisição } { } NE 0 4 { 477.5 68.5 506.5 68.5 506.5 85.5 477.5 85.5 } 2 { PALHA IGN } 0.0 {TAC} %3s FONTE_IDENT_2
+
+            SigTexto texto160 -1 Sombra 0 { } IGN 0 1 { } { SELECT idtac FROM pds } 00000000 ENTRAVEL { } { } NE 0 4 { 461.9 431.5 522.0 431.5 522.0 446.5 461.9 446.5 } 2 { BRANCO GRAFITE } 0.0 {MMMMMM} %-6s FONTE_IDENT_3
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto27 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { Ponto digital } { } NE 0 4 { 534.0 69.5 567.1 69.5 567.1 84.5 534.0 84.5 } 2 { PALHA IGN } 0.0 {Ponto} %5s FONTE_IDENT_3
+
+            SigFlagDigital flagdig2 -1 Sombra 0 { } IGN 0 2 { } { SELECT a1_flags FROM pds } 00000000 ENTRAVEL { } { } NE 0 2 { 544.6 431.0 556.5 447.0 } 2 { BRANCO BRANCO } INDQ_MEIO 
+
+   SigColuna * INVISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto29 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 } 2 { PALHA IGN } 0.0 {Estado} %6s FONTE_IDENT_2
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds } 00000000 NAO_ENTRAVEL { } { } NE 0 4 { 665.2 456.0 714.2 456.0 714.2 471.0 665.2 471.0 } 4 { BRANCO IGN VERDE VINHO } 0.0 { Aberto Fechado } %7s FONTE_IDENT_3 0 SETA_IGN 
+
+   SigColuna $manual VISIVEL ENTRAVEL IGN 
+            SigTexto texto31 -1 Sombra 0 { } IGN 0 1 { ROTATEVAR manual 1 0 * } { } <OFFSET> ENTRAVEL { Clique no título da coluna\npara alternar entre pontos\ncom entrada manual,\nsem entrada manual e todos } { } NE 0 4 { 579.1 69.5 620.1 69.5 620.1 84.5 579.1 84.5 } 2 { PALHA IGN } 0.0 {Manual} %6s FONTE_IDENT_3
+
+            SigInteiro numero3 -1 Sombra 0 { } IGN 0 1 { [ctrl AUTOREC HABILITA] [shift AUTOREC INIBE] } { SELECT a1_flags FROM pds } 00000000 ENTRAVEL { } { } NE 0 4 { 588.1 431.5 611.1 431.5 611.1 446.5 588.1 446.5 } 4 { BRANCO GRAFITE CINZA AMARELO_CLARO } 0.0 { Não Sim } %3s FONTE_IDENT_3 5 SETA_IGN 
+
+   SigColuna $alr_inib VISIVEL ENTRAVEL IGN 
+            SigTexto texto33 -1 Sombra 0 { } IGN 0 1 { ROTATEVAR alr_inib 1 0 * } { } <OFFSET> ENTRAVEL { Clique no título da coluna\npara alternar entre pontos com\nalarme inibido,\nalarme habilitado e todos } { } NE 0 4 { 632.1 62.0 674.1 62.0 674.1 92.0 632.1 92.0 } 2 { PALHA IGN } 0.0 {Alarme\nInibido} %15s FONTE_IDENT_3
+
+            SigInteiro numero4 -1 Sombra 0 { } IGN 0 1 { ( $tabdig_col_8 == Sim ) ? ( RECONHECER_ALARME && MSG Info Reconhecido alarme de\n$tabdig_col_2 ) : ( MSG Info $tabdig_col_2\nsem alarme não reconhecido ) } { SELECT a1_flags FROM pds } 00000000 ENTRAVEL { Reconhecer alarme\nou informar não ter alarme não reconhecido } { } NE 0 4 { 641.6 431.5 664.6 431.5 664.6 446.5 641.6 446.5 } 4 { BRANCO GRAFITE CINZA AMARELO_CLARO } 0.0 { Não Sim } %3s FONTE_IDENT_3 9 SETA_IGN 
+
+   SigColuna $alr_nrec VISIVEL ENTRAVEL IGN 
+            SigTexto texto35 -1 Sombra 0 { } IGN 0 1 { ROTATEVAR alr_nrec 1 0 * } { } <OFFSET> ENTRAVEL { Clique no título da coluna\npara alternar entre pontos\ncom alarme não reconhecido,\nsem alarme não reconhecido e todos } { } NE 0 4 { 686.1 62.0 757.1 62.0 757.1 92.0 686.1 92.0 } 2 { PALHA IGN } 0.0 {Alarme não\nreconhecido} %23s FONTE_IDENT_3
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { ( $tabdig_col_8 == Sim ) ? ( RECONHECER_ALARME && MSG Info Reconhecido alarme de\n$tabdig_col_2 ) : ( MSG Info $tabdig_col_2\nsem alarme não reconhecido ) } { SELECT a1_flags FROM pds } <OFFSET> ENTRAVEL { } { } NE 0 4 { 715.6 431.5 727.6 431.5 727.6 446.5 715.6 446.5 } 4 { BRANCO IGN CINZA AMARELO_CLARO } 0.0 { --- Sim } %3s FONTE_IDENT_3 7 SETA_IGN 
+
+   SigColuna $normal VISIVEL ENTRAVEL IGN 
+            SigTexto texto37 -1 Sombra 0 { } IGN 0 1 { ROTATEVAR normal (=0)ou(=3) (=1)ou(=2) * } { } <OFFSET> ENTRAVEL { Clique no título da coluna\npara alternar entre pontos com\nestado igual ao estado normal,\ndiferente do estado normal e todos } { } NE 0 4 { 769.1 62.0 811.1 62.0 811.1 92.0 769.1 92.0 } 2 { PALHA IGN } 0.0 {Estado\nNormal} %14s FONTE_IDENT_3
+
+            SigInteiro numero5 -1 Sombra 0 { } IGN 0 1 { } { SELECT a1_flags@bits19-20 FROM pds } 00000000 ENTRAVEL { } { } NE 0 4 { 779.1 431.5 801.1 431.5 801.1 446.5 779.1 446.5 } 6 { BRANCO GRAFITE CINZA AMARELO_CLARO AMARELO_CLARO CINZA } 0.0 { Sim Não Não Sim } %3s FONTE_IDENT_3 IGN SETA_IGN 
+
+   SigColuna * INVISIVEL ENTRAVEL IGN 
+            SigTexto texto39 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 } 2 { PALHA IGN } 0.0 {Inválido\nlocal} %15s FONTE_IDENT_2
+
+            SigInteiro numero2 -1 Sombra 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds } 00000000 ENTRAVEL { } { } NE 0 4 { 857.3 440.0 880.3 440.0 880.3 455.0 857.3 455.0 } 4 { BRANCO IGN AZUL_MARINHO BRANCO } 0.0 { Não Sim } %3s FONTE_IDENT_3 12 SETA_IGN 
+
+   SigColuna $inv_orig VISIVEL ENTRAVEL IGN 
+            SigTexto texto41 -1 Sombra 0 { } IGN 0 1 { ROTATEVAR inv_orig 1 0 * } { } <OFFSET> ENTRAVEL { Clique no título da coluna\npara alternar entre pontos\ninválidos na origem,\nválidos na origem e todos } { } NE 0 4 { 823.1 62.0 880.1 62.0 880.1 92.0 823.1 92.0 } 2 { PALHA IGN } 0.0 {Inválido\nna origem} %19s FONTE_IDENT_3
+
+            SigInteiro numero3 -1 Sombra 0 { } IGN 0 1 { } { SELECT a1_flags FROM pds } 00000000 ENTRAVEL { } { } NE 0 4 { 840.1 431.5 863.1 431.5 863.1 446.5 840.1 446.5 } 4 { BRANCO GRAFITE CINZA AMARELO_CLARO } 0.0 { Não Sim } %3s FONTE_IDENT_3 3 SETA_IGN 
+
